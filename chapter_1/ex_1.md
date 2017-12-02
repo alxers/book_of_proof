@@ -3,7 +3,7 @@ If X is a finite set, its cardinality (size) is the number of elements it has, d
 
 Set-builder notation:
 E = { ... -6, -4, -2, 0, 2, 4, 6 ... }
-[!set_builder][img/set_builder]
+[!set_builder][img/set_builder_1.png]
 
 E equals the set of all things of form 2n, such that n is an element of Z
 
