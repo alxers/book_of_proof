@@ -13,3 +13,11 @@ A^n is a cartesian product of A with itself n times:
 A^n = A x A x ... x A = { (x1, x2,..., x_n) : x1, x2,..., x_n in A }.
 
 Exercises for Section 1.2
+
+1. A = { 1, 2, 3, 4 }, B = { a, c }
+
+(a) A x B = { (1, a), (1, c), (2, a), (2, c), (3, a), (3, c), (4, a), (4, c) }
+(b) B x A = { (a, 1), (a, 2), (a, 3), (a, 4), (c, 1), (c, 2), (c, 3), (c, 4) }
+(c) A x A = { (1, 1), (2, 2), (3, 3), (4, 4) }
+(e) {} x B = {}
+(h) B^3 = B x B x B = ?
