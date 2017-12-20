@@ -125,10 +125,33 @@ Exercises for Section 1.2
 
 
 Exercises for Section 1.2    
+*For the set of n elements there are 2^n subsets*
+
+1 is not a subset of { 1, { 1 } }, because 1 is not a set
+1 is an element of set { 1, { 1 } }
+{ 1 } is a subset of { 1, { 1 } }
 
 A. List all the subsets of the following sets.    
 1. { 1, 2, 3, 4 }    
-{}, { 1 }, { 2 }, { 3 }, { 4 }, { 1, 2 }, { 1, 2, 3 }, { 1, 3 }, { 1, 4 }, { 2, 3 }, { 3, 4 }, { 2, 4 }, { 2, 3, 4 }    
+{}, { 1 }, { 2 }, { 3 },    
+{ 4 }, { 1, 2 } { 1, 3 }, { 1, 4 },           
+{ 2, 3 }, { 2, 4 }, { 3, 4 }, { 1, 2, 3 },           
+{ 1, 2, 4 } { 1, 3, 4 }, { 2, 3, 4 }, { 1, 2, 3, 4 }        
 
 2. { 1, 2, {} }
 {}, { 1 }, { 2 }, { {} }, { 1, 2 }, { 1, {} }, { 2, {} }, { 1, 2, {} }    
+
+3. { { R } }    
+{}, { { R } }    
+
+4. {}    
+{}    
+
+5. {{}}    
+{}, {{}}    
+
+6. { R, Q, N }   
+{}, { R }, { Q }, { N }, { R, Q }, { R, N }, { Q, N }, { R, Q, N }    
+
+7. { R, { Q, N } }    
+{}, { R }, { { Q, N } }, { R, { Q, N } }     
