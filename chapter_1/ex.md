@@ -155,3 +155,24 @@ A. List all the subsets of the following sets.
 
 7. { R, { Q, N } }    
 {}, { R }, { { Q, N } }, { R, { Q, N } }     
+
+B. Write out the following sets by listing their elements between braces.
+
+9. { X : X set_in { 3, 2, a } and |X| = 2 }    
+{ 3, a } (a set of any two elements)?    
+
+10. { X set_in N : |X| <= 1 }    
+{ 1 }    
+
+11. { X : X set_in { 3, 2, a } and |X| = 4 }    
+{ {}, 3, 2, a } ?    
+
+12. { X : X set_in { 3, 2, a } and |X| = 1 }    
+{ a }    
+
+C. Decide if the following are true or false. Explain
+
+13. R^3 set_in R^3    
+True, each set is its own subset    
+
+14. R^2 set_in R^3
