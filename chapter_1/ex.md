@@ -176,3 +176,15 @@ C. Decide if the following are true or false. Explain
 True, each set is its own subset    
 
 14. R^2 set_in R^3
+True, R^2 is a plane in R^3
+
+15. { (x, y) : x - 1 = 0  } set_in { (x, y) : x^2 - x = 0 }    
+True
+x = 1, y = any    
+1^2 - 1 = 0
+
+First set { (1, y) : for any y }       
+Second set { (1, y) : for any y }    
+
+16. { (x, y) : x^2 - x = 0  } set_in { (x, y) : x - 1 = 0 }    
+True    
