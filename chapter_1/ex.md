@@ -184,7 +184,12 @@ x = 1, y = any
 1^2 - 1 = 0
 
 First set { (1, y) : for any y }       
-Second set { (1, y) : for any y }    
+Second set { (1, y), (0, y) : for any y }    
 
 16. { (x, y) : x^2 - x = 0  } set_in { (x, y) : x - 1 = 0 }    
-True    
+False    
+
+
+Power sets.    
+If A is a set, the power set of A is another set P(A) - the set of all subsets of A.
+P(A) = { X : X set_in A }
