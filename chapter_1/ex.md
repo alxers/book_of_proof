@@ -193,3 +193,15 @@ False
 Power sets.    
 If A is a set, the power set of A is another set P(A) - the set of all subsets of A.
 P(A) = { X : X set_in A }
+
+Example:    
+A = { 1, 2, 3 }    
+P(A) = { {}, { 1 }, { 2 }, { 3 }, { 1, 2 }, { 1, 3 }, { 2, 3 }, { 1, 2, 3 } }    
+
+If A is a finite set, then |P(A)| = 2^|A|    
+
+
+Exercises for Section 1.4    
+
+A. Find the indicated sets.    
+1. P({ { a, b }, { c } })
