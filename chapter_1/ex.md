@@ -204,4 +204,6 @@ If A is a finite set, then |P(A)| = 2^|A|
 Exercises for Section 1.4    
 
 A. Find the indicated sets.    
-1. P({ { a, b }, { c } })
+1. P({ { a, b }, { c } }) = { {}, { { a, b } }, { { c } }, { { a, b, c } } }    
+
+3. P({ { {} }, 5 }) = { {}, { {} }, { 5 }, { {}, 5 } }    
