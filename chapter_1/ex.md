@@ -124,8 +124,12 @@ Exercises for Section 1.2
 (a) A x B = { (pi, 0), (pi, 1), (e, 0), (e, 1), (0, 0), (0, 1) }   
 
 
-Exercises for Section 1.2    
+Exercises for Section 1.3    
 *For the set of n elements there are 2^n subsets*
+
+B = { 1, 2, { 1, 3 } }
+{ 1, 3 } is NOT a subset of B. It can't be made by selecting elements from B, as 3 is not an element of B.
+{ 1, 3 } not set_in B, but { 1, 3 } in B. Also { { 1, 3 } } set_in B
 
 1 is not a subset of { 1, { 1 } }, because 1 is not a set
 1 is an element of set { 1, { 1 } }
@@ -218,4 +222,13 @@ A. Find the indicated sets.
 10. { X in P({ 1, 2, 3 }) : |X| <= 1 } =    
 = { X in { {}, { 1 }, { 2 }, { 3 }, { 1, 2 }, { 1, 3 }, { 2, 3 }, { 1, 2, 3 } } : |X| <= 1 } = { {}, { 1 }, { 2 }, { 3 } }    
 
-11. { X set_in P({ 1, 2, 3 }) : |X| <= 1 } 
+11. { X set_in P({ 1, 2, 3 }) : |X| <= 1 } = { { {} }, { { 1 } }, { { 2 } }, { { 3 } } }
+All subsets of P({ 1, 2, 3 }) is
+{ {} }, { { 1 } }, { { 2 } }, { { 3 } }, { { 1, 2 } }, { { 2, 3 } }
+{ { 1, 2, 3 } }
+(clarify!)
+
+12. { X in P({ 1, 2, 3 }) : 2 in X }
+P({ 1, 2, 3 }) = { {}, { 1 }, { 2 }, { 3 }, { 1, 2 }, { 1, 3 }, { 2, 3 }, { 1, 2, 3 } }
+
+{ { 2 }, { 1, 2 }, { 2, 3 }, { 1, 2, 3 } }
