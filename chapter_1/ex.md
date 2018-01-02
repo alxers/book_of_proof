@@ -236,5 +236,15 @@ P({ 1, 2, 3 }) = { {}, { 1 }, { 2 }, { 3 }, { 1, 2 }, { 1, 3 }, { 2, 3 }, { 1, 2
 
 { { 2 }, { 1, 2 }, { 2, 3 }, { 1, 2, 3 } }    
 
-Suppose that |A| = m and |B| = n. Find the following cardinalities.
+Suppose that |A| = m and |B| = n. Find the following cardinalities.    
 13. |P(P(P(A)))|
+
+Because |P(A)| = 2^|A|
+
+2^|P(P(A))|
+2^(2^|P(A)|)
+2^(2^(2^|A|))
+2^(2^(2^m))
+
+
+14. |P(A x B)| = 2^|(A x B)|
