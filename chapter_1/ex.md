@@ -247,4 +247,11 @@ Because |P(A)| = 2^|A|
 2^(2^(2^m))
 
 
-14. |P(A x B)| = 2^|(A x B)|
+15. |P(A x B)| = 2^|(A x B)|
+
+Because |A x B| = |A| * |B| (see cartesian product properties, cardinality)
+
+2^|A x B| = 2^(|A| * |B|) = 2^(m * n)
+
+
+16. |P(A) x P(B)|
