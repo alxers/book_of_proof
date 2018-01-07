@@ -257,3 +257,5 @@ Because |A x B| = |A| * |B| (see cartesian product properties, cardinality)
 16. |P(A) x P(B)| = |P(A)| * |P(B)| = 2^|A| * 2^|B| = 2^m * 2^n = 2^(m+n)    
 
 17. |{ X in P(A) : |X| <= 1 }| ?
+
+18. |P(A x P(B))| = 2^|(A x P(B))| ?
