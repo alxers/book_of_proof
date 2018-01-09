@@ -228,8 +228,7 @@ All subsets of P({ 1, 2, 3 }) are
 { { 1, 2, 3 } }    
 So X is all of the above, all this sets cardinality is 1
 The answer is 
-{ { {} }, { { 1 } }, { { 2 } }, { { 3 } }, { { 1, 2 } }, { { 2, 3 } }
-{ { 1, 2, 3 } } }    
+{ { {} }, { { 1 } }, { { 2 } }, { { 3 } }, { { 1, 2 } }, { { 2, 3 } }, { { 1, 3 } }, { { 1, 2, 3 } } }    
 
 12. { X in P({ 1, 2, 3 }) : 2 in X }
 P({ 1, 2, 3 }) = { {}, { 1 }, { 2 }, { 3 }, { 1, 2 }, { 1, 3 }, { 2, 3 }, { 1, 2, 3 } }
@@ -259,3 +258,10 @@ Because |A x B| = |A| * |B| (see cartesian product properties, cardinality)
 17. |{ X in P(A) : |X| <= 1 }| ?
 
 18. |P(A x P(B))| = 2^(|(A x P(B))|) = 2^(|A| * |P(B)|) = 2^(m * 2^|B|) = 2^(m * 2^(n))
+
+20. |{ X set_in P(A) : |X| <= 1}|
+All subsets of P(A) are { {} }, { A1 }, { A2 } ... { A }
+X is all of them, all this sets cardinality is 1
+=> |{ { {} }, { A1 }, { A2 } ... { A } }| = 1
+or |{ 2^|A| }| = |{ 2^m }| which is still eq to 1
+?
