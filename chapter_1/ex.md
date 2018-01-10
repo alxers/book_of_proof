@@ -265,3 +265,12 @@ X is all of them, all this sets cardinality is 1
 => |{ { {} }, { A1 }, { A2 } ... { A } }| = 1
 or |{ 2^|A| }| = |{ 2^m }| which is still eq to 1
 ?
+
+
+1.5 Union, Itersection, Difference
+
+Definition 1.5 Suppose A and B are sets
+
+The union of A and B = { x : x in A or x in B }
+The intersection of A and B = { x : x in A and x in B }
+The difference of A and B is the set A - B = { x : x in A and x not_in B }
