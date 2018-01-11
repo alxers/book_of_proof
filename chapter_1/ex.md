@@ -274,3 +274,14 @@ Definition 1.5 Suppose A and B are sets
 The union of A and B = { x : x in A or x in B }
 The intersection of A and B = { x : x in A and x in B }
 The difference of A and B is the set A - B = { x : x in A and x not_in B }
+
+Exercises for Section 1.5
+
+1. Suppose A = { 4, 3, 6, 7, 1, 9 }, B = { 5, 6, 8, 4 }, C = { 5, 8, 4 }
+
+(a) A union B = { 4, 3, 6, 7, 1, 9, 5, 8 }
+(b) A intersection B = { 4, 6 }
+(c) A - B = { 3, 7, 1, 9 }
+(d) A - C = { 3, 6, 7, 1, 9 }
+(e) B - A = { 6 }
+(f) A intersection C = { 4 }
