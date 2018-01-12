@@ -285,3 +285,11 @@ Exercises for Section 1.5
 (d) A - C = { 3, 6, 7, 1, 9 }
 (e) B - A = { 6 }
 (f) A intersection C = { 4 }
+(i) C - B = {}
+
+2. Suppose A = { 0, 2, 4, 6, 8 }, B = { 1, 3, 5, 7 }, C = { 2, 8, 4 }
+
+(a) A union B = { 0, 1, 2, 3, 4, 5, 6, 7, 8 }
+(b) A intersection B = {}
+(c) A - B = {}
+(i) C - B = { 2, 8, 4 }
