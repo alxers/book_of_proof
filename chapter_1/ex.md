@@ -293,3 +293,8 @@ Exercises for Section 1.5
 (b) A intersection B = {}
 (c) A - B = {}
 (i) C - B = { 2, 8, 4 }
+
+3. Suppose A = { 0, 1 } and B = { 1, 2 }
+
+(a) (A x B) intersection (B x B) = { (0, 1), (0, 2), (1, 1), (1, 2) } intersection { (1, 1), (1, 2), (2, 1), (2, 2) } = 
+= { (1, 1), (1, 2) }
