@@ -298,3 +298,5 @@ Exercises for Section 1.5
 
 (a) (A x B) intersection (B x B) = { (0, 1), (0, 2), (1, 1), (1, 2) } intersection { (1, 1), (1, 2), (2, 1), (2, 2) } = 
 = { (1, 1), (1, 2) }
+(d) (A intersection B) x A = { 1 } x { 0, 1 } = { (1, 0), (1, 1) }
+(f) P(A) intersection P(B) = { {}, { 0 }, { 1 }, { 0, 1 } } intersection { {}, { 1 }, { 2 }, { 1, 2 } } = { {}, { 1 } }
