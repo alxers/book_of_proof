@@ -301,3 +301,8 @@ Exercises for Section 1.5
 (d) (A intersection B) x A = { 1 } x { 0, 1 } = { (1, 0), (1, 1) }
 (f) P(A) intersection P(B) = { {}, { 0 }, { 1 }, { 0, 1 } } intersection { {}, { 1 }, { 2 }, { 1, 2 } } = { {}, { 1 } }
 (h) P(A intersection B) = P({ 1 }) = { {}, { 1 } }
+(i) P(A x B) = P({ (0, 1), (0, 2), (1, 1), (1, 2) })
+
+4. Suppose A = { b, c, d } and B = { a, b }
+(a) (A x B) intersection (B x B) = { (b, a), (b, b), (c, a), (c, b), (d, a), (d, b) } intersection { (a, a), (a, b), (b, a), (b, b) } = { (b, b) }
+(b) (A intersection B) x A = { b } x { a, b }
