@@ -306,3 +306,4 @@ Exercises for Section 1.5
 4. Suppose A = { b, c, d } and B = { a, b }
 (a) (A x B) intersection (B x B) = { (b, a), (b, b), (c, a), (c, b), (d, a), (d, b) } intersection { (a, a), (a, b), (b, a), (b, b) } = { (b, b) }
 (b) (A intersection B) x A = { b } x { a, b }
+(f) P(A) intersection P(B) = { {}, { b }, { c }, { d }, { b, c }, { b, d }, { c, d }, { b, c, d } } intersection { {}, { a }, { b }, { a, b } } = { {}, { b } }
