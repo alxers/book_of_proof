@@ -307,3 +307,17 @@ Exercises for Section 1.5
 (a) (A x B) intersection (B x B) = { (b, a), (b, b), (c, a), (c, b), (d, a), (d, b) } intersection { (a, a), (a, b), (b, a), (b, b) } = { (b, b) }
 (b) (A intersection B) x A = { b } x { a, b }
 (f) P(A) intersection P(B) = { {}, { b }, { c }, { d }, { b, c }, { b, d }, { c, d }, { b, c, d } } intersection { {}, { a }, { b }, { a, b } } = { {}, { b } }
+
+
+1.6 Complement
+
+N - is a set of natural numbers and f.e. P = { 2, 3, 5, 7, 11, ... }
+P set_in N, the larger set N is called *universal set* or *universe* for P.
+In the absence of specifics, if A is a set (we don't know what's in it), then its universal set is often denoted as U.
+
+Definition 1.6
+Let A be a set with a universal set U. The *complement* of A(complement), is a set A(complement) = U - A.
+
+Example 1.7 
+If P is the set of prime numbers, then P(complement) = N - P = { 1, 4, 6, 8, 10, ... }
+Thus P(complement) is the set of composite numbers and 1.
