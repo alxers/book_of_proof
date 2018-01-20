@@ -321,3 +321,9 @@ Let A be a set with a universal set U. The *complement* of A(complement), is a s
 Example 1.7 
 If P is the set of prime numbers, then P(complement) = N - P = { 1, 4, 6, 8, 10, ... }
 Thus P(complement) is the set of composite numbers and 1.
+
+
+Exercises for Section 1.6
+
+1. Let A = { 4, 3, 6, 7, 1, 9 }, B = { 5, 6, 8, 4 }, universal set U = { 0, 1, 2, ..., 10 }. Find:
+(a) A(complement) = U - A = { 0, 2, 5, 8, 10 }
