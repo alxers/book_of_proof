@@ -327,3 +327,4 @@ Exercises for Section 1.6
 
 1. Let A = { 4, 3, 6, 7, 1, 9 }, B = { 5, 6, 8, 4 }, universal set U = { 0, 1, 2, ..., 10 }. Find:
 (a) A(complement) = U - A = { 0, 2, 5, 8, 10 }
+(c) A intersection A(complement) = {}
