@@ -329,3 +329,5 @@ Exercises for Section 1.6
 (a) A(complement) = U - A = { 0, 2, 5, 8, 10 }
 (c) A intersection A(complement) = {}
 (d) A union A(complement) = U
+(e) A - A(complement) = A
+(f) A - B(complement) = { 4, 3, 6, 7, 1, 9 } - { 0, 1, 2, 3, 7, 9, 10 } = { 4, 6 }
