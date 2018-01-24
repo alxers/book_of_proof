@@ -331,3 +331,4 @@ Exercises for Section 1.6
 (d) A union A(complement) = U
 (e) A - A(complement) = A
 (f) A - B(complement) = { 4, 3, 6, 7, 1, 9 } - { 0, 1, 2, 3, 7, 9, 10 } = { 4, 6 }
+(g) A(complement) - B(complement) = { 0, 2, 5, 8, 10 } - { 0, 1, 2, 3, 7, 9, 10 } = { 5, 8 }
