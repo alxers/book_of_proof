@@ -332,3 +332,12 @@ Exercises for Section 1.6
 (e) A - A(complement) = A
 (f) A - B(complement) = { 4, 3, 6, 7, 1, 9 } - { 0, 1, 2, 3, 7, 9, 10 } = { 4, 6 }
 (g) A(complement) - B(complement) = { 0, 2, 5, 8, 10 } - { 0, 1, 2, 3, 7, 9, 10 } = { 5, 8 }
+(i) (A(complement) intersection B)(complement) = { 5, 8 }(complement) = { 0, 1, 2, 3, 4, 6, 7, 9, 10 }
+
+2. Let A = { 0, 2, 4, 6, 8 }, B = { 1, 3, 5, 7 }, U = { 0, 1, 2, 3, 4, 5, 6, 7, 8 }
+(a) A(complement) = U - A = { 1, 3, 5, 7 }
+(b) B(complement) = U - B = { 0, 2, 4, 6, 8 }
+(c) A intersection A(complement) = {}
+(d) A union A(complement) = {}
+(e) A - A(complement) = { 0, 2, 4, 6, 8 }
+(f) A - B(complement) = {}
