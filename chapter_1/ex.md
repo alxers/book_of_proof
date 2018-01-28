@@ -342,3 +342,4 @@ Exercises for Section 1.6
 (e) A - A(complement) = { 0, 2, 4, 6, 8 }
 (f) A - B(complement) = {}
 (g) A(complement) - B(complement) = { 1, 3, 5, 7 }
+(h) (A intersection B)(complement) = {}(complement) = U - {} = U
