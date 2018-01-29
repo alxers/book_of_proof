@@ -343,3 +343,4 @@ Exercises for Section 1.6
 (f) A - B(complement) = {}
 (g) A(complement) - B(complement) = { 1, 3, 5, 7 }
 (h) (A intersection B)(complement) = {}(complement) = U - {} = U
+(i) A(complement) x B = B^2
