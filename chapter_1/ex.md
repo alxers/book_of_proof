@@ -346,3 +346,6 @@ Exercises for Section 1.6
 (i) A(complement) x B = B^2
 
 
+Exercises for Section 1.8
+
+1. Suppose A_1 = { a, b, d, e, g, f }, A_2 = { a, b, c, d }, A_3 = { b, d, a }, A_4 = { a, b, h }
