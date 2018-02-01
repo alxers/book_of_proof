@@ -345,7 +345,14 @@ Exercises for Section 1.6
 (h) (A intersection B)(complement) = {}(complement) = U - {} = U
 (i) A(complement) x B = B^2
 
+1.8 Indexed Sets
+Definitions:
+Union(from i=1 to n) A_i = A_1 union A_2 union ... union A_n
+Union(alpha in I) A_alpha = { x : x in A_alpha for at least one set A_aplha with alpha in I }
+
 
 Exercises for Section 1.8
 
 1. Suppose A_1 = { a, b, d, e, g, f }, A_2 = { a, b, c, d }, A_3 = { b, d, a }, A_4 = { a, b, h }
+
+(a) Union(from i=1 to 4) A_i = 
