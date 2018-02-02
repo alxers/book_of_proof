@@ -355,4 +355,4 @@ Exercises for Section 1.8
 
 1. Suppose A_1 = { a, b, d, e, g, f }, A_2 = { a, b, c, d }, A_3 = { b, d, a }, A_4 = { a, b, h }
 
-(a) Union(from i=1 to 4) A_i = 
+(a) Union(from i=1 to 4) A_i = { a, b, c, d, e, f, g, h }
