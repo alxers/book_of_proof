@@ -357,3 +357,6 @@ Exercises for Section 1.8
 
 (a) Union(from i=1 to 4) A_i = { a, b, c, d, e, f, g, h }
 (b) Intersection(from i=1 to 4) A_i = { a, b }
+
+3. For each n in N, let A_n = { 0, 1, 2, 3, ..., n }
+(a) Union(i in N) A_i = A_1 union A_2 union ... union A_n = { 0, 1, 2, 3, ..., n }
