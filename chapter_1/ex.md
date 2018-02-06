@@ -360,3 +360,4 @@ Exercises for Section 1.8
 
 3. For each n in N, let A_n = { 0, 1, 2, 3, ..., n }
 (a) Union(i in N) A_i = A_1 union A_2 union ... union A_n = { 0, 1, 2, 3, ..., n }
+(b) Intersection(i in N) A_i = { 0, 1 }
