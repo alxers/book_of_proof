@@ -361,3 +361,10 @@ Exercises for Section 1.8
 3. For each n in N, let A_n = { 0, 1, 2, 3, ..., n }
 (a) Union(i in N) A_i = A_1 union A_2 union ... union A_n = { 0, 1, 2, 3, ..., n }
 (b) Intersection(i in N) A_i = { 0, 1 }
+
+4. For each n in N, let A_n = { -2n, 0, 2n }
+(a) Union(i in N) A_i = { all positive and negative even numbers with 0 }
+(b) Intersection(i in N) A_i = { -2, 0, 2 }
+
+5. (a) Union(i in N)[i, i+1] = { [1, 2], [2, 3], ... } ?
+* Union(i in [0, 2])[1, 2] x { i } = [1, 2] x [0, 2]
