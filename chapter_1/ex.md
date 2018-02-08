@@ -368,3 +368,6 @@ Exercises for Section 1.8
 
 5. (a) Union(i in N)[i, i+1] = { [1, 2], [2, 3], ... } ?
 * Union(i in [0, 2])[1, 2] x { i } = [1, 2] x [0, 2]
+
+8. (a) Union(alpha in R) { alpha } x [0, 1] = R x [0, 1] ?
+(b) Intersection(alpha in R) { alpha } x [0, 1] = {} ?
