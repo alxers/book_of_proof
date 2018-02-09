@@ -367,7 +367,12 @@ Exercises for Section 1.8
 (b) Intersection(i in N) A_i = { -2, 0, 2 }
 
 5. (a) Union(i in N)[i, i+1] = { [1, 2], [2, 3], ... } ?
+(b) Intersection(i in N)[i, i+1] = {}
+
 * Union(i in [0, 2])[1, 2] x { i } = [1, 2] x [0, 2]
 
-8. (a) Union(alpha in R) { alpha } x [0, 1] = R x [0, 1] ?
+8. (a) Union(alpha in R) { alpha } x [0, 1] = R ?
 (b) Intersection(alpha in R) { alpha } x [0, 1] = {} ?
+
+9. (a) Union(X in P(N)) X = { 1 }, { 2 }, { 3 }, ..., = N
+(b) Intersection(X in P(N)) X = {}
