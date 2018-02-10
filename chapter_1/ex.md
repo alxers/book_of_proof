@@ -376,3 +376,5 @@ Exercises for Section 1.8
 
 9. (a) Union(X in P(N)) X = { 1 }, { 2 }, { 3 }, ..., = N
 (b) Intersection(X in P(N)) X = {}
+
+10. (a) Union(x in [0, 1]) [x, 1] x [0, x^2] = [0, 1] x [0, 0] union [1, 1] x [ 0, 1] ?
