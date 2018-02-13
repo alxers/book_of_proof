@@ -380,4 +380,8 @@ Exercises for Section 1.8
 10. (a) Union(x in [0, 1]) [x, 1] x [0, x^2] = [0, 1] x [0, 0] union [1, 1] x [ 0, 1] ?
 
 11. Is Intersection(alpha in I) A_alpha set_in Union(alpha in I) A_alpha always true for any collection of sets A_alpha with index set I?
-True
+If Intersection(alpha in I) A_alpha = {} then {} might not be set_in A_alpha set_in Union(alpha in I) A_alpha
+
+12. If Intersection(alpha in I) A_alpha = Union(alpha in I) A_alpha, then A_alpha is the same set?
+
+13. If J != {} and J set_in I, does it follow that Union(alpha in J) A_alpha set_in Union(alpha in I) A_alpha ? What about Intersection(alpha in J) A_alpha set_in Intersection(alpha in I) A_alpha    ?
