@@ -393,3 +393,18 @@ Decide wheter or not the following are "statements". If it's a statement, say if
 
 1. Every real number is an even integer. 
 False statement.
+
+2. Every even integer is a real number.
+True statement.
+
+3. If x an y are real numbers and 5x = 5y, then x = y.
+True statement.
+
+4. Sets Z and N.
+Not a statement.
+
+5. Sets Z and N are infinite.
+True statement.
+
+6. Some sets are finite.
+Not a statement.
