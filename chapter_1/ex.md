@@ -408,3 +408,9 @@ True statement.
 
 6. Some sets are finite.
 Not a statement.
+
+7. The derivative of any polynomial of degree 5 is a polynomial of degree 6.
+False statement.
+
+8. N not_in P(N).
+False statement.
