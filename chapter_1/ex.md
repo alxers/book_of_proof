@@ -415,4 +415,6 @@ False statement.
 8. N not_in P(N).
 False statement.
 
+9. cos(x) = -1
+
 
