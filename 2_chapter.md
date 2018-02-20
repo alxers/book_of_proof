@@ -33,3 +33,15 @@ False statement.
 
 9. cos(x) = -1
 Not a statement, open statement (we don't know x)
+
+10. (R x N) intersection (N x R) = N x N.
+Statement
+
+11. The integer x is a multiple of 7.
+Not a statement.
+
+12. If the integer x is a multiple of 7, then it is divisible by 7.
+True statement.
+
+13. Either x is a multiple of 7, or it's not.
+True statement.
