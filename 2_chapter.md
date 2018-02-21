@@ -45,3 +45,19 @@ True statement.
 
 13. Either x is a multiple of 7, or it's not.
 True statement.
+
+
+Exercises for Section 2.2
+
+Express each statement or open sentence in one of the forms P ^ Q, P v Q, or ~ P
+
+1. The number 8 is both even and a power of 2.
+P: number 8 is even
+Q: number 8 is a power of 2
+P ^ Q
+
+2. The matrix A is not invertible.
+P: the matrix A is invertible
+~ P
+
+3. x != y
