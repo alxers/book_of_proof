@@ -54,10 +54,40 @@ Express each statement or open sentence in one of the forms P ^ Q, P v Q, or ~ P
 1. The number 8 is both even and a power of 2.
 P: number 8 is even
 Q: number 8 is a power of 2
+
 P ^ Q
 
 2. The matrix A is not invertible.
 P: the matrix A is invertible
+
 ~ P
 
 3. x != y
+
+4. x < y
+
+5. y >= x
+
+6. There is a quiz scheduled for Wednesday or Friday.
+P: Quiz is scheduled for Wednesday
+Q: Quiz is scheduled for Friday
+
+P v Q
+
+7. The number x equals zero, but the number y does not.
+P: number x equals to zero
+Q: number y equals to zero
+
+P ^ (~ Q)
+
+8. A least one of the numbers x and y equals to 0.
+P: number x equals to zero
+Q: number y equals to zero
+
+P v Q
+
+9. x in A - B
+
+10. x in A intersection B
+
+11. A in { X in P(N) : |X(complement)| < inf }
