@@ -63,10 +63,20 @@ P: the matrix A is invertible
 ~ P
 
 3. x != y
+P: x = y
+
+~ P
 
 4. x < y
+P: x < y
+
+P
 
 5. y >= x
+P: y > x
+Q: y = x
+
+P v Q
 
 6. There is a quiz scheduled for Wednesday or Friday.
 P: Quiz is scheduled for Wednesday
