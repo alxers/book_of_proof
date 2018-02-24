@@ -101,3 +101,14 @@ P v Q
 10. x in A intersection B
 
 11. A in { X in P(N) : |X(complement)| < inf }
+
+
+Exercises for Section 2.3
+
+Without changing their meanings, convert each of the following sentences into a sentence having for form "If P, then Q"
+
+1. A matrix is irrevertible provided that its determinant is not zero.
+If determinant is not zero then a matrix is irrevertible.
+
+2. For a function to be continuous, it is sufficient that it is differentiable.
+If function is differentiable then it's continuous.
