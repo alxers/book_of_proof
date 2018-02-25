@@ -111,4 +111,14 @@ Without changing their meanings, convert each of the following sentences into a 
 If determinant is not zero then a matrix is irrevertible.
 
 2. For a function to be continuous, it is sufficient that it is differentiable.
-If function is differentiable then it's continuous.
+If function is differentiable, then it's continuous.
+
+3. For a function to be integrable, it is necessary that it is continuous.
+If function is continuous, then it's integrable.
+
+4. A function is rational if it is a polynomial.
+If function is polynomial, then it is rational.
+
+5. An integer is divisible by 8 only if it is divisible by 4.
+If intiger divisible by 8, then it's divisible by 4.
+
