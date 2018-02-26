@@ -122,3 +122,18 @@ If function is polynomial, then it is rational.
 5. An integer is divisible by 8 only if it is divisible by 4.
 If intiger divisible by 8, then it's divisible by 4.
 
+6. Whenever a surface has only one side, it is non-orientable.
+If surface has only one side, then it's non-orientable.
+
+7. A series converges whenever it converges absolutely.
+If series converges, then it's converges absolutely.
+
+8. A geometric series with ratio r converges if |r| < 1.
+If |r| < 1, then geometric series converges.
+
+9. A function is integrable provided the function is continuous.
+If function is integrable, then it's continuous.
+
+10. The discriminant is negative only if the quadratic equation has no real solutions.
+If quadratic equation has no real solutions, then the discriminant is negative.
+
