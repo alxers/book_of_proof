@@ -137,3 +137,13 @@ If function is integrable, then it's continuous.
 10. The discriminant is negative only if the quadratic equation has no real solutions.
 If quadratic equation has no real solutions, then the discriminant is negative.
 
+11. You fail only if you stop writing. (Ray Bradbury)
+If you stop writing, then you will fail.
+
+12. People will generally accept facts as truth only if the facts agreee with what they already believe. (Andy Rooney)
+If facts agree with what people already believe, then they will accept them.
+
+13. Whenever people agree with me I feel I must be wrong. (Oscar Wilde)
+If people agree with me, then I feel I'm wrong.
+
+Exercises for Section 2.4
