@@ -147,3 +147,12 @@ If facts agree with what people already believe, then they will accept them.
 If people agree with me, then I feel I'm wrong.
 
 Exercises for Section 2.4
+Without changing their meanings, convert each of the following sentences into a
+sentence having the form "P if and only if Q."
+
+1. For matrix A to be invertible, it is necessary and sufficient that det(A) != 0.
+Matrix A is invertible if and only if det(A) != 0.
+
+2. If a function has a constant derivative then it's linear, and conversely.
+Function has a constant derivative if and only if it linear.
+Function is linear if and only if it has a constant derivative. 
