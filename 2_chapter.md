@@ -156,3 +156,13 @@ Matrix A is invertible if and only if det(A) != 0.
 2. If a function has a constant derivative then it's linear, and conversely.
 Function has a constant derivative if and only if it linear.
 Function is linear if and only if it has a constant derivative. 
+
+3. If xy = 0 then x = 0 or y = 0, and conversely.
+xy = 0 if and only if x = 0 or y = 0 
+
+4. If a in Q then 5a in Q, and if 5a in Q then a in Q.
+?
+
+5. For an occurrence to become an adventure, it is necessary and sufficient for
+one to recount it. (Jean-Paul Sartre).
+An occurence is an adventure if and only if one recount it.
