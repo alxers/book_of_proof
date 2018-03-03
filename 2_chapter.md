@@ -166,3 +166,17 @@ xy = 0 if and only if x = 0 or y = 0
 5. For an occurrence to become an adventure, it is necessary and sufficient for
 one to recount it. (Jean-Paul Sartre).
 An occurence is an adventure if and only if one recount it.
+
+
+Exercises for Section 2.5
+Write a truth table the logial statements:
+
+1. P or (Q => R)
+T or (T => T) T
+T or (T => F) T
+T or (F => T) T
+T or (F => F) T
+F or (T => T) T
+F or (T => F) T
+F or (F => T) F
+F or (F => F) F 
