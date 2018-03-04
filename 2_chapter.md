@@ -179,4 +179,30 @@ T or (F => F) T
 F or (T => T) T
 F or (T => F) T
 F or (F => T) F
-F or (F => F) F 
+F or (F => F) F
+
+2. (Q or R) <=> (R and Q)
+(T or T) <=> (T and T) T
+(T or F) <=> (F and T) F
+(F or T) <=> (T and F) F
+(F or F) <=> (F and F) T
+
+3. ~(P => Q)
+~(T => T) F
+~(T => F) T
+~(F => T) F
+~(F => F) F
+
+4. ~(P or Q) or (~P)
+~(T or T) or (~T) F
+~(T or F) or (~T) F
+~(F or T) or (~F) F
+~(F or F) or (~F) T
+
+6. (P and ~P) and Q
+(T and ~T) and T F
+(T and ~T) and F F
+(F and ~F) and T F
+(T and ~T) and F F
+
+
