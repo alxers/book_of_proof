@@ -205,4 +205,18 @@ F or (F => F) F
 (F and ~F) and T F
 (T and ~T) and F F
 
+9. ~(~P and ~Q)
+~(~T and ~T) T
+~(~T and ~F) T
+~(~F and ~T) T
+~(~F and ~F) F
 
+10. Suppose the statement ((P and Q) or R) => (R or S) is false. Find the truth values of P, Q, R and S (can be done without truth table).
+((P and Q) or R) must be false
+P - false, R - false, Q - true, S - true
+
+11. Suppose P is false and that the statement (R => S) <=> (P and Q) is true. Find the truth values of R and S.
+
+If P is false then (P and Q) is also false
+? <=> F evalates to true only when ? is false
+(R => S) is false only if R is false and S is true
