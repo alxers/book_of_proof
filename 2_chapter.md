@@ -220,3 +220,14 @@ P - false, R - false, Q - true, S - true
 If P is false then (P and Q) is also false
 ? <=> F evalates to true only when ? is false
 (R => S) is false only if R is false and S is true
+
+
+
+Exercises for Section 2.6
+
+A. Use truth tables to show that the folowing statements are logcally equvalent.
+1. P ^ (Q v R) = (P ^ Q) v (P ^ R)
+
+P Q R
+T T T | T ^ (T v T) = (T ^ Q) v (T ^ T) | T T
+T T F | T ^ (T v F) = (T ^ T) v (T ^ F) | T T
