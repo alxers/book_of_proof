@@ -231,3 +231,4 @@ A. Use truth tables to show that the folowing statements are logcally equvalent.
 P Q R
 T T T | T ^ (T v T) = (T ^ Q) v (T ^ T) | T T
 T T F | T ^ (T v F) = (T ^ T) v (T ^ F) | T T
+T F T | T ^ (F v T) = (T ^ F) v (T ^ T) | T T
