@@ -234,3 +234,12 @@ T T F | T ^ (T v F) = (T ^ T) v (T ^ F) | T T
 T F T | T ^ (F v T) = (T ^ F) v (T ^ T) | T T
 F T T | F ^ (T v T) = (F ^ T) v (F ^ T) | F F
 T F F | T ^ (F v F) = (T ^ F) v (T ^ F) | F F
+F F F | F ^ (F v F) = (F ^ F) v (F ^ F) | F F
+
+3. P => Q = (~P) v Q
+
+P Q
+T T | T => T = ~T v T | T T
+T F | T => F = ~T v F | F F
+F T | F => T = ~F v T | T T
+F F | F => F = ~F v F | T T
