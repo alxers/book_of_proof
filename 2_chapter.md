@@ -243,3 +243,11 @@ T T | T => T = ~T v T | T T
 T F | T => F = ~T v F | F F
 F T | F => T = ~F v T | T T
 F F | F => F = ~F v F | T T
+
+8. ~P <=> Q = (P => ~Q) ^ (~Q => P)
+
+P Q
+T T | F <=> T = (T => F) ^ (F => T) | F F
+T F | F <=> F = (T => T) ^ (T => T) | T T
+F T | T <=> T = (F => F) ^ (F => F) | T F
+F F | T <=> F = (F => T) ^ (T => F) | F F
