@@ -249,5 +249,27 @@ F F | F => F = ~F v F | T T
 P Q
 T T | F <=> T = (T => F) ^ (F => T) | F F
 T F | F <=> F = (T => T) ^ (T => T) | T T
-F T | T <=> T = (F => F) ^ (F => F) | T F
+F T | T <=> T = (F => F) ^ (F => F) | T T
 F F | T <=> F = (F => T) ^ (T => F) | F F
+
+B. Decide whether or not the following pairs of statements are logically equivalent.
+
+9. P ^ Q and ~(~P v ~Q)
+
+P Q
+T T | T ^ T and ~(~T v ~T) | T and T
+T F | T ^ F and ~(~T v ~F) | F and F
+F T | F ^ T and ~(~F v ~T) | F and F
+F F | F ^ F and ~(~F v ~F) | F and F
+
+10. (P => Q) v R and ~((P ^ ~Q) ^ ~R)
+
+P Q R
+T T T | (T => T) v T and ~((T ^ ~T) ^ ~T) | T and T
+T T F | (T => T) v F and ~((T ^ ~T) ^ ~F) | T and T
+T F T | (T => F) v T and ~((T ^ ~F) ^ ~T) | T and T
+F T T | (F => T) v T and ~((F ^ ~T) ^ ~T) | T and T
+T F F | (T => F) v F and ~((T ^ ~F) ^ ~F) | F and F
+F F T | (F => F) v T and ~((F ^ ~F) ^ ~T) | T and T
+F T F | (F => T) v F and ~((F ^ ~T) ^ ~F) | T and T
+F F F | (F => F) v F and ~((F ^ ~F) ^ ~F) | T and T
