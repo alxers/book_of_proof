@@ -273,3 +273,10 @@ T F F | (T => F) v F and ~((T ^ ~F) ^ ~F) | F and F
 F F T | (F => F) v T and ~((F ^ ~F) ^ ~T) | T and T
 F T F | (F => T) v F and ~((F ^ ~T) ^ ~F) | T and T
 F F F | (F => F) v F and ~((F ^ ~F) ^ ~F) | T and T
+
+Exercises for Section 2.7
+
+Write the following as English sentences. Say whether they are true or false.
+
+1. For all x in R, x^2 > 0. True
+2. For all x in R, exists such n in N, such that x^n >= 0. True
