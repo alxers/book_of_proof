@@ -280,3 +280,7 @@ Write the following as English sentences. Say whether they are true or false.
 
 1. For all x in R, x^2 > 0. True
 2. For all x in R, exists such n in N, such that x^n >= 0. True
+3. There is an a, that for all x in R for which ax = x.
+True? ( 1 )
+4. For all X that is in a superset of N, X is subset of R.
+9. For all integers n, exists such m in Z, such that m = n + 5. True
