@@ -284,3 +284,13 @@ Write the following as English sentences. Say whether they are true or false.
 True? ( 1 )
 4. For all X that is in a superset of N, X is subset of R.
 9. For all integers n, exists such m in Z, such that m = n + 5. True
+
+Exercises for Section 2.9
+Translate each of the following sentences into symbolic logic.
+1. If f is a polynomial and its degree is greater than 2, then f' is not constant.
+
+A f^n, n > 2, f' != C
+
+2. The number x is positive but the number y is not positive.
+
+3. (x > 0) ^ (y < 0)
