@@ -293,4 +293,28 @@ A f^n, n > 2, f' != C
 
 2. The number x is positive but the number y is not positive.
 
-3. (x > 0) ^ (y < 0)
+(x > 0) ^ (y < 0).
+
+3. If x is prime then sqrt(x) is not a rational number.
+
+let X = { 2, 3, 5, 7, ... } set of prime numbers
+
+A x in X, sqrt(x) not in Q. True?
+
+4. For every prime number p there is another prime number q with q > p.
+
+A p in X, E q in X, q > p. True
+
+5. For every positive number epsilon there is a positive number delta for which |x - a| < delta implies |f(x) - f(a)| < epsilon.
+
+A x in R, x > 0, E delta in R, |x - a| < delta => |f(x) - f(a)| < epsilon
+True
+
+6. For every positive number e there is a positive number M for which |f(x) - b| < e, whenever x > M. 
+
+A e in R, e > 0, E M > 0, |f(x) - b| < e, A x > M
+
+7. There exists a real number a for which a + x = x for every real number x. 
+
+E a in R, a + x = x, A x in R
+True? ( 1 ?)
