@@ -318,3 +318,10 @@ A e in R, e > 0, E M > 0, |f(x) - b| < e, A x > M
 
 E a in R, a + x = x, A x in R
 True? ( 1 ?)
+
+8. I don’t eat anything that has a face.
+let X = { creatures with face }
+let Y = { things I eat }
+X intersection Y = {}
+
+9. 
