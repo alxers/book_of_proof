@@ -324,4 +324,9 @@ let X = { creatures with face }
 let Y = { things I eat }
 X intersection Y = {}
 
-9. 
+A x in X, x not_in Y
+
+10. If sin(x) < 0, then it is not the case that 0 <= x <= pi.
+
+(sin(x) < 0) => ~(0 <= x <= pi)
+A sin(x) < 0, E x, pi >= x >= 0 
