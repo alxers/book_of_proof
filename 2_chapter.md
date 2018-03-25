@@ -330,3 +330,34 @@ A x in X, x not_in Y
 
 (sin(x) < 0) => ~(0 <= x <= pi)
 A sin(x) < 0, E x, pi >= x >= 0 
+
+
+Exercises for Section 2.10
+
+*DeMorgan’s laws*
+∼ ( P ∧ Q ) = ( ∼ P ) ∨ ( ∼ Q )
+∼ ( P ∨ Q ) = ( ∼ P ) ∧ ( ∼ Q )
+
+∼ ( ∀ x ∈ S, P ( x )) = ∃ x ∈ S, ∼ P ( x ),
+∼ ( ∃ x ∈ S, P ( x )) = ∀ x ∈ S, ∼ P ( x ).
+
+∼ ( P => Q ) = P ^ ∼Q
+
+Negate the following sentences.
+1. The number x is positive, but the number y is not positive.
+
+(x > 0) ^ (y < 0)
+
+~((x > 0) ^ (y < 0)) = ~(x > 0) v ~(y < 0)
+
+2. If x is prime, then sqrt(x) is not a rational number.
+
+let X = { 1, 2, 3, 5 ... } set of prime numbers
+
+(x in X) => (sqrt(x) not in Q)
+
+~((x in X) => (sqrt(x) not in Q)) = (x in X) ^ ~(sqrt(x) not in Q) 
+
+? (Is it correct to say (x in X) ^ (sqrt(x) in Q))
+
+3. For every prime number p, there is another prime number q with q > p.
