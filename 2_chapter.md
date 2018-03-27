@@ -334,6 +334,12 @@ A sin(x) < 0, E x, pi >= x >= 0
 
 Exercises for Section 2.10
 
+Example:
+∀ x ∈ R , ∃ y ∈ R , y 3 = x.
+∼ ( ∀ x ∈ R , ∃ y ∈ R , y 3 = x ) = ∃ x ∈ R , ∼ ( ∃ y ∈ R , y 3 = x )
+= ∃ x ∈ R , ∀ y ∈ R , ∼ ( y 3 = x )
+= ∃ x ∈ R , ∀ y ∈ R , y != x.
+
 *DeMorgan’s laws*
 ∼ ( P ∧ Q ) = ( ∼ P ) ∨ ( ∼ Q )
 ∼ ( P ∨ Q ) = ( ∼ P ) ∧ ( ∼ Q )
@@ -361,3 +367,9 @@ let X = { 1, 2, 3, 5 ... } set of prime numbers
 ? (Is it correct to say (x in X) ^ (sqrt(x) in Q))
 
 3. For every prime number p, there is another prime number q with q > p.
+
+X is a set of prime numbers
+
+(A p in X, E q in X, q > p)
+
+~(A p in X, E q in X, q > p) = E p in X, ~(E q in X, q > p) = E p in X, A q in X, ~(q > p) = E p in X, A q in X, q <= p
