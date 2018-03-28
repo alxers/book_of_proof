@@ -373,3 +373,8 @@ X is a set of prime numbers
 (A p in X, E q in X, q > p)
 
 ~(A p in X, E q in X, q > p) = E p in X, ~(E q in X, q > p) = E p in X, A q in X, ~(q > p) = E p in X, A q in X, q <= p
+
+4. A x in R, x > 0, E delta in R, |x - a| < delta => |f(x) - f(a)| < epsilon
+
+E x in R, x <=0, A delta in R, ~((|x - a| < delta) => (|f(x) - f(a)| < epsilon)) = 
+E x in R, x <=0, A delta in R, |x - a| < delta ^ ~(|f(x) - f(a)| < epsilon) = E x in R, x <=0, A delta in R, |x - a| < delta, |f(x) - f(a)| > epsilon
