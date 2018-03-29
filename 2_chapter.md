@@ -378,3 +378,8 @@ X is a set of prime numbers
 
 E x in R, x <=0, A delta in R, ~((|x - a| < delta) => (|f(x) - f(a)| < epsilon)) = 
 E x in R, x <=0, A delta in R, |x - a| < delta ^ ~(|f(x) - f(a)| < epsilon) = E x in R, x <=0, A delta in R, |x - a| < delta, |f(x) - f(a)| > epsilon
+
+5. A e in R, e > 0, E M > 0, |f(x) - b| < e, A x > M
+
+~(A e in R, e > 0, E M > 0, |f(x) - b| < e, A x > M)
+E e in R, e <= 0, ~(E M > 0, |f(x) - b| < e, A x > M)
