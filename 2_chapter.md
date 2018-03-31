@@ -385,3 +385,9 @@ E x in R, x <=0, A delta in R, |x - a| < delta ^ ~(|f(x) - f(a)| < epsilon) = E 
 E e in R, e <= 0, ~(E M > 0, |f(x) - b| < e, A x > M)
 
 E e in R, e <= 0, A M <= 0, |f(x) - b| > e, E x <= M
+
+6. There exists a real number a for which a + x = x for every real number x. 
+
+E a in R, a + x = x, A x in R
+
+~(E a in R, a + x = x, A x in R) = A a in R, a + x != x E x in R
