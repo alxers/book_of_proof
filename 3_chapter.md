@@ -22,3 +22,18 @@ Example 3.2 Consider making lists from symbols A, B, C, D, E, F, G
 (b) How many length-4 lists are possible if repetition is not allowed?
 (c) How many length-4 lists are possible if repetition is not allowed and list must contain an E?
 (d) How many length-4 lists are possible if repetition is allowed and list must contain an E?
+
+Solutions:
+(a) Image the list as containing four boxes filled with selections from letters A, B, C, D, E, F, G
+( _ , _ , _ , _ )
+  7   7   7   7  choices
+
+7^4 = 2401
+
+(b)
+( _ , _ , _ , _ )
+  7   6   5   4
+
+7 * 6 * 5 * 4 = 840
+
+(c)
