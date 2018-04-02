@@ -25,15 +25,31 @@ Example 3.2 Consider making lists from symbols A, B, C, D, E, F, G
 
 Solutions:
 (a) Image the list as containing four boxes filled with selections from letters A, B, C, D, E, F, G
+
 ( _ , _ , _ , _ )
   7   7   7   7  choices
 
 7^4 = 2401
 
 (b)
+
 ( _ , _ , _ , _ )
   7   6   5   4
 
 7 * 6 * 5 * 4 = 840
 
 (c)
+
+( _ , _ , _ , _ )
+  E   6   5   4
+
+( _ , _ , _ , _ )
+  6   E   5   4
+
+( _ , _ , _ , _ )
+  6   5   E   4
+
+( _ , _ , _ , _ )
+  6   5   4   E
+
+(6 * 5 * 4) * 4 = 480
