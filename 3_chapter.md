@@ -53,3 +53,24 @@ Solutions:
   6   5   4   E
 
 (6 * 5 * 4) * 4 = 480
+
+(d)
+
+Wrong method:
+
+( _ , _ , _ , _ )
+  E   7   7   7
+
+( _ , _ , _ , _ )
+  7   E   7   7
+
+( _ , _ , _ , _ )
+  7   7   E   7
+
+( _ , _ , _ , _ )
+  7   7   7   E
+
+7^3 * 4 = 1372
+
+This is not correct, because f.e. list (E, E, A, B) counted multiple times
+
