@@ -74,3 +74,8 @@ Wrong method:
 
 This is not correct, because f.e. list (E, E, A, B) counted multiple times
 
+The correct way to solve this problem is to count all possible lists (like in (a)), then subtract all lists which do not contain an E.
+
+1) All possible lists 7^4 = 2401
+2) All lists without E: 6^4 = 1296
+3) 2401 - 1296 = 1105
