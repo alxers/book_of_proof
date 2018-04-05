@@ -79,3 +79,13 @@ The correct way to solve this problem is to count all possible lists (like in (a
 1) All possible lists 7^4 = 2401
 2) All lists without E: 6^4 = 1296
 3) 2401 - 1296 = 1105
+
+Exercises for Section 3.1
+
+1. Consider lists made from the letters T,H,E,O,R,Y, with repetition allowed.
+(a) How many length-4 lists are there?
+(b) How many length-4 lists are there that begin with T ?
+(c) How many length-4 lists are there that do not begin with T ?
+
+(a) 6^4 = 1296
+(b) 
