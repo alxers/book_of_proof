@@ -88,4 +88,5 @@ Exercises for Section 3.1
 (c) How many length-4 lists are there that do not begin with T ?
 
 (a) 6^4 = 1296
-(b) 
+(b) 6^3 = 216 (?) check answer
+(c) 1296 - 216 = 1080
