@@ -90,3 +90,28 @@ Exercises for Section 3.1
 (a) 6^4 = 1296
 (b) 6^3 = 216 (?) check answer
 (c) 1296 - 216 = 1080
+
+2. Airports are identified with 3-letter codes. For example, the Richmond, Virginia airport has the code RIC, and Portland, Oregon has PDX. How many different
+3-letter codes are possible?
+
+( _ , _ , _ ) with repetition
+  26  26  26
+
+( _ , _ , _ ) without repetition
+ 26  25  24
+
+
+ 3. How many lists of length 3 can be made from the symbols A,B,C,D,E,F if
+
+(a) repetition is allowed.
+(b) repetition is not allowed.
+(c)
+(d)
+...
+...
+...
+...
+
+
+repetition is not allowed and the list must contain the letter A.
+repetition is allowed and the list must contain the letter A.
