@@ -105,13 +105,12 @@ Exercises for Section 3.1
 
 (a) repetition is allowed.
 (b) repetition is not allowed.
-(c)
-(d)
-...
-...
-...
-...
+(c) repetition is not allowed and the list must contain the letter A
+(d) repetition is allowed and the list must contain the letter A
 
+(a) ( _ , _ , _ )
+      6   6   6
 
-repetition is not allowed and the list must contain the letter A.
-repetition is allowed and the list must contain the letter A.
+6^3
+
+(b) 
