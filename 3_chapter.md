@@ -108,9 +108,31 @@ Exercises for Section 3.1
 (c) repetition is not allowed and the list must contain the letter A
 (d) repetition is allowed and the list must contain the letter A
 
-(a) ( _ , _ , _ )
-      6   6   6
+(a) 
+( _ , _ , _ )
+  6   6   6
 
 6^3
 
-(b) 
+(b)
+( _ , _ , _ )
+  6   5   4
+
+6 * 5 * 4
+
+(c)
+( _ , _ , _ )
+  A   5   4
+( _ , _ , _ )
+  5   A   4
+( _ , _ , _ )
+  5   4   A
+
+5 * 4 * 3
+
+(d)
+
+All lists with rep. allowed = 6^3
+Lists that do not contain 'A' = 5^3
+
+6^3 - 5^3 = 91
