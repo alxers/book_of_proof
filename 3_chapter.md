@@ -136,3 +136,19 @@ All lists with rep. allowed = 6^3
 Lists that do not contain 'A' = 5^3
 
 6^3 - 5^3 = 91
+
+
+4. Five cards are dealt off of a standard 52-card deck and lined up in a row. How
+many such line-ups are there in which all 5 cards are of the same suit?
+
+( _ , _ , _ , _ , _ )
+  52  51  50  49  48
+
+52 * 51 * 50 * 49 * 48 = all possible without rep.
+
+there are 13 cards of the same suit
+
+( _ , _ , _ , _ , _ )
+  13  12  11  10  9
+
+13 * 12 * 11 * 10 * 9 = 154440 ?
