@@ -152,3 +152,12 @@ there are 13 cards of the same suit
   13  12  11  10  9
 
 13 * 12 * 11 * 10 * 9 = 154440 ?
+
+5. Five cards are dealt off of a standard 52-card deck and lined up in a row. How
+many such line-ups are there in which all 5 cards are of the same color (i.e.,
+all black or all red)?
+
+There are 26 black and 26 red cards
+
+( _ , _ , _ , _ , _ )
+  26  25  24  23  22
