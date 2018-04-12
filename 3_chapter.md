@@ -161,3 +161,12 @@ There are 26 black and 26 red cards
 
 ( _ , _ , _ , _ , _ )
   26  25  24  23  22
+
+6. Five cards are dealt off of a standard 52-card deck and lined up in a row. How many such line-ups are there in which exactly one of the 5 cards is a queen?
+
+There are 4 queens in a deck
+
+( _ , _ , _ , _ , _ )
+  Q   48  47  46  45
+
+(48 * 47 * 46 * 45) * 4 = 18_679_680
