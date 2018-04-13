@@ -170,3 +170,32 @@ There are 4 queens in a deck
   Q   48  47  46  45
 
 (48 * 47 * 46 * 45) * 4 = 18_679_680
+
+
+7. This problem involves 8-digit binary strings such as 10011011 or 00001010
+(i.e., 8-digit numbers composed of 0’s and 1’s).
+(a) How many such strings are there?
+(b) How many such strings end in 0?
+(c) How many such strings have the property that their second and fourth digits are 1’s?
+(d) How many such strings have the property that their second or fourth digits are 1’s?
+
+(a)
+
+( _ , _ , _ , _ , _ , _ , _ , _ )
+  2   2   2   2   2   2   2   2 
+
+2^8 = 256
+
+(b)
+
+2^7 = 128
+
+(c)
+
+( _ , _ , _ , _ , _ , _ , _ , _ )
+  2   1   2   1   2   2   2   2
+
+2^6 = 64
+
+(d)
+
