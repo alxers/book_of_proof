@@ -204,3 +204,17 @@ There are 4 queens in a deck
 8. This problem concerns lists made from the symbols A,B,C,D,E.
 (a) How many such length-5 lists have at least one letter repeated?
 (b) How many such length-6 lists have at least one letter repeated?
+
+(a)
+
+( _ , _ , _ , _ , _ )
+  5   5   5   5   1
+
+5^4 = 625
+
+(b)
+
+( _ , _ , _ , _ , _ , _ )
+  5   5   5   5   5   1
+
+5^5 = 3125
