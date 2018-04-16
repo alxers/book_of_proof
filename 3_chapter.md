@@ -218,3 +218,38 @@ There are 4 queens in a deck
   5   5   5   5   5   1
 
 5^5 = 3125
+
+9. This problem concerns 4-letter codes made from the letters A,B,C,D,...,Z.
+(a) How many such codes can be made?
+(b) How many such codes have no two consecutive letters the same?
+
+(a)
+
+( _ , _ , _ , _ )
+  26  26  26  26
+
+26^4 = 456976
+
+(b)
+
+Either:
+
+( _ , _ , _ , _ )
+  1  26  26  26
+
+or
+
+( _ , _ , _ , _ )
+  26  1  26  26
+
+or
+
+( _ , _ , _ , _ )
+  26  26  1  26
+
+or 
+
+( _ , _ , _ , _ )
+  26  26  26  1
+
+26^3 * 4 = 70304
