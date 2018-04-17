@@ -205,7 +205,7 @@ There are 4 queens in a deck
 (a) How many such length-5 lists have at least one letter repeated?
 (b) How many such length-6 lists have at least one letter repeated?
 
-(a)
+<!-- (a)
 
 ( _ , _ , _ , _ , _ )
   5   5   5   5   1
@@ -217,7 +217,9 @@ There are 4 queens in a deck
 ( _ , _ , _ , _ , _ , _ )
   5   5   5   5   5   1
 
-5^5 = 3125
+5^5 = 3125 -->
+
+not correct?
 
 9. This problem concerns 4-letter codes made from the letters A,B,C,D,...,Z.
 (a) How many such codes can be made?
@@ -253,3 +255,32 @@ or
   26  26  26  1
 
 26^3 * 4 = 70304
+
+
+10. This problem concerns lists made from the letters A,B,C,D,E,F,G,H,I,J.
+(a) How many length-5 lists can be made from these letters if repetition is not allowed and the list must begin with a vowel?
+(b) How many length-5 lists can be made from these letters if repetition is not allowed and the list must begin and end with a vowel?
+(c) How many length-5 lists can be made from these letters if repetition is not allowed and the list must contain exactly one A?
+
+vowels A, E, I = 3
+consonants B, C, D, F, G, H, J = 7
+
+(a)
+
+( _ , _ , _ , _ , _ )
+  3   9   8   7   6    (2+7=9)
+
+(b)
+
+( _ , _ , _ , _ , _ )
+  3   8   7   6   2
+
+(c)
+
+( _ , _ , _ , _ , _ )
+  1   9   8   7   6
+
+
+11. This problem concerns lists of length 6 made from the letters A,B,C,D,E,F,G,H.
+How many such lists are possible if repetition is not allowed and the list contains two consecutive vowels?
+
