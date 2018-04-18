@@ -284,3 +284,11 @@ consonants B, C, D, F, G, H, J = 7
 11. This problem concerns lists of length 6 made from the letters A,B,C,D,E,F,G,H.
 How many such lists are possible if repetition is not allowed and the list contains two consecutive vowels?
 
+( _ , _ , _ , _ , _ , _ )
+  V   V
+
+?
+
+
+12. Consider the lists of length six made with the symbols P, R, O, F, S, where repetition is allowed. (For example, the following is such a list: (P,R,O,O,F,S).)
+How many such lists can be made if the list must end in an S and the symbol O is used more than once?
