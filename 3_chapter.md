@@ -80,6 +80,19 @@ The correct way to solve this problem is to count all possible lists (like in (a
 2) All lists without E: 6^4 = 1296
 3) 2401 - 1296 = 1105
 
+Example 3.3 This problem involves making lists of length seven from the symbols 0, 1, 2, 3, 4, 5 and 6.
+(a) How many such lists are there if repetition is not allowed?
+(b) How many such lists are there if repetition is not allowed and the
+first three entries must be odd?
+(c) How many such lists are there in which repetition is allowed, and the list must contain at least one repeated number?
+
+Solutions:
+(a) 7! = 5040
+(b) Set { 0, 1, 2, 3, 4, 5, 6 } contains three odd and four even numbers. First three 3! * other even 4!
+3! * 4! = 144
+(c) There are 7^7 = 823543 lists where repetition is allowed. And 7! = 5040 where repetition is not allowed.
+7^7 - 7! = 818503 lists with at least one repetition (or more).
+
 Exercises for Section 3.1
 
 1. Consider lists made from the letters T,H,E,O,R,Y, with repetition allowed.
