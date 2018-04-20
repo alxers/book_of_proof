@@ -234,6 +234,17 @@ There are 4 queens in a deck
 
 not correct?
 
+(a)
+
+5^5 the amount of lists with repetition allowed
+5! the amount of lists with no repetition
+
+5^5 - 5! = 3005 with at least one letter repeated
+
+(b)
+
+6^6 - 6! = 45936
+
 9. This problem concerns 4-letter codes made from the letters A,B,C,D,...,Z.
 (a) How many such codes can be made?
 (b) How many such codes have no two consecutive letters the same?
