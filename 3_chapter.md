@@ -336,3 +336,16 @@ consonants B, C, D, F, G, H = 6
 
 12. Consider the lists of length six made with the symbols P, R, O, F, S, where repetition is allowed. (For example, the following is such a list: (P,R,O,O,F,S).)
 How many such lists can be made if the list must end in an S and the symbol O is used more than once?
+
+
+Exercises for Section 3.2
+1. What is the smallest n for which n ! has more than 10 digits?
+
+3. How many 5-digit positive integers are there in which there are no repeated digits and all digits are odd?
+
+odd digits - 1 3 5 7 9
+_ _ _ _ _
+5 4 3 2 1
+
+5! = 120
+
