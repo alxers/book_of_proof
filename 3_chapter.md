@@ -339,7 +339,10 @@ How many such lists can be made if the list must end in an S and the symbol O is
 
 
 Exercises for Section 3.2
-1. What is the smallest n for which n ! has more than 10 digits?
+1. What is the smallest n for which n! has more than 10 digits?
+
+2. For which values of n does n! have n or fewer digits?
+1! = 1
 
 3. How many 5-digit positive integers are there in which there are no repeated digits and all digits are odd?
 
