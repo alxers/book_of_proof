@@ -352,3 +352,8 @@ _ _ _ _ _
 
 5! = 120
 
+6. There are two 0 ’s at the end of 10! = 3, 628, 800 . Using only pencil and paper,
+determine how many 0 ’s are at the end of the number 100! .
+
+7. Compute how many 9-digit numbers can be made from the digits 1, 2, 3, 4, 5, 6, 7, 8, 9
+if repetition is not allowed and all the odd digits occur first (on the
