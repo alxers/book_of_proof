@@ -341,6 +341,8 @@ How many such lists can be made if the list must end in an S and the symbol O is
 Exercises for Section 3.2
 1. What is the smallest n for which n! has more than 10 digits?
 
+13
+
 2. For which values of n does n! have n or fewer digits?
 1! = 1
 
@@ -356,4 +358,9 @@ _ _ _ _ _
 determine how many 0 ’s are at the end of the number 100! .
 
 7. Compute how many 9-digit numbers can be made from the digits 1, 2, 3, 4, 5, 6, 7, 8, 9
-if repetition is not allowed and all the odd digits occur first (on the
+if repetition is not allowed and all the odd digits occur first (on the left) followed by all the even digits (i.e. as in 137598264 , but not 123456789 ).
+
+
+Exercises for Section 3.3
+1. Suppose a set A has 37 elements. How many subsets of A have 10 elements?
+How many subsets have 30 elements? How many have 0 elements?
