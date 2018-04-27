@@ -364,3 +364,16 @@ if repetition is not allowed and all the odd digits occur first (on the left) fo
 Exercises for Section 3.3
 1. Suppose a set A has 37 elements. How many subsets of A have 10 elements?
 How many subsets have 30 elements? How many have 0 elements?
+
+n = 37
+k = 10
+
+37! / (10! (37-10)!) = 37! / ( 10! 27! ) = 348 330 136
+
+
+2. Suppose A is a set for which |A| = 100. How many subsets of A have 5 elements?
+How many subsets have 10 elements? How many have 99 elements?
+
+100! / (5! * 95!) = 75287520
+100! / (10! * 90!) = 17310309456440
+100! / (99! * 1!) = 100
