@@ -369,7 +369,8 @@ n = 37
 k = 10
 
 37! / (10! (37-10)!) = 37! / ( 10! 27! ) = 348 330 136
-
+37! / (30! (37-30)!) = 37! / (30! 7!) = 10295472
+37! / (0! (37-0)!) = 37! / 37! = 1
 
 2. Suppose A is a set for which |A| = 100. How many subsets of A have 5 elements?
 How many subsets have 10 elements? How many have 99 elements?
@@ -377,3 +378,23 @@ How many subsets have 10 elements? How many have 99 elements?
 100! / (5! * 95!) = 75287520
 100! / (10! * 90!) = 17310309456440
 100! / (99! * 1!) = 100
+
+3. A set X has exactly 56 subsets with 3 elements. What is the cardinality of X ?
+
+|X| = a
+a! / (3! (a - 3)!) = 56
+
+6(a-3)! * 56 = a!
+336(a-3)! = a!
+336 = a!/(a-3)!
+
+a! = a(a-1)!
+(a-1)! = (a-1)(a-2)!
+(a-2)! = (a-2)(a-3)!
+
+a! = a(a-1)(a-2)(a-3)!
+
+336 = a(a-1)(a-2)(a-3)! / (a-3)!
+336 = a(a-1)(a-2)
+
+a = 8
