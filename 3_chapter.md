@@ -398,3 +398,7 @@ a! = a(a-1)(a-2)(a-3)!
 336 = a(a-1)(a-2)
 
 a = 8
+
+4. Suppose a set B has the property that |{X : X in P(B), |X| = 6 }| = 28. Find |B|.
+
+5. How many 16-digit binary strings contain exactly seven 1’s? (Examples of such strings include 0111000011110000 and 0011001100110010 , etc.)
