@@ -402,3 +402,17 @@ a = 8
 4. Suppose a set B has the property that |{X : X in P(B), |X| = 6 }| = 28. Find |B|.
 
 5. How many 16-digit binary strings contain exactly seven 1’s? (Examples of such strings include 0111000011110000 and 0011001100110010 , etc.)
+
+n = 16
+k = 7
+
+16! / (7! (16-7)!) = 11 440
+
+6. |{ X in P({0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }): |X| = 4 }| =
+
+How many subsets of length 4 can be made of set of length 10
+
+n = 10
+k = 4
+
+10! / (4! * (10-4)!) = 210
