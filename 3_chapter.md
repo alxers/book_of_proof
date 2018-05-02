@@ -416,3 +416,10 @@ n = 10
 k = 4
 
 10! / (4! * (10-4)!) = 210
+
+7. |{ X in P({0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }): |X| < 4 }| =
+
+8. This problem concerns lists made from the symbols A,B,C,D,E,F,G,H,I.
+
+(a) How many length- 5 lists can be made if repetition is not allowed and the slist is in alphabetical order? (Example: BDEFI or ABCGH, but not BACGH.)
+(b) How many length- 5 lists can be made if repetition is not allowed and the list is not in alphabetical order?
