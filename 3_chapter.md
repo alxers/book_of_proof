@@ -422,6 +422,8 @@ k = 4
 
 7. |{ X in P({0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }): |X| < 4 }| =
 
+Count X sets < 4, so they contain 0, 1, 2, 3 elements
+
 8. This problem concerns lists made from the symbols A,B,C,D,E,F,G,H,I.
 
 (a) How many length- 5 lists can be made if repetition is not allowed and the slist is in alphabetical order? (Example: BDEFI or ABCGH, but not BACGH.)
