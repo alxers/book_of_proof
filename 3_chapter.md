@@ -422,9 +422,21 @@ k = 4
 
 7. |{ X in P({0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }): |X| < 4 }| =
 
-Count X sets < 4, so they contain 0, 1, 2, 3 elements
+Count X sets < 4, so they contain 0, 1, 2, 3 elements.
+How many subsets of length 3 + how many subsets of length 2 + how many subsets of length 1 + 1 (for one empty subset)
+
+10! / (3! * (10-3)!) +
+10! / (2! * (10-2)!) +
+10! / (1! * (10-1)!) + 1 = 176
 
 8. This problem concerns lists made from the symbols A,B,C,D,E,F,G,H,I.
 
-(a) How many length- 5 lists can be made if repetition is not allowed and the slist is in alphabetical order? (Example: BDEFI or ABCGH, but not BACGH.)
+(a) How many length- 5 lists can be made if repetition is not allowed and the list is in alphabetical order? (Example: BDEFI or ABCGH, but not BACGH.)
 (b) How many length- 5 lists can be made if repetition is not allowed and the list is not in alphabetical order?
+
+(a) Total amount of 5 length lists made from A,B,C,D,E,F,G,H,I
+
+_ , _ , _ , _ , _
+9   8   7   6   5
+
+9 * 8 * 7 * 6 * 5 = 15120
