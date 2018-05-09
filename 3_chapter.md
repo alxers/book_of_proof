@@ -442,3 +442,9 @@ _ , _ , _ , _ , _
 9 * 8 * 7 * 6 * 5 = 15120
 
 9!/(5!(9-5)!) = 126 ?
+
+
+9. This problem concerns lists of length 6 made from the letters A,B,C,D,E,F, without repetition. How many such lists have the property that the D occurs before the A?
+
+Total amount
+6 * 5 * 4 * 3 * 2 * 1 = 720
