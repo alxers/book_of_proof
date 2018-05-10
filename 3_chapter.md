@@ -443,7 +443,14 @@ _ , _ , _ , _ , _
 
 9!/(5!(9-5)!) = 126 ?
 
+
 (b) if (a) is correct, then 15120 - 126 = 14994
+
+9. This problem concerns lists of length 6 made from the letters A,B,C,D,E,F, without repetition. How many such lists have the property that the D occurs before the A?
+
+Total amount
+6 * 5 * 4 * 3 * 2 * 1 = 720
+
 
 10. A department consists of 5 men and 7 women. From this department you select
 a committee with 3 men and 2 women. In how many ways can you do this?
