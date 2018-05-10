@@ -444,3 +444,6 @@ _ , _ , _ , _ , _
 9!/(5!(9-5)!) = 126 ?
 
 (b) if (a) is correct, then 15120 - 126 = 14994
+
+10. A department consists of 5 men and 7 women. From this department you select
+a committee with 3 men and 2 women. In how many ways can you do this?
