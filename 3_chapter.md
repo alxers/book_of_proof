@@ -451,6 +451,12 @@ _ , _ , _ , _ , _
 Total amount
 6 * 5 * 4 * 3 * 2 * 1 = 720
 
+{D, A} _ _ _ _
+_ {D, A} _ _ _
+_ _ {D, A} _ _
+_ _ _ {D, A} _
+_ _ _ _ {D, A}
+
 
 10. A department consists of 5 men and 7 women. From this department you select
 a committee with 3 men and 2 women. In how many ways can you do this?
