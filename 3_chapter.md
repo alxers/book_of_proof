@@ -448,14 +448,22 @@ _ , _ , _ , _ , _
 
 9. This problem concerns lists of length 6 made from the letters A,B,C,D,E,F, without repetition. How many such lists have the property that the D occurs before the A?
 
-Total amount
-6 * 5 * 4 * 3 * 2 * 1 = 720
+D_ _ _ _ _
+ 5 4 3 2 1 = 4! * 5
 
-{D, A} _ _ _ _
-_ {D, A} _ _ _
-_ _ {D, A} _ _
-_ _ _ {D, A} _
-_ _ _ _ {D, A}
+_ D _ _ _ _
+4   4 3 2 1 = 4! * 4
+
+_ _ D _ _ _
+4 3   3 2 1 = 4! * 3
+
+_ _ _ D _ _
+4 3 2   2 1 = 4! * 2
+
+_ _ _ _ D _
+4 3 2 1   1 = 4! * 1
+
+4!(5+4+3+2+1) = 360
 
 
 10. A department consists of 5 men and 7 women. From this department you select
