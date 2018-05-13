@@ -468,3 +468,7 @@ _ _ _ _ D _
 
 10. A department consists of 5 men and 7 women. From this department you select
 a committee with 3 men and 2 women. In how many ways can you do this?
+
+5   7
+  +    = (5!/(3!2!)) + (7!/(2!5!)) = 31
+3   2
