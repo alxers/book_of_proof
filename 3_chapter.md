@@ -472,3 +472,10 @@ a committee with 3 men and 2 women. In how many ways can you do this?
 5   7
   +    = (5!/(3!2!)) + (7!/(2!5!)) = 31
 3   2
+
+
+11. How many positive 10-digit integers contain no 0's and exactly three 6's?
+
+The amount of 6's in 10-digit integer 10!/(3!7!)
+Multiplied by 8^7
+
