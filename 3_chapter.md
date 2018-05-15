@@ -479,3 +479,13 @@ a committee with 3 men and 2 women. In how many ways can you do this?
 The amount of 6's in 10-digit integer 10!/(3!7!)
 Multiplied by 8^7
 
+
+Examples from chapter 3.3
+
+Example 3.4
+
+How many 4-element subsets does { 1, 2, 3, 4, 5, 6, 7, 8, 9 } have?
+The answer is (9 4) = 9!/(4! * (9-4)!) = 126
+
+Example 3.5 A single 5-card hand is dealt off of a standard 52-card deck.
+How many different 5-card hands are possible?
