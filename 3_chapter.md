@@ -489,3 +489,6 @@ The answer is (9 4) = 9!/(4! * (9-4)!) = 126
 
 Example 3.5 A single 5-card hand is dealt off of a standard 52-card deck.
 How many different 5-card hands are possible?
+To answer this, think of the deck as being a set D of 52 cards. Then a
+5-card hand is just a 5-element subset of D.
+52!/(5! * (52-5)!) = 2, 598, 960
