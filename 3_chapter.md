@@ -491,4 +491,18 @@ Example 3.5 A single 5-card hand is dealt off of a standard 52-card deck.
 How many different 5-card hands are possible?
 To answer this, think of the deck as being a set D of 52 cards. Then a
 5-card hand is just a 5-element subset of D.
-52!/(5! * (52-5)!) = 2, 598, 960
+52!/(5! * (52-5)!) = 2 598 960
+
+Example 3.6 This problem concerns 5-card hands that can be dealt off of a 52-card deck. How many such hands are there in which two of the cards are clubs and three are hearts?
+
+Solution: Think of such a hand as being described by a list of length
+two of the form:
+c - clubs
+h - hearts
+_ _  _ _ _
+c c  h h h
+
+where the first entry is a 2-element subset of the set of 13 club cards, and
+the second entry is a 3-element subset of the set of 13 heart cards. There are
+13!/(2! * 11!) choices for the first entry and 13!/(3! * 10!) for the second, so
+by the multiplication principle there are 13!/(2! * 11!) * 13!/(3! * 10!) = 22 308
