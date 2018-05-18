@@ -506,3 +506,12 @@ where the first entry is a 2-element subset of the set of 13 club cards, and
 the second entry is a 3-element subset of the set of 13 heart cards. There are
 13!/(2! * 11!) choices for the first entry and 13!/(3! * 10!) for the second, so
 by the multiplication principle there are 13!/(2! * 11!) * 13!/(3! * 10!) = 22 308
+
+
+Exercises for Section 3.4
+
+1. Write out Row 11 of Pascal’s triangle.
+8th row      1 7 21 35 35 21 7 1
+9th row     1 8 28 56 70 56 28 8 1
+10th row   1 9 36 84 126 126 84 36 9 1
+11th row 1 10 45 120 210 252 210 120 45 10 1
