@@ -515,3 +515,5 @@ Exercises for Section 3.4
 9th row     1 8 28 56 70 56 28 8 1
 10th row   1 9 36 84 126 126 84 36 9 1
 11th row 1 10 45 120 210 252 210 120 45 10 1
+
+2. Use the binomial theorem to find the coefficient of x^8 y^5 in (x+y)^13
