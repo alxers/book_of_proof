@@ -511,15 +511,21 @@ by the multiplication principle there are 13!/(2! * 11!) * 13!/(3! * 10!) = 22 3
 Exercises for Section 3.4
 
 1. Write out Row 11 of Pascal’s triangle.
+1th row - 0th power
+2nd row - 1st power
+
 8th row              1 7 21 35 35 21 7 1
 9th row             1 8 28 56 70 56 28 8 1
 10th row           1 9 36 84 126 126 84 36 9 1
 11th row         1 10 45 120 210 252 210 120 45 10 1
 12th row       1 11 55 165 330 462 462 330 165 55 11 1
 13th row     1 12 66 220 495 792 924 792 495 220 66 12 1
+14th row   1 13 78 286 715 1287 1716 1716 1287 715 286 78 13 1
 
 2. Use the binomial theorem to find the coefficient of x^8 y^5 in (x+y)^13
-13th row  1x^(13) 12x^(12)y 66x^(11)y^(2) 220x^(10)y^(3) 495x^(9)y^(4) 792x^(8)y^(5)
-The coefficient is 792
+14th row 1x^(13) 13x()12y 78x(11)y^(2) 286x^(10)y^(3) 715x^(9)y^(4) 1287x^(8)y^(5) 1716 1716 1287 715 286 78 13 1
+The coefficient is 1287
 
 3. Use the binomial theorem to find the coefficient of x^8 in (x+2)^13
+1287x^(8)2^(5)
+The coefficient is 41184
