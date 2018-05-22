@@ -529,3 +529,5 @@ The coefficient is 1287
 3. Use the binomial theorem to find the coefficient of x^8 in (x+2)^13
 1287x^(8)2^(5)
 The coefficient is 41184
+
+4. Use the binomial theorem to find the coefficient of x^6 y^3 in (3x-2y)^9
