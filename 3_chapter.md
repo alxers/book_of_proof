@@ -531,3 +531,5 @@ The coefficient is 1287
 The coefficient is 41184
 
 4. Use the binomial theorem to find the coefficient of x^6 y^3 in (3x-2y)^9
+
+5. Use the binomial theorem to show Sigma from k=0 to n (n choose k) = 2^n
