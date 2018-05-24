@@ -523,7 +523,7 @@ Exercises for Section 3.4
 14th row   1 13 78 286 715 1287 1716 1716 1287 715 286 78 13 1
 
 2. Use the binomial theorem to find the coefficient of x^8 y^5 in (x+y)^13
-14th row 1x^(13) 13x()12y 78x(11)y^(2) 286x^(10)y^(3) 715x^(9)y^(4) 1287x^(8)y^(5) 1716 1716 1287 715 286 78 13 1
+14th row 1x^(13) 13x(12)y 78x(11)y^(2) 286x^(10)y^(3) 715x^(9)y^(4) 1287x^(8)y^(5) 1716 1716 1287 715 286 78 13 1
 The coefficient is 1287
 
 3. Use the binomial theorem to find the coefficient of x^8 in (x+2)^13
@@ -531,5 +531,9 @@ The coefficient is 1287
 The coefficient is 41184
 
 4. Use the binomial theorem to find the coefficient of x^6 y^3 in (3x-2y)^9
+ 1x^(9) 9x^(8)y 36x^(7)y^(2) 84x^(6)y^(3) 126 126 84 36 9 1
+ 
+ 84(3x)^(6)(2y)^(3)
+ -489888 
 
 5. Use the binomial theorem to show Sigma from k=0 to n (n choose k) = 2^n
