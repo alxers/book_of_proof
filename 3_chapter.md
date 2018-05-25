@@ -537,3 +537,5 @@ The coefficient is 41184
  -489888 
 
 5. Use the binomial theorem to show Sigma from k=0 to n (n choose k) = 2^n
+
+6. Use Definition 3.2 (page 74) and Fact 1.3 (page 12) to show Sigma from k=0 to n (n choose k) = 2^n
