@@ -537,5 +537,8 @@ The coefficient is 41184
  -489888 
 
 5. Use the binomial theorem to show Sigma from k=0 to n (n choose k) = 2^n
+(k=0, n=0) = 2^0 = 1
+(k=0, n=1) + (k=1, n=1) = 2^1 = 2
+(k=0, n=2) + (k=2, n=1) + (k=2, n=2) = 2^2 = 4
 
 6. Use Definition 3.2 (page 74) and Fact 1.3 (page 12) to show Sigma from k=0 to n (n choose k) = 2^n
