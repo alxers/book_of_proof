@@ -542,3 +542,7 @@ The coefficient is 41184
 (k=0, n=2) + (k=2, n=1) + (k=2, n=2) = 2^2 = 4
 
 6. Use Definition 3.2 (page 74) and Fact 1.3 (page 12) to show Sigma from k=0 to n (n choose k) = 2^n
+
+Definition 3.2 If n and k are integers, then (n choose k) denotes the number of subsets that can be made by choosing k elements from a set with n elements.
+
+Fact 1.3 If a finite set has n elements, then it has 2^n subsets.
