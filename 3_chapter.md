@@ -546,3 +546,7 @@ The coefficient is 41184
 Definition 3.2 If n and k are integers, then (n choose k) denotes the number of subsets that can be made by choosing k elements from a set with n elements.
 
 Fact 1.3 If a finite set has n elements, then it has 2^n subsets.
+
+If n and k are integers, then Sigma from k=0 to n is a finite set, then by fact 1.3 it has 2^n subsets (wrong)
+* infinite number of integers, set if infinite integers can't be finite?
+
