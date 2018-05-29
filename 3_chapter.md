@@ -550,3 +550,7 @@ Fact 1.3 If a finite set has n elements, then it has 2^n subsets.
 If n and k are integers, then Sigma from k=0 to n is a finite set, then by fact 1.3 it has 2^n subsets (wrong)
 * infinite number of integers, set if infinite integers can't be finite?
 
+
+3.5 Inclusion-Exclusion
+
+|A union B| = |A| + |B| - |A intersection B|
