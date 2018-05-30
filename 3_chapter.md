@@ -554,3 +554,9 @@ If n and k are integers, then Sigma from k=0 to n is a finite set, then by fact 
 3.5 Inclusion-Exclusion
 
 |A union B| = |A| + |B| - |A intersection B|
+
+Example 3.8 A 3-card hand is dealt off of a standard 52-card deck. How
+many different such hands are there for which all 3 cards are red or all
+three cards are face cards?
+
+
