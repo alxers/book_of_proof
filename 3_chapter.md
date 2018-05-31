@@ -559,4 +559,9 @@ Example 3.8 A 3-card hand is dealt off of a standard 52-card deck. How
 many different such hands are there for which all 3 cards are red or all
 three cards are face cards?
 
-
+Solution: Let A be a set of 3 card hands where all cards are red { {red, red, red }, ... }. Let B be a set of 3 card hands where all cards are face cards.
+We need to get a number of 3 card hands that are all red OR all face and this number is |A union B|.
+Any hand in A formed by selecting three cards from 26 red cards in the deck. So |A| = (26 choose 3). |B| = (12 choose 3).
+(A intersection B) contains all red face 3-card hands.
+The deck only has 6 red face cards, so |A intersection B| = (6 choose 3).
+So the answer is |A union B| = |A| + |B| - |A intersection B| = (26 choose 3) + (12 choose 3) - (6 choose 3)
