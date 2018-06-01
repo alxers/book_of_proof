@@ -565,3 +565,6 @@ Any hand in A formed by selecting three cards from 26 red cards in the deck. So 
 (A intersection B) contains all red face 3-card hands.
 The deck only has 6 red face cards, so |A intersection B| = (6 choose 3).
 So the answer is |A union B| = |A| + |B| - |A intersection B| = (26 choose 3) + (12 choose 3) - (6 choose 3)
+
+Fact 3.4 Additional principle
+If A1, A2, ... An are sets with Ai intersection Aj = empty_set whenever i != j, then |A1 union A2 union ... An| = |A1| + |A2| + ... + |An|
