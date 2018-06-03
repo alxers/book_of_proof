@@ -570,3 +570,4 @@ Fact 3.4 Additional principle
 If A1, A2, ... An are sets with Ai intersection Aj = empty_set whenever i != j, then |A1 union A2 union ... An| = |A1| + |A2| + ... + |An|
 
 Example 3.9 How many 7-digit binary strings (0010100, 1101011, etc.) have an odd number of 1's?
+
