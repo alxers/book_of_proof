@@ -571,3 +571,6 @@ If A1, A2, ... An are sets with Ai intersection Aj = empty_set whenever i != j, 
 
 Example 3.9 How many 7-digit binary strings (0010100, 1101011, etc.) have an odd number of 1's?
 
+Let A be a set of all 7-digit binary strings with an odd number of 1's. Then |A| is the answer.
+Any string in A will have either 1, 3, 5 or 7 1's.
+Then A = A_1 union A_3 union A_5 union A_7
