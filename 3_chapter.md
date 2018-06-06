@@ -573,8 +573,8 @@ Example 3.9 How many 7-digit binary strings (0010100, 1101011, etc.) have an odd
 
 Let A be a set of all 7-digit binary strings with an odd number of 1's. Then |A| is the answer.
 Any string in A will have either 1, 3, 5 or 7 1's.
-Then |A| = |A_1| union |A_3| union |A_5| union |A_7|
+Then |A| = |A_1| union |A_3| union |A_5| union |A_7|. Fact 3.4 gives that |A| = |A_1| + |A_3| + |A_5| + |A_7|
 
-A_3 is a set of 7-digit binary strings with three 1's. There are (7 choose 3) such sets (|A_3| = (7 choose 3).
+A_3 is a set of 7-digit binary strings with three 1's. There are (7 choose 3) such sets (|A_3| = (7 choose 3)).
 
-Then 
+Then |A| = 
