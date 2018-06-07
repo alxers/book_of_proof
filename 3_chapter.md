@@ -577,4 +577,4 @@ Then |A| = |A_1| union |A_3| union |A_5| union |A_7|. Fact 3.4 gives that |A| = 
 
 A_3 is a set of 7-digit binary strings with three 1's. There are (7 choose 3) such sets (|A_3| = (7 choose 3)).
 
-Then |A| = 
+Then |A| = (7 choose 1) + (7 choose 3) + (7 choose 5) + (7 choose 7)
