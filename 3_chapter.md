@@ -578,3 +578,12 @@ Then |A| = |A_1| union |A_3| union |A_5| union |A_7|. Fact 3.4 gives that |A| = 
 A_3 is a set of 7-digit binary strings with three 1's. There are (7 choose 3) such sets (|A_3| = (7 choose 3)).
 
 Then |A| = (7 choose 1) + (7 choose 3) + (7 choose 5) + (7 choose 7)
+
+
+Exercises for Section 3.5
+
+1. At a certain university 523 of the seniors are history majors or math majors (or both). There are 100 senior math majors, and 33 seniors are majoring in both history and math. How many seniors are majoring in history?
+
+|A union B| = |A| + |B| - |A intersection B|
+
+Let A be math major, B - history majors
