@@ -586,4 +586,5 @@ Exercises for Section 3.5
 
 |A union B| = |A| + |B| - |A intersection B|
 
-Let A be math major, B - history majors
+Let A be math major, B - history majors. Then |B| = |A union B| - |A| + |A intersection B|
+|B| = 523 - 100 + 33 (should be 523-100-33 ?)
