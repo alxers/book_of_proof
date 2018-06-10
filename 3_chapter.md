@@ -588,3 +588,6 @@ Exercises for Section 3.5
 
 Let A be math major, B - history majors. Then |B| = |A union B| - |A| + |A intersection B|
 |B| = 523 - 100 + 33 (should be 523-100-33 ?)
+
+2. How many 4-digit positive integers are there for which there are no repeated
+digits, or for which there may be repeated digits, but all are odd?
