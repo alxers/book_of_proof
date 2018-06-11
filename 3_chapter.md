@@ -591,3 +591,4 @@ Let A be math major, B - history majors. Then |B| = |A union B| - |A| + |A inter
 
 2. How many 4-digit positive integers are there for which there are no repeated
 digits, or for which there may be repeated digits, but all are odd?
+
