@@ -597,3 +597,5 @@ b) If there are { 1 3 5 7 9 } - 5 odd digits and repetition for odd is allowed, 
 
 We need to find |A union B| ?
 How do A and B intersect?
+
+3. How many 4-digit positive integers are there that are even or contain no 0's?
