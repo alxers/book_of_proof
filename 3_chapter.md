@@ -599,3 +599,6 @@ We need to find |A union B| ?
 How do A and B intersect?
 
 3. How many 4-digit positive integers are there that are even or contain no 0's?
+
+4. This problem involves lists made from the letters T,H,E,O,R,Y, with repetition
+allowed.
