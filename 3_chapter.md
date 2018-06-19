@@ -593,7 +593,7 @@ Let A be math major, B - history majors. Then |B| = |A union B| - |A| + |A inter
 digits, or for which there may be repeated digits, but all are odd?
 
 a) Let A be a set of 4-digit positive integers with no repetition. Then |A| = 9 * 8 * 7 * 6
-b) If there are { 1 3 5 7 9 } - 5 odd digits and repetition for odd is allowed, let B be a set of all 4-digit positive integers with an odd numbers. |B| = 5^4
+b) If there are { 1 3 5 7 9 } - 5 odd digits and repetition for odd is allowed, let B be a set of all 4-digit positive odd numbers. |B| = 5^4
 
 We need to find |A union B| ?
 How do A and B intersect?
