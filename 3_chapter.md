@@ -603,3 +603,5 @@ How do A and B intersect?
 4. This problem involves lists made from the letters T,H,E,O,R,Y, with repetition
 allowed.
 (a) How many 4-letter lists are there that don't begin with T, or don't end in Y?
+(b) How many 4-letter lists are there in which the sequence of letters T,H,E
+appears consecutively?
