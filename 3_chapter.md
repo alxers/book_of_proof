@@ -604,5 +604,5 @@ There are { 0, 2, 4, 6, 8 } - 4 even digits and repetition is allowed. Then |A| 
 4. This problem involves lists made from the letters T,H,E,O,R,Y, with repetition
 allowed.
 (a) How many 4-letter lists are there that don't begin with T, or don't end in Y?
-(b) How many 4-letter lists are there in which the sequence of letters T,H,E
-appears consecutively?
+(b) How many 4-letter lists are there in which the sequence of letters T,H,E appears consecutively?
+(c) How many 5-letter lists are there in which the sequence of letters T,H,E appears consecutively?
