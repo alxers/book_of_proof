@@ -606,3 +606,5 @@ allowed.
 (a) How many 4-letter lists are there that don't begin with T, or don't end in Y?
 (b) How many 4-letter lists are there in which the sequence of letters T,H,E appears consecutively?
 (c) How many 5-letter lists are there in which the sequence of letters T,H,E appears consecutively?
+
+5. How many 7-digit binary strings begin in 1 or end in 1 or have exactly four 1's?
