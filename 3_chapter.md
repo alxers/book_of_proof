@@ -608,3 +608,5 @@ allowed.
 (c) How many 5-letter lists are there in which the sequence of letters T,H,E appears consecutively?
 
 5. How many 7-digit binary strings begin in 1 or end in 1 or have exactly four 1's?
+
+7. This problem concerns 4-card hands dealt off of a standard 52-card deck. How many 4-card hands are there for which all 4 cards are of the same suit or all 4 cards are red?
