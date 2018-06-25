@@ -610,3 +610,5 @@ allowed.
 5. How many 7-digit binary strings begin in 1 or end in 1 or have exactly four 1's?
 
 7. This problem concerns 4-card hands dealt off of a standard 52-card deck. How many 4-card hands are there for which all 4 cards are of the same suit or all 4 cards are red?
+
+8. This problem concerns 4-card hands dealt off of a standard 52-card deck. How many 4-card hands are there for which all 4 cards are of different suits or all 4 cards are red?
