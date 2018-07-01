@@ -8,4 +8,4 @@ Definition 4.4 Suppose a and b are integers. We say that a divides b, written a 
 
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
-1. If x is an even integer, then x^2 is even.
+1. If x is an even integer, then x^2 is even. 
