@@ -18,11 +18,47 @@ The goal is to show that this statement is true.
 
 
 *Outline of Direct Proof*
+
 Proposition If P, then Q.
 
 Proof. Suppose P.
 ...
 Therefore Q.
+
+Example:
+
+1) Proposition If x is odd, then x^2 is odd.
+Proof. Suppose x is odd.
+
+Therefore x^2 is odd.
+
+2) Proposition If x is odd, then x^2 is odd.
+Proof. Suppose x is odd.
+x = 2b + 1 by definition of an odd number.
+
+Therefore x^2 is odd.
+
+3) Proposition If x is odd, then x^2 is odd.
+Proof. Suppose x is odd.
+x = 2a + 1 by definition of an odd number.
+
+x^2 = 2b + 1
+Therefore x^2 is odd.
+
+4) Proposition If x is odd, then x^2 is odd.
+Proof. Suppose x is odd.
+x = 2a + 1 by definition of an odd number.
+Then x^2 = (2a + 1)^2 = 4a^2 + 4a + 1 = 2a(2a + 1) + 1
+
+x^2 = 2b + 1
+Therefore x^2 is odd.
+
+5) Proposition If x is odd, then x^2 is odd.
+Proof. Suppose x is odd.
+x = 2a + 1 by definition of an odd number.
+Then x^2 = (2a + 1)^2 = 4a^2 + 4a + 1 = 2(2a^2 + 2a) + 1
+So x^2 = 2b + 1 where b = (2a^2 + 2a)
+Therefore x^2 is odd.
 
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
