@@ -62,6 +62,25 @@ Then x^2 = (2a + 1)^2 = 4a^2 + 4a + 1 = 2(2a^2 + 2a) + 1
 So x^2 = 2b + 1 where b = (2a^2 + 2a)    
 Therefore x^2 is odd.    
 
+
+Example:    
+
+Proposition Let a, b and c be integers. If a | b and b | c, then a | c.    
+
+1) Proposition Let a, b and c be integers. If a | b and b | c, then a | c.    
+...    
+Therefore a | c    
+
+2) Proposition Let a, b and c be integers. If a | b and b | c, then a | c.  
+By definition a | b means b = ax, b | c means c = by    
+...    
+Therefore a | c  
+
+3) Proposition Let a, b and c be integers. If a | b and b | c, then a | c.  
+By definition a | b means b = ax, b | c means c = by    
+a | c means c = az
+Therefore a | c  
+
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
 1. If x is an even integer, then x^2 is even.  
