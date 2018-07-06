@@ -81,6 +81,11 @@ By definition a | b means b = ax, b | c means c = by
 a | c means c = az
 Therefore a | c  
 
+
+Example:    
+
+Proposition If a, b, c ∈ N , then lcm ( ca, cb ) = c · lcm ( a, b ) .    
+
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
 1. If x is an even integer, then x^2 is even.  
