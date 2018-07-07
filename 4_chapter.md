@@ -84,7 +84,11 @@ Therefore a | c
 
 Example:    
 
-Proposition If a, b, c ∈ N , then lcm ( ca, cb ) = c · lcm ( a, b ) .    
+Proposition If a, b, c ∈ N , then lcm ( ca, cb ) = c · lcm ( a, b ).    
+
+1. Let m = lcm(ca, cb), n = c * lcm(a, b)
+By definition lcm(a, b) is an integer divisible by a and b, then lcm(a, b) = ax = by
+So n = c * ax = c * by
 
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
