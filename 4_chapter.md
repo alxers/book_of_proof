@@ -86,9 +86,13 @@ Example:
 
 Proposition If a, b, c ∈ N , then lcm ( ca, cb ) = c · lcm ( a, b ).    
 
-1. Let m = lcm(ca, cb), n = c * lcm(a, b)
-By definition lcm(a, b) is an integer divisible by a and b, then lcm(a, b) = ax = by
-So n = c * ax = c * by
+Let m = lcm(ca, cb), n = c * lcm(a, b)    
+By definition lcm(a, b) is an integer divisible by a and b, then lcm(a, b) = ax = by    
+So n = c * ax = c * by, but m is the *smallest* multiple of ca and cb (by definition). Thus m <= n.    
+On the other hand m = lcm(ca, cb) = cax = cby by definition of lcm.    
+Then 1/c * m = ax = by is a multiple of a and b. lcm(a, b) <= 1/c * m.    
+But c * lcm(a, b) <= m, n <= m.    
+Since m <= n and n <=m, must be that n = m.    
 
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
