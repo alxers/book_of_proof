@@ -94,6 +94,36 @@ Then 1/c * m = ax = by is a multiple of a and b. lcm(a, b) <= 1/c * m.
 But c * lcm(a, b) <= m, n <= m.    
 Since m <= n and n <=m, must be that n = m.    
 
+
+Example:
+
+Proposition If x and y are positive and x <= y, then sqrt(x) <= sqrt(y).    
+Subtrackt y from both sides x - y <= 0    
+sqrt(x)^2 - sqrt(y)^2 <= 0    
+(sqrt(x) + sqrt(y))(sqrt(x) - sqrt(y)) <= 0    
+Divide both sides by positive (sqrt(x) + sqrt(y))    
+sqrt(x) - sqrt(y) <= 0    
+Add sqrt(y) to both sides    
+sqrt(x) <= sqrt(y)    
+
+
+Example:
+
+To show that If x and y are positive real numbers, then 2 * sqrt(xy) <= x + y we can start backwards.    
+Since we proved that x <= y, then sqrt(x) <= sqrt(y) we can use this property    
+4xy <= (x + y)^2    
+4xy <= x^2 + 2xy + y^2    
+Subtrackt 4xy from both sides    
+0 <= x^2 - 2xy + y^2    
+0 <= (x - y)^2 which is true, because (x - y)^2 can't be negative    
+
+Proposition If x and y are positive real numbers, then 2 * sqrt(xy) <= x + y.    
+Since 0 <= (x - y)^2 holds for all x,y in Z.    
+Then 0 <= x^2 - 2xy + y^2      
+4xy <= x^2 + 2xy + y^2    
+4xy <= (x + y)^2      
+
+
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
 1. If x is an even integer, then x^2 is even.  
