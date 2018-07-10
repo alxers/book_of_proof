@@ -122,6 +122,22 @@ Since 0 <= (x - y)^2 holds for all x,y in Z.
 Then 0 <= x^2 - 2xy + y^2      
 4xy <= x^2 + 2xy + y^2    
 4xy <= (x + y)^2      
+Because for all positive x, y in Z it's true that x <= y, then sqrt(x) <= sqrt(y).    
+2 * sqrt(xy) <= x + y.    
+
+Example:
+
+Proposition
+If n in N , then 1 + (-1)^n * (2n - 1) is a multiple of 4.    
+There are two cases:    
+1) when n is even, n = 2k, k in N.   
+2) when n is odd, n = 2k + 1, k in N.    
+
+For the first case we have 1 + 1 * (2 * 2k - 1) = 1 + 4k - 1 = 4k.   
+4k is a multiple of 4.   
+
+For the second case we have 1 + ((-1)^(2k + 1)) * (2 * (2k + 1) - 1) = 1 + (-1) * (4k + 2 - 1) = -4k   
+-4k is a multiple of 4.    
 
 
 Exercises for Chapter 4
