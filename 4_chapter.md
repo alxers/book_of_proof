@@ -136,7 +136,7 @@ For the first case we have 1 + 1 * (2 * 2k - 1) = 1 + 4k - 1 = 4k.
 4k is a multiple of 4.   
 
 For the second case we have 1 + ((-1)^(2k + 1)) * (2 * (2k + 1) - 1) = 1 + (-1) * (4k + 2 - 1) = -4k   
--4k is a multiple of 4.    
+-4k is a multiple of 4.     
 
 
 Example:
