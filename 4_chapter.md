@@ -142,6 +142,7 @@ For the second case we have 1 + ((-1)^(2k + 1)) * (2 * (2k + 1) - 1) = 1 + (-1) 
 Example:
 
 Proposition Every multiple of 4 equals 1 + (-1)^n * (2n - 1) for some n in N.    
+There is such number k, that is divisible by 4 (k is a multiple of 4) and it can be represented as 1 + (-1)^n * (2n - 1).    
 
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
