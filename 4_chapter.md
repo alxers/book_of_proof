@@ -146,4 +146,4 @@ There is such number k, that is divisible by 4 (k is a multiple of 4) and it can
 
 Exercises for Chapter 4
 Use the method of direct proof to prove the following statements.
-1. If x is an even integer, then x^2 is even.  
+1. If x is an even integer, then x^2 is even.   
