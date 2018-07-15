@@ -144,6 +144,21 @@ Example:
 Proposition Every multiple of 4 equals 1 + (-1)^n * (2n - 1) for some n in N.    
 There is such number k, that is divisible by 4 (k is a multiple of 4) and it can be represented as 1 + (-1)^n * (2n - 1).    
 
-Exercises for Chapter 4
-Use the method of direct proof to prove the following statements.
+Exercises for Chapter 4    
+Use the method of direct proof to prove the following statements.    
 1. If x is an even integer, then x^2 is even.   
+
+x = 2a by definition, then x^2 = (2a)^2 = 4a^2 = 2(2a^2).    
+So x^2 = 2b, where b = 2a^2.    
+By definition of an even number x^2 is even.    
+
+
+2. If x is an odd integer, then x^3 is odd.
+
+x = 2a + 1 by definition of an odd number.    
+Then x^3 = (2a + 1)^3 = (2a)^3 + 3(2a)^2 + 3(2a) + 1 = 8a^3 + 12a^2 + 6a + 1 =     
+= 2(4a^3 + 6a^2 + 3a) + 1.    
+So x^3 = 2b + 1, where b = 4a^3 + 6a^2 + 3a.    
+
+
+3. If a is an odd integer, then a^2 + 3a + 5 is odd.    
