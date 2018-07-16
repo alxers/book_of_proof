@@ -162,3 +162,8 @@ So x^3 = 2b + 1, where b = 4a^3 + 6a^2 + 3a.
 
 
 3. If a is an odd integer, then a^2 + 3a + 5 is odd.    
+
+a = 2b + 1 by definition of an odd number.    
+(2b + 1)^2 + 3(2b + 1) + 5 = 4b^2 + 4b + 1 + 6b+ 3 + 5 = 4b^2 + 10b + 8 + 1 = 2(2b^2 + 5b + 4) + 1.    
+So a^2 + 3a + 5 = 2c + 1, where c = 2b^2 + 5b + 4.    
+By definition of an odd number, a^2 + 3a + 5 is odd.
