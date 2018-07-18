@@ -174,3 +174,20 @@ By definition of an odd number, a^2 + 3a + 5 is odd.
 Let x = 2a + 1, y = 2b + 1.    
 Then xy = (2a + 1)(2b + 1) = 4ab + 2a + 2b + 1 = 2(2ab + a + b) + 1.    
 So xy = 2c + 1, where c = 2ab + a + b.    
+
+
+5. Suppose x, y in Z. If x is even, then xy is even.    
+
+Let x = 2a.    
+Two cases:    
+1) y = 2b.    
+Then xy = 2a * 2b = 2(ab).    
+So xy = 2c, where c = ab.    
+By definition xy is even.    
+
+2) y = 2b + 1.    
+Then xy = 2a * (2b + 1) = 4ab + 2a = 2(2ab + a).    
+So xy = 2c, where c = 2ab + a.    
+By definition xy is even.   
+
+In both cases xy is even, then it's even.    
