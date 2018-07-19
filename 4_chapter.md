@@ -191,3 +191,8 @@ So xy = 2c, where c = 2ab + a.
 By definition xy is even.   
 
 In both cases xy is even, then it's even.    
+
+
+6. Suppose a, b, c in Z. If a | b and a | c, then a | (b + c).    
+
+By definition, a | b = b(an), a | c = c(am)
