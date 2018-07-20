@@ -195,4 +195,15 @@ In both cases xy is even, then it's even.
 
 6. Suppose a, b, c in Z. If a | b and a | c, then a | (b + c).    
 
-By definition, a | b = b(an), a | c = c(am)
+By definition, a | b => b = an, a | c => c = am, a | (b + c) => (b + c) = ak.    
+(b + c) = an + am = a (mn).    
+So (b + c) = ak, where k = mn => a | (b + c).    
+
+7. Suppose a, b in Z . If a | b , then a^2 | b^2.    
+a | b => b = an, a^2 | b^2 => b^2 = a^2 m.    
+So b = an, and b^2 = a^2 n^2.    
+Then b^2 = a^2 m, where m = n^2.    
+
+8. Suppose a is an integer. If 5 | 2a , then 5 | a.    
+5 | 2a => 2a = 5n, 5 | a => a = 5m.    
+So a = 5 * (1/2)n, then a = 5m, where m = (1/2)n.    
