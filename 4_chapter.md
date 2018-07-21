@@ -147,14 +147,12 @@ There is such number k, that is divisible by 4 (k is a multiple of 4) and it can
 Exercises for Chapter 4    
 Use the method of direct proof to prove the following statements.    
 1. If x is an even integer, then x^2 is even.   
-
 x = 2a by definition, then x^2 = (2a)^2 = 4a^2 = 2(2a^2).    
 So x^2 = 2b, where b = 2a^2.    
 By definition of an even number x^2 is even.    
 
 
 2. If x is an odd integer, then x^3 is odd.
-
 x = 2a + 1 by definition of an odd number.    
 Then x^3 = (2a + 1)^3 = (2a)^3 + 3(2a)^2 + 3(2a) + 1 = 8a^3 + 12a^2 + 6a + 1 =     
 = 2(4a^3 + 6a^2 + 3a) + 1.    
@@ -162,7 +160,6 @@ So x^3 = 2b + 1, where b = 4a^3 + 6a^2 + 3a.
 
 
 3. If a is an odd integer, then a^2 + 3a + 5 is odd.    
-
 a = 2b + 1 by definition of an odd number.    
 (2b + 1)^2 + 3(2b + 1) + 5 = 4b^2 + 4b + 1 + 6b+ 3 + 5 = 4b^2 + 10b + 8 + 1 = 2(2b^2 + 5b + 4) + 1.    
 So a^2 + 3a + 5 = 2c + 1, where c = 2b^2 + 5b + 4.    
@@ -170,31 +167,26 @@ By definition of an odd number, a^2 + 3a + 5 is odd.
 
 
 4. Suppose x, y in Z. If x and y are odd, then xy is odd.    
-
 Let x = 2a + 1, y = 2b + 1.    
 Then xy = (2a + 1)(2b + 1) = 4ab + 2a + 2b + 1 = 2(2ab + a + b) + 1.    
 So xy = 2c + 1, where c = 2ab + a + b.    
 
 
 5. Suppose x, y in Z. If x is even, then xy is even.    
-
 Let x = 2a.    
 Two cases:    
 1) y = 2b.    
 Then xy = 2a * 2b = 2(ab).    
 So xy = 2c, where c = ab.    
 By definition xy is even.    
-
 2) y = 2b + 1.    
 Then xy = 2a * (2b + 1) = 4ab + 2a = 2(2ab + a).    
 So xy = 2c, where c = 2ab + a.    
 By definition xy is even.   
-
 In both cases xy is even, then it's even.    
 
 
 6. Suppose a, b, c in Z. If a | b and a | c, then a | (b + c).    
-
 By definition, a | b => b = an, a | c => c = am, a | (b + c) => (b + c) = ak.    
 (b + c) = an + am = a (mn).    
 So (b + c) = ak, where k = mn => a | (b + c).    
@@ -204,6 +196,9 @@ a | b => b = an, a^2 | b^2 => b^2 = a^2 m.
 So b = an, and b^2 = a^2 n^2.    
 Then b^2 = a^2 m, where m = n^2.    
 
-8. Suppose a is an integer. If 5 | 2a , then 5 | a.    
+8. Suppose a is an integer. If 5 | 2a, then 5 | a.    
 5 | 2a => 2a = 5n, 5 | a => a = 5m.    
-So a = 5 * (1/2)n, then a = 5m, where m = (1/2)n.    
+2a is even, then 5n is even, so n must be even too.    
+n = 2k, 2a = 5(2k) = 10k, a = 5k.    
+Since a = 5k and a = 5m, m = k.    
+
