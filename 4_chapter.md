@@ -202,3 +202,10 @@ Then b^2 = a^2 m, where m = n^2.
 n = 2k, 2a = 5(2k) = 10k, a = 5k.    
 Since a = 5k and a = 5m, m = k.    
 
+
+9. Suppose a is an integer. If 7 | 4a, then 7 | a.    
+7 | 4a, then 4a = 7n.    
+4a = 2(2a), then 4a is even, so 7n even and n must be even too.    
+n = 2k, 4a = 7(2k) = 14k, 2a = 7k, but 2a is even, so 7k is even and k must be even too.    
+k = 2r, 2a = 7(2r) = 14r, a = 7r.    
+Since 7 | a, then a = 7b, and since a = 7r, then it must be than b = r.    
