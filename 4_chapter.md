@@ -209,3 +209,8 @@ Since a = 5k and a = 5m, m = k.
 n = 2k, 4a = 7(2k) = 14k, 2a = 7k, but 2a is even, so 7k is even and k must be even too.    
 k = 2r, 2a = 7(2r) = 14r, a = 7r.    
 Since 7 | a, then a = 7b, and since a = 7r, then it must be than b = r.    
+
+10. Suppose a and b are integers. If a | b, then a | (3b^3 - b^2 + 5b).    
+a | b => b = an.    
+a | (3b^3 - b^2 + 5b) => 3b^3 - b^2 + 5b = am.    
+
