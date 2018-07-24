@@ -191,10 +191,12 @@ By definition, a | b => b = an, a | c => c = am, a | (b + c) => (b + c) = ak.
 (b + c) = an + am = a (mn).    
 So (b + c) = ak, where k = mn => a | (b + c).    
 
+
 7. Suppose a, b in Z . If a | b , then a^2 | b^2.    
 a | b => b = an, a^2 | b^2 => b^2 = a^2 m.    
 So b = an, and b^2 = a^2 n^2.    
 Then b^2 = a^2 m, where m = n^2.    
+
 
 8. Suppose a is an integer. If 5 | 2a, then 5 | a.    
 5 | 2a => 2a = 5n, 5 | a => a = 5m.    
@@ -210,7 +212,18 @@ n = 2k, 4a = 7(2k) = 14k, 2a = 7k, but 2a is even, so 7k is even and k must be e
 k = 2r, 2a = 7(2r) = 14r, a = 7r.    
 Since 7 | a, then a = 7b, and since a = 7r, then it must be than b = r.    
 
-10. Suppose a and b are integers. If a | b, then a | (3b^3 - b^2 + 5b).    
+
+10. Suppose a and b are integers. If a | b, then a | (3b^3 - b^2 + S5b).    
 a | b => b = an.    
 a | (3b^3 - b^2 + 5b) => 3b^3 - b^2 + 5b = am.    
 
+
+11. Suppose a, b, c, d in Z . If a | b and c | d, then ac | bd.     
+a | b => b = an, c | d => d = cm, ac | bd => bd = ack.    
+bd = an * cm = ac(nm) => bd = ack, where k = nm.    
+
+
+13. Suppose x, y in R. If x^2 + 5y = y^2 + 5x, then x = y or x + y = 5.    
+x^2 - y^2 = 5x - 5y.    
+(x + y)(x - y) = 5(x - y).    
+x + y = 5.S
