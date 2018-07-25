@@ -225,5 +225,6 @@ bd = an * cm = ac(nm) => bd = ack, where k = nm.
 
 13. Suppose x, y in R. If x^2 + 5y = y^2 + 5x, then x = y or x + y = 5.    
 x^2 - y^2 = 5x - 5y.    
-(x + y)(x - y) = 5(x - y).    
-x + y = 5.S
+(x + y)(x - y) = 5(x - y).   
+1) If (x - y) not equal to 0, then x + y = 5.    
+2) If (x - y) is equal to zero, then x - y = 0, => x = y.    
