@@ -228,3 +228,18 @@ x^2 - y^2 = 5x - 5y.
 (x + y)(x - y) = 5(x - y).   
 1) If (x - y) not equal to 0, then x + y = 5.    
 2) If (x - y) is equal to zero, then x - y = 0, => x = y.    
+
+
+14. If n in Z , then 5n^2 + 3n + 7 is odd. (Try cases.).    
+There are three cases:    
+1) When n = 0.    
+5n^2 + 3n + 7, 7 is odd.    
+2) When n is even.    
+n = 2a.    
+5(2a)^2 + 3(2a) + 7 = 20a^2 + 6a + 6 + 1 = 2(10a^2 + 3a + 3) + 1.    
+So 5n^2 + 3n + 7 = 2b + 1, where b = (10a^2 + 3a + 3).    
+3) When n is odd.    
+n = 2a + 1.     
+5(2a + 1)^2 + 3(2a + 1) + 7 = 5(4a^2 + 4a + 1) + 6a + 3 + 7 = 20a^2 + 20a + 5 + 6a + 10 =     
+= 20a^2 + 26a + 14 + 1 = 2(10a^2 + 13a + 7) + 1.     
+So 5n^2 + 3n + 7 = 2c + 1, where c = (10a^2 + 13a + 7).     
