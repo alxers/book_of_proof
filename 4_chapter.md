@@ -256,4 +256,9 @@ n^2 + 3n + 4 = 2b, where b = (2a^2 + 3a + 2).
 3) When n is odd.     
 n = 2a + 1.    
 (2a + 1)^2 + 3(2a + 1) + 4 = 4a^2 + 4a + 1 + 6a + 3 + 4 = 4a^2 + 10a + 8 = 2(2a^2 + 5a + 4).    
-n^2 + 3n + 4 = 2c, where c = (2a^2 + 5a + 4).
+n^2 + 3n + 4 = 2c, where c = (2a^2 + 5a + 4).    
+
+
+
+6. If two integers have the same parity, then their sum is even. (Try cases.).    
+1)
