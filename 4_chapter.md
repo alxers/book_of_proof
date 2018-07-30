@@ -260,7 +260,7 @@ n^2 + 3n + 4 = 2c, where c = (2a^2 + 5a + 4).
 
 
 
-6. If two integers have the same parity, then their sum is even. (Try cases.).    
+16. If two integers have the same parity, then their sum is even. (Try cases.).    
 1) If both integers are even.    
 x = 2a, y = 2b.    
 2a + 2b = 2(a + b).    
@@ -269,4 +269,11 @@ x + y = 2c, where c = (a + b).
 x = 2a + 1, y = 2b + 1.    
 2a + 1 + 2b + 1 = 2a + 2b + 2 = 2(a + b + 1).    
 x + y = 2d, where d = (a + b + 1).    
+
+
+
+17. If two integers have opposite parity, then their product is even.    
+Let x = 2a, y = 2b + 1.    
+xy = 2a * (2b + 1) = 4ab + 2a = 2(2ab + a).    
+xy = 2c, where c = (2ab + a).    
 
