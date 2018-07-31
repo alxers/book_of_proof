@@ -277,3 +277,12 @@ Let x = 2a, y = 2b + 1.
 xy = 2a * (2b + 1) = 4ab + 2a = 2(2ab + a).    
 xy = 2c, where c = (2ab + a).    
 
+
+
+18. Suppose x and y are positive real numbers. If x < y, then x^2 < y^2.    
+x^2 < y^2.    
+x^2 - y^2 < 0.    
+(x - y)(x + y) < 0.    
+Because x and y are positive we can divide both sides by (x + y).    
+x - y < 0.    
+x < y.     
