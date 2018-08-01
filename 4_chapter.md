@@ -286,3 +286,8 @@ x^2 - y^2 < 0.
 Because x and y are positive we can divide both sides by (x + y).    
 x - y < 0.    
 x < y.     
+
+
+
+19. Suppose a, b and c are integers. If a^2 | b and b^3 | c , then a^6 | c.    
+a^2 | b => b = xa^2, c = yb^2,  
