@@ -290,4 +290,7 @@ x < y.
 
 
 19. Suppose a, b and c are integers. If a^2 | b and b^3 | c , then a^6 | c.    
-a^2 | b => b = xa^2, c = yb^2,  
+b = xa^2, c = yb^3.    
+c = y(xa^2)^3 = yx^3a^6.    
+So c = a^6z, where z = yx^3.    
+
