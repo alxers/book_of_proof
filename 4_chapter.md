@@ -294,3 +294,19 @@ b = xa^2, c = yb^3.
 c = y(xa^2)^3 = yx^3a^6.    
 So c = a^6z, where z = yx^3.    
 
+
+
+20. If a is an integer and a^2 | a, then a in { -1, 0, 1 }.    
+a = xa^2.    
+xa^2 - a = 0.    
+a(xa - 1) = 0.    
+Either a = 0, or xa - 1 = 0.    
+In the first case a in { 0 }.    
+In the second case xa = 1.    
+a = 1/x.    
+So x is either -1, or 1.    
+That means a in { -1, 0, 1 }.    
+
+
+
+23. If n in N , then (2n choose n) is even.     
