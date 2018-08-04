@@ -309,4 +309,6 @@ That means a in { -1, 0, 1 }.
 
 
 
-23. If n in N , then (2n choose n) is even.     
+25. If a, b, c in N and c <= b <= a, then (a choose b)(b choose c) = (a choose (b-c))((a-b+c) choose c)
+(a!/(b!(a-b)!))(b!/(c!(b-c)!)) = (a!/(b-c)!)((a-b+c)!/(c!(a-b+c)!(a-b)!)) = (a!/(b-c)!(a-b+c)!)((a-b)!c!) =     
+= (a!/((b-c)!(a-b+c)!))(a-b+c)!/(c!(a-b+c-c)!)     
