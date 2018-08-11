@@ -31,4 +31,19 @@ If x is not odd, x^2 - 6x + 5 is not even, so if x is odd, then x^2 - 6x + 5 is 
 
 
 
-Suppose x, y in R. If y^3 + yx^2 <= x^3 xy^2, then y <= x
+Suppose x, y in R. If y^3 + yx^2 <= x^3 xy^2, then y <= x    
+Suppose y > x    
+y^3 - xy^2 + yx^2 - x^3 <= 0    
+y^3(y - x) + x^2(y - x) <= 0    
+If y > 0, then y - x > 0    
+Divide both sides by (y - x)    
+Then y^2 + x^2 <= 0, which is false    
+
+(Book proof)
+Suppose y > x     
+Then y - x > 0     
+Multiply both sides by the positive x^2 + y^2    
+(y - x)(x^2 + y^2) > 0(x^2 + y^2)      
+yx^2 + y^3 - x^3 - xy^2 > 0      
+y^3 + yx^2 > x^3 + xy^2    
+Therefore y^3 + yx^2 > x^3 + xy^2, so it's not true that y^3 + yx^2 <= x^3 xy^2.     
