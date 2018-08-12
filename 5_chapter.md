@@ -47,3 +47,7 @@ Multiply both sides by the positive x^2 + y^2
 yx^2 + y^3 - x^3 - xy^2 > 0      
 y^3 + yx^2 > x^3 + xy^2    
 Therefore y^3 + yx^2 > x^3 + xy^2, so it's not true that y^3 + yx^2 <= x^3 xy^2.     
+
+
+
+Suppose x, y in Z. If 5 !| xy (5 does not divide xy), then 5 !| x and 5 !| y.    
