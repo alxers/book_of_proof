@@ -51,3 +51,16 @@ Therefore y^3 + yx^2 > x^3 + xy^2, so it's not true that y^3 + yx^2 <= x^3 xy^2.
 
 
 Suppose x, y in Z. If 5 !| xy (5 does not divide xy), then 5 !| x and 5 !| y.    
+Suppose 5 | x and 5 | y.    
+Then x = 5a, y = 5b.    
+xy = 5a5b = 5(5ab).    
+xy = 5c, where c = 5ab => 5 | xy.    
+
+(Book of proof)    
+By DeMorgan’s law, it is not true that 5 !| x or it is not true that 5 !| y.    
+Therefore 5 | x or 5 | y. We consider these possibilities separately.    
+Case 1. Suppose 5 | x . Then x = 5a for some a in Z.    
+From this we get xy = 5(ay), and that means 5 | xy.     
+Case 2. Suppose 5 | y. Then y = 5a for some a in Z.    
+From this we get x y = 5(ax), and that means 5 | xy.    
+The above cases show that 5 | xy, so it is not true that 5 - xy.    
