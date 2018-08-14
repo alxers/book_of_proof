@@ -64,3 +64,20 @@ From this we get xy = 5(ay), and that means 5 | xy.
 Case 2. Suppose 5 | y. Then y = 5a for some a in Z.    
 From this we get x y = 5(ax), and that means 5 | xy.    
 The above cases show that 5 | xy, so it is not true that 5 - xy.    
+
+
+
+*Definition 5.1* Given integers a and b and an n ∈ N , we say that a and b
+are *congruent modulo* n if n | ( a − b ) . We express this as a ≡ b (mod n ).
+If a and b are not congruent modulo n , we write this as a 6 ≡ b (mod n ).    
+(сравнимо по модулю)
+
+Example 5.1    
+Here are some examples:    
+1. 9 ≡ 1 (mod 4 ) because 4 | (9 − 1).    
+2. 6 ≡ 10 (mod 4 ) because 4 | (6 − 10).    
+3. 14 !≡ 8 (mod 4 ) because 4 !| (14 − 8).    
+
+
+In practical terms, a ≡ b (mod n ) means that a and b have the same
+remainder when divided by n.    
