@@ -68,8 +68,8 @@ The above cases show that 5 | xy, so it is not true that 5 - xy.
 
 
 *Definition 5.1* Given integers a and b and an n ∈ N , we say that a and b
-are *congruent modulo* n if n | ( a − b ) . We express this as a ≡ b (mod n ).
-If a and b are not congruent modulo n , we write this as a 6 ≡ b (mod n ).    
+are *congruent modulo* n if n | (a - b). We express this as a ≡ b (mod n).
+If a and b are not congruent modulo n , we write this as a 6 ≡ b (mod n).    
 (сравнимо по модулю)
 
 Example 5.1    
@@ -81,3 +81,14 @@ Here are some examples:
 
 In practical terms, a ≡ b (mod n ) means that a and b have the same
 remainder when divided by n.    
+
+
+
+Proposition. Let a, b in Z and n in N. If a congruent modulo b (mod n), then a^2 congurent modulo b^2 (mod n).      
+By definition congurent modulo n | (a - b).     
+Then n | (a^2 - b^2).    
+a^2 - b^2 = (a - b)(a + b).    
+n | (a - b) x, where x = (a + b).     
+
+
+Proposition. Let a, b in Z and n in N. If a congruent modulo b (mod n), then ac congurent modulo bc (mod n).      
