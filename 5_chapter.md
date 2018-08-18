@@ -91,4 +91,15 @@ a^2 - b^2 = (a - b)(a + b).
 n | (a - b) x, where x = (a + b).     
 
 
-Proposition. Let a, b in Z and n in N. If a congruent modulo b (mod n), then ac congurent modulo bc (mod n).      
+Proposition. Let a, b in Z and n in N. If a congruent modulo b (mod n), then ac congurent modulo bc (mod n).     
+By definition n | (a - b).     
+Then n | (ac - bc).    
+n | c(a - b).          
+
+
+
+Proposition. Suppose a, b in Z and n in N. If 12a !≡ 12b (mod n), then n !| 12.     
+Suppose 12a ≡ 12b (mod n).    
+Then n | (12a - 12b).    
+n | 12(a - b).    
+Which means n | 12.
