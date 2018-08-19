@@ -102,4 +102,36 @@ Proposition. Suppose a, b in Z and n in N. If 12a !≡ 12b (mod n), then n !| 12
 Suppose 12a ≡ 12b (mod n).    
 Then n | (12a - 12b).    
 n | 12(a - b).    
-Which means n | 12.
+Which means n | 12.    
+
+
+
+Exerceses for Chapter 5.     
+
+
+1. Suppose n in Z. If n^2 is even, then n is even.    
+Suppose n is odd.    
+Then n = 2a + 1.    
+Then n^2 = (2a + 1)^2 = 4a^2 + 4a + 1 = 2(2a^2 + 2a) + 1 which is odd.    
+So it must be that n is even.    
+
+
+2. Suppose n in Z. If n^2 is odd, then n is odd.    
+Suppose n is even.    
+Then n = 2a.    
+Then n^2 = 4a^2 = 2(2a^2) which is even.    
+So it must be that n is odd.     
+
+
+3. Suppose a, b in Z. If a^2(b^2 - 2b) is odd, then a and b are odd.    
+Suppose a and b are even.    
+Then a = 2m, b = 2n.    
+Then 4m^2(4n^2 - 4n) = 16(mn)^2 - 16(m^2)n = 2(8(mn)^2 - 8(m^2)n) which is even.    
+So it must be that a and b are odd.     
+
+
+4. Suppose a, b, c in Z. If a does not divide bc, then a does not divide b.     
+Suppose a | b.    
+Then b = ax.     
+Then b/x = a.    
+Which means a | bc where c = 1/x.    
