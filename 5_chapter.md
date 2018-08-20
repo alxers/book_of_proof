@@ -135,3 +135,17 @@ Suppose a | b.
 Then b = ax.     
 Then b/x = a.    
 Which means a | bc where c = 1/x.    
+
+
+5. Suppose x in R. If x^2 + 5x < 0, then x < 0.
+Suppose x >= 0.    
+Then x^2 and 5x are not negative.     
+So x^2 + 5x >= 0.     
+
+
+
+6. Suppose x in R. If x^3 - x > 0, then x > 0.    
+Suppose x <= 0.    
+Then x(x^2 - 1) <= 0.    
+So it's not true that when x <= 0, x^3 - x > 0.    
+
