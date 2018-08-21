@@ -149,3 +149,33 @@ Suppose x <= 0.
 Then x(x^2 - 1) <= 0.    
 So it's not true that when x <= 0, x^3 - x > 0.    
 
+7. Suppose a, b in Z. If both ab and a + b are even, then both a and b are even.     
+Case 1.    
+Suppose a is odd.    
+Then a = 2n + 1, b = 2m.    
+ab = (2n + 1)2m = 4mn + 2m = 2(2mn + m).    
+ab = 2k, where k = 2mn + m.     
+ab is even.    
+Case 2.    
+Suppose b is odd.    
+Then b = 2n + 1, a = 2m.    
+ab = 2k, where k = 2mn + m.    
+ab is even.    
+Case 3.
+Suppose a and b is odd.    
+Then a = 2m + 1, b = 2n + 1.    
+ab = (2m + 1)(2n + 1) = 4mn + 2m + 2n + 1 = 2(2mn + m + n) + 1.    
+ab = 2k + 1.    
+ab is odd.     
+
+
+
+8. Suppose x in R. If x^5 - 4x^4 + 3x^3 - x^2 + 3x - 4 >= 0, then x >= 0.    
+Suppose x < 0.    
+Then x^4(x - 4) + x^2(3x - 1) + 3x - 4 < 0.    
+So it's not the case that x^5 - 4x^4 + 3x^3 - x^2 + 3x - 4 >= 0 when x < 0.    
+Then it must be that x^5 - 4x^4 + 3x^3 - x^2 + 3x - 4 >= 0 then x >= 0.    
+
+
+
+9. 
