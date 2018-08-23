@@ -178,4 +178,23 @@ Then it must be that x^5 - 4x^4 + 3x^3 - x^2 + 3x - 4 >= 0 then x >= 0.
 
 
 
-9. 
+9. Suppose n in Z. If 3 !| n^2, then 3 !| n.    
+Suppose 3 | n.    
+Then n = 3a.    
+n^2 = 9a^2 = 3(3a^2).    
+So 3 | n^2.     
+
+
+
+
+10. Suppose x, y, z in Z and x != 0. If x !| yz, then x !| y and x !| z.     
+Case 1.    
+Suppose x | y.    
+Then y = xa for some a in Z.    
+yz = xb, dividing by z, y = x(b/z).     
+When x | y it follows that x | yz.    
+Case 2.    
+Suppose x | z.    
+Then z = xc for some c in Z.    
+yz = xc, dividing by z, y = x(c/z).    
+When x | z it follows that x | yz.    
