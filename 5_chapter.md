@@ -198,3 +198,31 @@ Suppose x | z.
 Then z = xc for some c in Z.    
 yz = xc, dividing by z, y = x(c/z).    
 When x | z it follows that x | yz.    
+
+
+
+11. Suppose x, y in Z. If x^2(y + 3) is even, then x is even or y is odd.    
+Suppose that !(x is even or y is odd).    
+By De Morgan's law !(x is even or y is odd) = !(x is even) and !(y is odd) = x is odd and y is even.    
+Then x = 2a + 1, y = 2b.    
+(2a + 1)(2b + 3) = (4a^2 + 4a + 1)(2b + 3) = 8(a^2)b + 12a^2 + 8ab + 12a + 2b + 2 + 1 = 2(4(a^2)b + 6a^2 + 4ab + 6a + b + 1) + 1.    
+Then (2a + 1)(2b + 3) = 2c + 1, where c = (4(a^2)b + 6a^2 + 4ab + 6a + b + 1), which is odd.    
+
+
+
+12. Suppose a in Z. If a^2 is not divisible by 4, then a is odd.    
+Suppose a is even.    
+Then a = 2x, a^2 = 4x^2.     
+4x^2 is divisible by 4.    
+
+
+
+13. Suppose x in R. If x^5 + 7x^3 + 5x >= x^4 + x^4 + 8.       
+Suppose x < 0.     
+Then x^5 < 0, 7x^3 < 0, 5x < 0.    
+Sum of 3 negative numbers is a negative number.    
+x^4 > 0.     
+Negative number can't be bigger than positive number.    
+
+
+14. If a, b in Z and a and b have the same parity, then 3a + 7 and 7b - 4 do not.    
