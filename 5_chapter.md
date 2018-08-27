@@ -67,9 +67,9 @@ The above cases show that 5 | xy, so it is not true that 5 - xy.
 
 
 
-*Definition 5.1* Given integers a and b and an n ∈ N , we say that a and b
+*Definition 5.1* Given integers a and b and an n in N, we say that a and b
 are *congruent modulo* n if n | (a - b). We express this as a ≡ b (mod n).
-If a and b are not congruent modulo n , we write this as a 6 ≡ b (mod n).    
+If a and b are not congruent modulo n, we write this as a 6 ≡ b (mod n).    
 (сравнимо по модулю)
 
 Example 5.1    
@@ -226,3 +226,34 @@ Negative number can't be bigger than positive number.
 
 
 14. If a, b in Z and a and b have the same parity, then 3a + 7 and 7b - 4 do not.    
+Suppose a and b have different parity.     
+a = 2x, b = 2y + 1.     
+6x + 7 = 6x + 6 = 2(3x + 3).     
+7(2y + 1) - 4 = 14y + 7 - 4 = 14y + 3 = 14y + 2 + 1 = 2(7y + 1) + 1.     
+When a and b have different parity, 3a + 7 and 7b - 4 have different parity.    
+
+
+
+15. Suppose x in Z. If x^3 - 1 is even, then x is odd.     
+Suppose x is even.     
+Then x = 2a.    
+x^3 - 1 = 8a^3 - 1 = 8a^3 - 1 + 2 - 2 = 8a^3 + 1 - 2 = 2(4a^3 - 1) + 1.     
+So x^3 - 1 is odd when x is even.    
+
+
+
+16. Suppose x in Z. If x + y is even, then x and y have the same parity.     
+Suppose x and y have different parity.     
+F.e. x = 2a, y = 2b + 1.     
+Then 2a + 2b + 1 = 2(a + b) + 1. Which is odd.     
+
+
+
+17. If n is odd, then 8 | (n^2 - 1).      
+Suppose n is even, n = 2a.     
+4a^2 - 1 = 4a^2 - 2 + 1 = 2(a^2 - 1) + 1. Which is odd.     
+Odd number is not divisible by even (by 8 in this case).     
+
+
+
+18. For any a, b in Z, it follows that (a + b)^3 *congruent modulo* a^3 + b^3 (mod 3).
