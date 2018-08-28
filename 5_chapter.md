@@ -256,4 +256,17 @@ Odd number is not divisible by even (by 8 in this case).
 
 
 
-18. For any a, b in Z, it follows that (a + b)^3 *congruent modulo* a^3 + b^3 (mod 3).
+18. For any a, b in Z, it follows that (a + b)^3 *congruent modulo* a^3 + b^3 (mod 3).     
+3 | ((a + b)^3 - a^3 + b^3).    
+By definition it means that (a + b)^3 - a^3 + b^3 = 3x.    
+(a + b)^3 - a^3 + b^3 = 3(a^2b + ab^2).    
+So (a + b)^3 - a^3 + b^3 = 3x, where x = (a^2b + ab^2).     
+
+
+
+19. Let a, b in Z and n in N. If a ≡ b (mod n) and a ≡ c (mod n), then c ≡ b (mod n).     
+n | (a - b), n | (a - c), n | (c - b).    
+a - b = nx, a - c = ny, c - b = nz.     
+(a - b = nx) - (a - c = ny)      
+c - b = n(x - y).     
+So c - b = nz, where z = x - y.     
