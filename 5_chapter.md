@@ -270,3 +270,21 @@ a - b = nx, a - c = ny, c - b = nz.
 (a - b = nx) - (a - c = ny)      
 c - b = n(x - y).     
 So c - b = nz, where z = x - y.     
+
+
+
+20. If a in Z and a ≡ 1 (mod 5), then a^2 ≡ 1 (mod 5).     
+5 | (a - 1), 5 | (a^2 - 1).    
+(a - 1) = 5x, (a^2 - 1) = 5y.    
+(a^2 - 1) = (a - 1)(a + 1).     
+(a - 1)(a + 1) = 5y.     
+(a - 1) = 5 y/(a + 1).    
+So (a - 1) = 5x, where x = y/(a + 1).    
+
+
+
+21. Let a, b in Z and n in N. If a ≡ b (mod n), then a^3 ≡ b^3 (mod n).     
+n | (a - b), n | (a^3 - b^3).    
+a - b = nx, a^3 - b^3 = ny.    
+a^3 - b^3 = (a - b)(a^2 + ab + b^2).    
+
