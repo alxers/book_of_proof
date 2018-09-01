@@ -288,3 +288,27 @@ n | (a - b), n | (a^3 - b^3).
 a - b = nx, a^3 - b^3 = ny.    
 a^3 - b^3 = (a - b)(a^2 + ab + b^2).    
 
+
+22. Let a in Z , n in N. If a has remainder r when divided by n, then a ≡ r (mod n).    
+
+
+
+23. Let a, b, c in Z and n in N. If a ≡ b (mod n ), then ca ≡ cb (mod n ).     
+n | (a - b) => a - b = nx.     
+n | (ca - cb) => ca - cb = ny.    
+c(a - b) = ny.     
+a - b = n(y/c).     
+So a - b = nx, where x = y/c.     
+
+
+
+24. If a ≡ b (mod n) and c ≡ d (mod n), then ac ≡ bd (mod n).     
+n | (a - b) => a - b = nx.     
+n | (c - d) => c - d = ny.     
+n | (ac - bd) => ac - bd = nz.     
+a = nx + b.     
+c = ny + d.     
+ac - bd = (nx + b)(ny + d) - bd = n^2xy + dnx + bny + bd - bd = n^2xy + dnx + bny = n(n2xy + nx + ny).     
+n(n2xy + nx + ny) is divisible by n.     
+
+
