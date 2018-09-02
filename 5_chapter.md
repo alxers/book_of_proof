@@ -312,3 +312,25 @@ ac - bd = (nx + b)(ny + d) - bd = n^2xy + dnx + bny + bd - bd = n^2xy + dnx + bn
 n(n2xy + nx + ny) is divisible by n.     
 
 
+
+25. If n in N and 2^n - 1 is prime, then n is prime.     
+Suppose n is not prime, then n = xy.     
+Then 2^(xy) - 1 = (2^y - 1)(2^(xy-y) + 2^(xy-2y) + ... + 2^(xy - xy)).    
+So 2^(xy) - 1 is not prime.     
+
+
+
+26. If n = 2^k - 1 for k in N, then every entry in Row n of Pascal's Triangle is odd.     
+
+
+
+27. If a ≡ 0 (mod 4) or a ≡ 1 (mod 4), then (a choose 2) is even.      
+4 | a => a = 4x.     
+4 | (a - 1) => a - 1 = 4y.     
+(a choose 2) = a!/(2!(a - 2)!).     
+By definition n! = (n - 1)! * n!.    
+So (4x)!/(2!(4x - 2)!) = ((4x - 1)! * 4x)/(2(4x - 2)!) = (4x(4x - 2)!(4x - 1))/(2(4x - 2)!) = 2x(4x - 1).     
+2x(4x - 1) is divisible by 2, which means it's even.    
+
+
+
