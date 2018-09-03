@@ -334,3 +334,10 @@ So (4x)!/(2!(4x - 2)!) = ((4x - 1)! * 4x)/(2(4x - 2)!) = (4x(4x - 2)!(4x - 1))/(
 
 
 
+28. If n in Z, then 4 !|(n^2 - 3).     
+Suppose 4 | (n^2 - 3), which means n^2 - 3 = 4x.     
+n^2 = 4x + 3.     
+n = sqrt(4x + 3).     
+If x = -1, then 4x + 3 < 0, which means n is a complex number.    
+But then n is not in Z.     
+
