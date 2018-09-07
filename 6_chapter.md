@@ -52,3 +52,28 @@ Then it must be that the initial statement is true.
 
 
 
+Example:      
+There are infinitely many prime numbers.     
+Suppose there are finite number of primes.       
+Then p_n is the n-th lagrest prime number.      
+Lets consider number a, a = (p_1 * p_2 * ... * p_n) + 1.       
+Like any natural number > 1, a is divisible by some prime number, p_k, p_k is in the list (p_1 * p_2 * ... * p_n).     
+It means that p_k | a, a = p_k * x.     
+p_k * x = (p_1 * p_2 * ... * p_k * ... * p_n) + 1.     
+p_k * x - 1 = (p_1 * p_2 * ... * p_k * ... * p_n).       
+Divide both sided by p_k.       
+x - 1/p_k = (p_1 * p_2 * ... * p_n).      
+There is a natural number on the right side, but not on the left side.     
+This is a contradiction.     
+
+
+
+Example:      
+For every real number x in [0, pi/2], we have sinx + cosx >= 1.       
+Suppose there are real number x in [0, pi/2] for which sinx + cosx < 1.     
+The values of sinx and cosx in [0, pi/2] can't be negative.    
+0 < sinx + cosx < 1.     
+0^2 < (sinx + cosx)^2 < 1^2.      
+0 < sin^2(x) + 2sinxcosx + cos^2(x) < 1.     
+0 < 2sinxcosx + 1 < 1.      
+But sicnce sinx and cosx are not negative, 2sincosx + 1 can't be less than 1.    
