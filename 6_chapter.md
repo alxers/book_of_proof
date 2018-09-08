@@ -77,3 +77,26 @@ The values of sinx and cosx in [0, pi/2] can't be negative.
 0 < sin^2(x) + 2sinxcosx + cos^2(x) < 1.     
 0 < 2sinxcosx + 1 < 1.      
 But sicnce sinx and cosx are not negative, 2sincosx + 1 can't be less than 1.    
+
+
+
+Proving conditionals by contradiction.      
+Example:      
+If P, then Q.    
+Proof by contradiction start with assumption that ~(P => Q) is true (or P => Q is false).     
+According to the truth table P can be true when Q is false when P => Q is false.     
+The first step then is to assume that P is true and Q is false (P and ~Q).     
+
+*Outline for Proving a Conditional*     
+Statement with Contradiction     
+Proposition     
+If P, then Q.     
+Proof. Suppose P and ∼ Q.     
+.     
+.     
+Therefore C ^ ∼C.     
+
+
+
+Example:     
+Suppose a in Z. If a^2 is even, then a is even.     
