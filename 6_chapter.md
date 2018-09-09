@@ -100,3 +100,16 @@ Therefore C ^ ∼C.
 
 Example:     
 Suppose a in Z. If a^2 is even, then a is even.     
+Suppose a^2 is even and a is odd.     
+a = 2x + 1.     
+a^2 = a * a = (2x + 1)^2 = 4x^2 + 4x + 1 = 2(2x^2 + 2x) + 1.     
+So a^2 is odd and a^2 is even, contraditcion.     
+
+
+
+Example:      
+If a, b in Z and a >= 2, then a !| b, or a !| (b + 1).       
+Suppose it's not true that a !| b or a !| b + 1.     
+By DeMorgan's law  not ((a !| b) or (a !| b + 1)) is equal to not (a !| b) and not ((a !| b + 1)).     
+Which is the same as a | b and a | (b + 1).     
+Then it must be that b = ax and b + 1 = ay.      
