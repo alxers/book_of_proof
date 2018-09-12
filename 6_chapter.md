@@ -113,3 +113,27 @@ Suppose it's not true that a !| b or a !| b + 1.
 By DeMorgan's law  not ((a !| b) or (a !| b + 1)) is equal to not (a !| b) and not ((a !| b + 1)).     
 Which is the same as a | b and a | (b + 1).     
 Then it must be that b = ax and b + 1 = ay.      
+b + 1 = ay divided by b = ax is equal to 1 = ay - ax.     
+a(y - x) = 1.     
+a is positive, (y - x) is also positive (otherwise a would be negative).     
+a = 1/(y - x) which is less than 2.     
+So a >=2 and a < 2. Contradiction.     
+
+
+
+
+Example:     
+Every non-zero rational number can be expressed as a product of two irrational numbers.       
+In other words, if r is a non-zero rational number, then r is a product of two irrational numbers.     
+Direct proof.     
+Suppose r is a non-zero rational number. Then r = a/b for integers a and b.     
+r can be writte as r = sqrt(2) * (r/sqrt(2)).     
+sqrt(2) is irrational, we must show that r/sqrt(2) also irrational.     
+Assume for the sake of contradicton, that r/sqrt(2) is rational.     
+This means r/sqrt(2) = c/d.     
+sqrt(2) = r * (d/c).     
+But r = a/b.     
+sqrt(2) = ad/bc which means sqrt(2) is rational.     
+Contradiction.     
+Therefore r/sqrt(2) is irrational.     
+Consequently r = sqrt(2) * (r/sqrt(2)) is a product of two irrational numbers.      
