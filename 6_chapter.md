@@ -137,3 +137,12 @@ sqrt(2) = ad/bc which means sqrt(2) is rational.
 Contradiction.     
 Therefore r/sqrt(2) is irrational.     
 Consequently r = sqrt(2) * (r/sqrt(2)) is a product of two irrational numbers.      
+
+
+
+Exercises for Chapter 6.      
+A. Use the method of proof by contradiction to prove the following statements.     
+1. Suppose n in Z. If n is odd, then n^2 is odd.     
+3. Prove that 2^(1/3) is irrational.     
+5. Prove that sqrt(3) is irrational.     
+6. If a, b in Z. a^2 - 4b - 2 != 0.     
