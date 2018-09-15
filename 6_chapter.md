@@ -146,3 +146,4 @@ A. Use the method of proof by contradiction to prove the following statements.
 3. Prove that 2^(1/3) is irrational.     
 5. Prove that sqrt(3) is irrational.     
 6. If a, b in Z. a^2 - 4b - 2 != 0.     
+
