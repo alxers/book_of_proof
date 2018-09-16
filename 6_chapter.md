@@ -142,8 +142,31 @@ Consequently r = sqrt(2) * (r/sqrt(2)) is a product of two irrational numbers.
 
 Exercises for Chapter 6.      
 A. Use the method of proof by contradiction to prove the following statements.     
+
+
 1. Suppose n in Z. If n is odd, then n^2 is odd.     
+Suppose n is odd and n^2 is even.     
+n = 2x + 1.     
+n^2 = (2x + 1)^2 = 4x^2 + 4x + 1 = 2(2x^2 + 2x) + 1 which is odd.     
+Contradiction.     
+
+
+
 3. Prove that 2^(1/3) is irrational.     
+Suppose 2^(1/3) is rational, then 2^(1/3) = a/b.     
+a/b is a reduced fraction (a and b can't be both even, otherwise we'd factor out 2 and cancel).     
+(2^(1/3))^3 = (a/b)^3.     
+2 = (a^3)/(b^3).     
+2b^3 = a^3.     
+a^3 is even.     
+Then a is even (a = 2x, a^3 = 8x^3 = 2(4x^3)).     
+Then 2b^3 = 8x^3.     
+b^3 = 4x^3.     
+b^3 = 2(2x^3).     
+b^3 is even, then b is even (same reasoning as for a).     
+Contradiction.    
+
+
 5. Prove that sqrt(3) is irrational.     
 6. If a, b in Z. a^2 - 4b - 2 != 0.     
 
