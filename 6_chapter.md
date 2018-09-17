@@ -167,6 +167,9 @@ b^3 is even, then b is even (same reasoning as for a).
 Contradiction.    
 
 
-5. Prove that sqrt(3) is irrational.     
+5. Prove that sqrt(3) is irrational.      
+
+
+  
 6. If a, b in Z. a^2 - 4b - 2 != 0.     
 
