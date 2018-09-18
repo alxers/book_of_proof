@@ -170,6 +170,16 @@ Contradiction.
 5. Prove that sqrt(3) is irrational.      
 
 
-  
+
 6. If a, b in Z. a^2 - 4b - 2 != 0.     
+Suppose a^2 - 4b - 2 = 0.     
+a^2 = 4b + 2 = 2(2b + 1).     
+a^2 is even, then a is even.     
+So a = 2x.     
+4x^2 - 4b - 2 = 0.     
+2x^2 - 2b - 1 = 0.     
+2(x^2 - b) = 1.    
+1 is even, contradiction.     
+
+
 
