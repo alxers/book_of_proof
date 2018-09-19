@@ -183,3 +183,24 @@ So a = 2x.
 
 
 
+8. Suppose a, b, c in Z . If a^2 + b^2 = c^2, then a or b is even.      
+Suppose a^2 + b^2 = c^2 and not (a or b).      
+By DeMorgan's law not (a or b) = not a and not b.     
+So a and b are odd.     
+a = 2x + 1, b = 2y + 1.     
+(2x + 1)^2 + (2y + 1)^2 = c^2.     
+4x^2 + 4x + 1 + 4y^2 + 4y + 1 = c^2.     
+2(2x^2 + 2x + 2y^2 + 2y + 1) = c^2.     
+c^2 is even, c is even.     
+c = 2z
+???
+
+
+9. Suppose a, b in R . If a is rational and ab is irrational, then b is irrational.     
+Suppose b is rational, b = x/y for some integers x, y.     
+Since a is rational, a = k/m for some integers k, m.     
+
+
+
+10. There exist no integers a and b for which 21 a + 30 b = 1 .
+11. There exist no integers a and b for which 18 a + 6 b = 1 .
