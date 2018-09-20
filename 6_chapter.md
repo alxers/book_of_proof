@@ -199,8 +199,19 @@ c = 2z
 9. Suppose a, b in R . If a is rational and ab is irrational, then b is irrational.     
 Suppose b is rational, b = x/y for some integers x, y.     
 Since a is rational, a = k/m for some integers k, m.     
+ab = (k/m) * (x/y).     
+Since k, m, x and y are integers, ab is rational.     
+Contradiction.     
 
 
 
-10. There exist no integers a and b for which 21 a + 30 b = 1 .
-11. There exist no integers a and b for which 18 a + 6 b = 1 .
+10. There exist no integers a and b for which 21a + 30b != 1.          
+???
+
+
+
+11. There exist no integers a and b for which 18a + 6b != 1.    
+Suppose 18a + 6b = 1.      
+2(9a + 3b) = 1.     
+Then a is even.     
+Contradiction.     
