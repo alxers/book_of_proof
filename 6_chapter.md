@@ -215,3 +215,6 @@ Suppose 18a + 6b = 1.
 2(9a + 3b) = 1.     
 Then a is even.     
 Contradiction.     
+
+
+12. For every positive x in Q, there is a positive y in Q for which y < x.
