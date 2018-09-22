@@ -218,3 +218,6 @@ Contradiction.
 
 
 12. For every positive x in Q, there is a positive y in Q for which y < x.
+
+
+13. For every x in [pi/2, pi], sinx - cos x >= 1.
