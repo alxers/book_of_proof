@@ -70,7 +70,7 @@ This is a contradiction.
 
 Example:      
 For every real number x in [0, pi/2], we have sinx + cosx >= 1.       
-Suppose there are real number x in [0, pi/2] for which sinx + cosx < 1.     
+Suppose there is real number x in [0, pi/2] for which sinx + cosx < 1.     
 The values of sinx and cosx in [0, pi/2] can't be negative.    
 0 < sinx + cosx < 1.     
 0^2 < (sinx + cosx)^2 < 1^2.      
@@ -220,4 +220,15 @@ Contradiction.
 12. For every positive x in Q, there is a positive y in Q for which y < x.
 
 
-13. For every x in [pi/2, pi], sinx - cos x >= 1.
+13. For every x in [pi/2, pi], sinx - cos x >= 1.     
+Suppose sinx - cosx < 1.     
+sinx >= 0 in [pi/2, pi].     
+cosx <= 0 in [pi/2, pi].     
+sinx - cosx >= 0 in [pi/2, pi].      
+0 <= sinx - cosx < 1.     
+Square all sides, 0^2 <= (sinx - cosx)^2 < 1^2.     
+0 <= sin^2(x) - 2sinxcosx + cos^2(x) < 1.     
+0 <= 1 - 2sinxcosx < 1.     
+-2sinxcosx >= 0, cosx <= 0, sinx >= 0.     
+1 + (-2sinxcosx) >= 1.     
+Contradiction.     
