@@ -217,7 +217,10 @@ Then a is even.
 Contradiction.     
 
 
-12. For every positive x in Q, there is a positive y in Q for which y < x.
+12. For every positive x in Q, there is a positive y in Q for which y < x.     
+Suppose y >= x.     
+Since y is a positive number in Q, let y = x/2.     
+Then x/2 >= x, contradiction.     
 
 
 13. For every x in [pi/2, pi], sinx - cos x >= 1.     
