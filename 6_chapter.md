@@ -235,3 +235,11 @@ Square all sides, 0^2 <= (sinx - cosx)^2 < 1^2.
 -2sinxcosx >= 0, cosx <= 0, sinx >= 0.     
 1 + (-2sinxcosx) >= 1.     
 Contradiction.     
+
+
+14. If A and B are sets, then A intersect (B - A) = empty_set.   
+Suppose A intersect (B - A) != empty_set.     
+If it's not empty, then there is an a in (A intersect (B - A)).     
+Since it's an intersection, then a in A AND a in (B - A).     
+But a not in (B - A).     
+Contradiction.     
