@@ -243,3 +243,26 @@ If it's not empty, then there is an a in (A intersect (B - A)).
 Since it's an intersection, then a in A AND a in (B - A).     
 But a not in (B - A).     
 Contradiction.     
+
+
+
+15. If b in Z and b !| k for every k in N, then b = 0.     
+Suppose b != 0.     
+Case 1. b > 0, then b in N.     
+Then it's not true that b !| k, contradiction.     
+Case 2. b < 0, then -b in N.     
+Then it's not true that b !| k, contradiction.     
+
+
+
+16. If a and b are positive real numbers, then a + b >= 2sqrt(ab).     
+Suppose a + b < 2 sqrt(ab).     
+Since a and b are positive we can square both sides.     
+(a + b)^2 < 4ab.     
+a^2 + 2ab + b^2 < 4ab.     
+a^2 -2ab + b^2 < 0.     
+(a - b)^2 < 0.     
+Squared number can't be negative, contraditcion.      
+
+
+ 
