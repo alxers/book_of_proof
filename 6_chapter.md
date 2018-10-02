@@ -265,4 +265,6 @@ a^2 -2ab + b^2 < 0.
 Squared number can't be negative, contraditcion.      
 
 
- 
+17. For every n in Z, 4!| (n^2 + 2).     
+Suppose 4 | (n^2 + 2).     
+Then (n^2 + 2) = 4a.      
