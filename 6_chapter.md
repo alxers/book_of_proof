@@ -267,4 +267,10 @@ Squared number can't be negative, contraditcion.
 
 17. For every n in Z, 4!| (n^2 + 2).     
 Suppose 4 | (n^2 + 2).     
-Then (n^2 + 2) = 4a.      
+Then (n^2 + 2) = 4a.     
+
+
+
+B. Prove the following statements using any method from Chapters 4, 5 or 6.     
+19. The product of any five consecutive integers is divisible by 120.(For
+example, the product of 3,4,5,6 and 7 is 2520, and 2520 = 120 * 21).      
