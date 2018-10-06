@@ -268,6 +268,7 @@ Squared number can't be negative, contraditcion.
 17. For every n in Z, 4!| (n^2 + 2).     
 Suppose 4 | (n^2 + 2).     
 Then (n^2 + 2) = 4a.     
+n^2 + 2 - 2a = 2a.     
 
 
 
