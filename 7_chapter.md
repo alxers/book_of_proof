@@ -32,3 +32,6 @@ Conversely we need to prove that n^2 being odd implies that n is odd.
 (Contrapositive). Suppose n is not odd, then n is even, n = 2a.     
 n^2 = 4a^2 = 2(2a^2) which is even.     
 So n^2 is even. This is contrapositive proof that if n^2 is odd then n is odd.      
+
+
+Proposition Suppose a and b are integers. Then a ≡ b (mod 6) if and only if a ≡ b (mod 2) and a ≡ b (mod 3).        
