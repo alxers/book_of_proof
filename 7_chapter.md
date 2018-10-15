@@ -35,3 +35,5 @@ So n^2 is even. This is contrapositive proof that if n^2 is odd then n is odd.
 
 
 Proposition Suppose a and b are integers. Then a ≡ b (mod 6) if and only if a ≡ b (mod 2) and a ≡ b (mod 3).        
+Proof. First we prove that a ≡ b (mod 6).     
+Suppose a ≡ b (mod 6), then 6 | (a - b).      
