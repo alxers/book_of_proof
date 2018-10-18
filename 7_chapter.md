@@ -40,3 +40,9 @@ Suppose a ≡ b (mod 6), then 6 | (a - b).
 (a - b) = 6x.     
 (a - b) = 2(3x), which means 2 | (a - b), a ≡ b (mod 2).     
 (a - b) = 3(2x), which means 3 | (a - b), a ≡ b (mod 3).     
+
+Suppose a ≡ b (mod 2) and a ≡ b (mod 3).     
+2 | (a - b), (a - b) = 2y.    
+So (a - b) is even.     
+3 | (a - b), (a - b) = 3z.     
+Since (a - b) is even, then 3z must be even too.     
