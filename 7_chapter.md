@@ -46,3 +46,4 @@ Suppose a ≡ b (mod 2) and a ≡ b (mod 3).
 So (a - b) is even.     
 3 | (a - b), (a - b) = 3z.     
 Since (a - b) is even, then 3z must be even too.     
+
