@@ -46,4 +46,7 @@ Suppose a ≡ b (mod 2) and a ≡ b (mod 3).
 So (a - b) is even.     
 3 | (a - b), (a - b) = 3z.     
 Since (a - b) is even, then 3z must be even too.     
-
+z is even, otherwise a - b would be odd as product of two odd numbers.     
+z = 2r for some integer r.     
+a - b = 3z = 3 * 2r = 6r.     
+Thus 6 | (a - b), a ≡ b (mod 6).     
