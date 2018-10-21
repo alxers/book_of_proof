@@ -50,3 +50,38 @@ z is even, otherwise a - b would be odd as product of two odd numbers.
 z = 2r for some integer r.     
 a - b = 3z = 3 * 2r = 6r.     
 Thus 6 | (a - b), a ≡ b (mod 6).     
+
+
+
+*7.2 Equivalent Statements*     
+Example:     
+Theorem Suppose A is an n * n matrix. The following statements are equivalent:     
+(a) The matrix A is invertible.     
+(b) The equation Ax = b has a uniq solution for every b in R^n.     
+(c) The equation Ax = 0 has only the trivial solution.     
+(d) The reduced row echelon form of A is I_n.     
+(e) det(a)!= 0.     
+(f) The matrix A does not have 0 as an eigenvalue.     
+
+"Equivalent" measn assertin that either all statements true, or all false.     
+In order to prove it we need to prove that (a) => (b), (c) => (c), ..., (f) => (a)
+(The order of proof might be different).     
+
+
+*7.3 Existence Proofs; Existence and Uniqueness Proofs*    
+Existentially quantified statement:     
+E x, R(x).    
+
+A simple example:     
+Proposition There exists an even prime number.     
+Proof. Observe that 2 is an even prime number.     
+
+Proposition There exists an integer that can be expressed as the sum of two perfect cubes in two different ways.     
+Proof. Consider number 1729. Note that 1^3 + 12^3 = 1729 and 9^3 + 10^3 = 1729.     
+
+Sometimes existence statement will be embedded inside of a conditional statement.      
+
+If a, b in N, then there exist integer k and l for which gdc(a, b) = ak + bl.      
+This is a conditional statement that has the form:      
+a, b in N => E k, l in Z, gdc(a, b) = ak + bl.     
+To prove it with direct proof, we'd assume that a, b in N, then prove the existence statement E k, l in Z, gdc(a, b) = ak + bl.     
