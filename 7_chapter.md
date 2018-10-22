@@ -85,3 +85,6 @@ If a, b in N, then there exist integer k and l for which gdc(a, b) = ak + bl.
 This is a conditional statement that has the form:      
 a, b in N => E k, l in Z, gdc(a, b) = ak + bl.     
 To prove it with direct proof, we'd assume that a, b in N, then prove the existence statement E k, l in Z, gdc(a, b) = ak + bl.     
+
+
+Proposition 7.1 If a, b in N, then there exist integers k and l for which gcd (a, b ) = ak + bl.     
