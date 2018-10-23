@@ -88,3 +88,5 @@ To prove it with direct proof, we'd assume that a, b in N, then prove the existe
 
 
 Proposition 7.1 If a, b in N, then there exist integers k and l for which gcd (a, b ) = ak + bl.     
+
+Proof. (Direct) Suppose a, b in N.
