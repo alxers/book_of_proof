@@ -89,4 +89,6 @@ To prove it with direct proof, we'd assume that a, b in N, then prove the existe
 
 Proposition 7.1 If a, b in N, then there exist integers k and l for which gcd (a, b ) = ak + bl.     
 
-Proof. (Direct) Suppose a, b in N.
+Proof. (Direct) Suppose a, b in N.      
+Consider set A = { ax + by : x, y in Z }. This set contains positive, negative integers and 0 (Let y = 0, then x ranges over all integers. Then ax + by = ax ranges over all multiples of a).     
+Let d be the smallest positive element in A. Then d has a form d = ak + bl for some k, l in Z.     
