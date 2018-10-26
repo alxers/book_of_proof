@@ -95,4 +95,4 @@ Let d be the smallest positive element in A. Then d has a form d = ak + bl for s
 Show that d = gcd(a, b).     
 First show that d is a common divisor of a and b and then that it's the greatest common divisor.     
 To see that d | a we use the divison algorithm.     
-a = qd + r
+a = qd + r for integers q and r 0 <= r < d.     
