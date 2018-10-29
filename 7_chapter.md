@@ -96,3 +96,10 @@ Show that d = gcd(a, b).
 First show that d is a common divisor of a and b and then that it's the greatest common divisor.     
 To see that d | a we use the divison algorithm.     
 a = qd + r for integers q and r 0 <= r < d.     
+r = a - qd.     
+r = a - q(ak + bl).     
+r = a - qak - qbl.     
+r = a(1 - qk) + b(-ql).     
+r in A and 0 <= r < d, but d is the smallest element, so r must be zero.     
+Then a = qd, which means d | a.     
+Same argument for d | b.     
