@@ -103,3 +103,6 @@ r = a(1 - qk) + b(-ql).
 r in A and 0 <= r < d, but d is the smallest element, so r must be zero.     
 Then a = qd, which means d | a.     
 Same argument for d | b.     
+Now prove that d is the greatest common divisor.     
+gcd(a, b) divides a and b, a = gcd(a, b) * m, b = gcd(a, b) * n for some m, n in Z.    
+So d = ak + bl = gcd(a, b) * mk + gcd(a, b) * nl.     
