@@ -106,3 +106,9 @@ Same argument for d | b.
 Now prove that d is the greatest common divisor.     
 gcd(a, b) divides a and b, a = gcd(a, b) * m, b = gcd(a, b) * n for some m, n in Z.    
 So d = ak + bl = gcd(a, b) * mk + gcd(a, b) * nl.     
+
+
+
+Uniqueness proofs.     
+"There is a uniq *x* for which P(x)".      
+Such a statement asserts that there is exactly one example x for which P(x) is true. To prove it, we must produce an example x = d for which P(d) is true, and we must show that d is the only such example.     
