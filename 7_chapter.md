@@ -112,3 +112,6 @@ So d = ak + bl = gcd(a, b) * mk + gcd(a, b) * nl.
 Uniqueness proofs.     
 "There is a uniq *x* for which P(x)".      
 Such a statement asserts that there is exactly one example x for which P(x) is true. To prove it, we must produce an example x = d for which P(d) is true, and we must show that d is the only such example.     
+
+
+Proposition. Suppose a, b in N. Then there exists a unique d in N for which: An integer m is a multiple of d if and only if m = ax + by for some x, y in Z.        
