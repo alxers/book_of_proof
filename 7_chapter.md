@@ -116,4 +116,4 @@ Such a statement asserts that there is exactly one example x for which P(x) is t
 
 Proposition. Suppose a, b in N. Then there exists a unique d in N for which: An integer m is a multiple of d if and only if m = ax + by for some x, y in Z.      
 Proof. Suppose a, b in N. Let d = gcd(a, b). Show that an integer m is a multiple of d if and only if (iff) m = ax + by for some x, y in Z.     
-  
+Let m = dn be a multiple of d. By Proposition 7.1, there are integers k and l for which d = ak + bl.     
