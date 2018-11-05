@@ -118,4 +118,5 @@ Proposition. Suppose a, b in N. Then there exists a unique d in N for which: An 
 Proof. Suppose a, b in N. Let d = gcd(a, b). Show that an integer m is a multiple of d if and only if (iff) m = ax + by for some x, y in Z.     
 Let m = dn be a multiple of d. By Proposition 7.1, there are integers k and l for which d = ak + bl.     
 Then m = dn = (ak + bl)n = a(kn) + b(ln), so m = ax + by for integers x = kn and y = ln.     
+Conversely, suppose m = ax + by for some x, y in Z. Since d = gcd(a, b) is a divisor of both a and b, we have a = dc and b = de for some c, e in Z. Then m = ax + by = dcx + dey = d(cx + ey), and this is a multiple of d.     
 
