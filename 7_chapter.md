@@ -113,10 +113,9 @@ Uniqueness proofs.
 "There is a uniq *x* for which P(x)".      
 Such a statement asserts that there is exactly one example x for which P(x) is true. To prove it, we must produce an example x = d for which P(d) is true, and we must show that d is the only such example.     
 
+7.4 Constructive Versus Non-Constructive Proofs.     
+Constructive - explicit example, non-constructive - example exists without actually giving it.     
 
-Proposition. Suppose a, b in N. Then there exists a unique d in N for which: An integer m is a multiple of d if and only if m = ax + by for some x, y in Z.      
-Proof. Suppose a, b in N. Let d = gcd(a, b). Show that an integer m is a multiple of d if and only if (iff) m = ax + by for some x, y in Z.     
-Let m = dn be a multiple of d. By Proposition 7.1, there are integers k and l for which d = ak + bl.     
-Then m = dn = (ak + bl)n = a(kn) + b(ln), so m = ax + by for integers x = kn and y = ln.     
-Conversely, suppose m = ax + by for some x, y in Z. Since d = gcd(a, b) is a divisor of both a and b, we have a = dc and b = de for some c, e in Z. Then m = ax + by = dcx + dey = d(cx + ey), and this is a multiple of d.     
+Example:     
 
+Proposition There exist irrational numbers x, y for which x^y is rational.     
