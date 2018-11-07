@@ -118,4 +118,8 @@ Constructive - explicit example, non-constructive - example exists without actua
 
 Example:     
 
-Proposition There exist irrational numbers x, y for which x^y is rational.     
+Proposition There exist irrational numbers x, y for which x^y is rational.    
+Proof. Let x = sqrt(2)^(sqrt(2)) and y = sqrt(2).     
+sqrt(2) is irrational, but it's not clear if sqrt(2)^(sqrt(2)) is rational or irrational.     
+If it's irrational, then x^y = (sqrt(2)^(sqrt(2)))^(sqrt(2)) = 2 which is rational.     
+If it's rational, then y^y = x.     
