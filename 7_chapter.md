@@ -127,3 +127,13 @@ If it's rational, then y^y = x.
 
 
 Proposition There exist irrational numbers x, y for which x^y is rational. 
+
+
+
+Exercises for Chapter 7      
+
+1. Suppose x in Z. Then x is even if and only if 3x + 5 is odd.      
+Suppose x is even, then x = 2a.     
+3x + 5 = 3(2a) + 5 = 6a + 5 = 6a + 4 + 1 = 2(3a + 2) + 1, which is odd.    
+Conversely if 3x + 5 is odd, then x is even.     
+Suppose x is odd, so x = 2b + 1, then 3(2b + 1) + 5 = 6b + 3 + 5 = 6b + 8 = 2(3b + 4) which is even, not odd.    
