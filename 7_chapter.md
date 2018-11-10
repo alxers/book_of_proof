@@ -137,3 +137,17 @@ Suppose x is even, then x = 2a.
 3x + 5 = 3(2a) + 5 = 6a + 5 = 6a + 4 + 1 = 2(3a + 2) + 1, which is odd.    
 Conversely if 3x + 5 is odd, then x is even.     
 Suppose x is odd, so x = 2b + 1, then 3(2b + 1) + 5 = 6b + 3 + 5 = 6b + 8 = 2(3b + 4) which is even, not odd.    
+
+
+3. Given an integer a, then a^3 + a^2 + a is even if and only if a is even.    
+a is even, a = 2x, (2x)^3 + (2x)^2 + 2x = 8x^3 + 4x^2 + 2x = 2(4x^3 + 2x^2 + x) which is even.     
+Suppose a is odd a = 2y + 1, (2y + 1)^3 + (2y + 1)^2 + 2y + 1 = (4y^2 + 4y + 1)(2y + 1) + 4y^2 + 4y + 1 + 2y + 1 = (4y^2 + 4y + 1)(2y + 1) + 4y^2 + 4y + 1 + 2y + 1 = 8y^3 + 4y^2 + 8y^2 + 4y + 2y + 1 + 4y^2 + 4y + 1 + 2y + 1 = 8y^3 + 16y^2 + 14y + 2 + 1 = 2(4y^3 + 8y^2 + 7y + 1) + 1 which is odd.     
+
+
+5. An integer a is odd if and only if a^3 is odd.     
+Suppose a is odd, a = 2x + 1    
+(2x + 1)^3 = (4x^2 + 4x + 1)(2x + 1) = 8x^3 + 8x^2 + 2x + 4x^2 + 4x + 1 = 8x^3 + 12x^2 + 6x + 1 = 2(4x^3 + 6x^2 + 3x) + 1 is odd.     
+Suppose a is even, a = 2y, 8y^3 = 2(4y^3) is even.     
+
+
+7. x, y in R. THen (x + y)^2 = x^2 + y^2 if and only if y = 0, x = 0.      
