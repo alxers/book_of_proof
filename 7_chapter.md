@@ -151,3 +151,14 @@ Suppose a is even, a = 2y, 8y^3 = 2(4y^3) is even.
 
 
 7. x, y in R. THen (x + y)^2 = x^2 + y^2 if and only if y = 0, x = 0.      
+Suppose (x + y)^2 = x^2 + y^2.      
+x^2 + 2xy + y^2 = x^2 + y^2.     
+2xy = 0.    
+Suppose x = 0 or y = 0.    
+Case 1) x = 0. (0 + y)^2 = x^2 + y^2, 0^2 + y^2 = x^2 + y^2.    
+Case 2) y = 0. (x + 0)^2 = x^2 + 0^2 = x^2 + y^2.     
+
+
+
+8. Suppose a, b in Z. Prove that a === b (mod 10) if and only if a === b (mod 2) and a === b (mod 5).     
+
