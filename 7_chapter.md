@@ -161,4 +161,28 @@ Case 2) y = 0. (x + 0)^2 = x^2 + 0^2 = x^2 + y^2.
 
 
 8. Suppose a, b in Z. Prove that a === b (mod 10) if and only if a === b (mod 2) and a === b (mod 5).     
+1) Prove that a === b (mod 10) if a === b (mod 2) and a === b (mod 5).      
+10 | a - b, a - b = 10x.      
+a - b = 2(5x).     
+Then a === b (mod 2) by definition.        
+a - b = 5(2x).     
+Then a === b (mod 5) by definition.        
+2) Since a === b (mod 2) and a === b (mod 5), a - b = 2y and a - b = 5z.     
+a - b is even, so z must be even.       
+z = 2m.     
+a - b = 5 * 2m = 10m.     
+Then a === b (mod 10).      
 
+
+9. Suppose a in Z. Prove that 14 | a if and only if 7 | a and 2 | a.     
+1) 14 | a, then a = 14x.      
+a = 7(2x).     
+a = 2(7x).     
+2) 7 | a, then a = 7y for some y in Z.     
+2 | a, then a = 2z for some z in Z.     
+Since a = 2z, a is even, then 7y and y must be even.     
+y = 2k.     
+a = 14k, then 14 | a.     
+
+
+11. Suppose a, b in Z. Prove that (a - 3)b^2 is even if and only if a is odd or b is even.        
