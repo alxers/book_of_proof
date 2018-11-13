@@ -185,4 +185,15 @@ y = 2k.
 a = 14k, then 14 | a.     
 
 
-11. Suppose a, b in Z. Prove that (a - 3)b^2 is even if and only if a is odd or b is even.        
+11. Suppose a, b in Z. Prove that (a - 3)b^2 is even if and only if a is odd or b is even.     
+1) a = 2x + 1 or b = 2y.     
+(a - 3)4y^2 = 4ay^2 - 14y^2 = 2(2ay^2 - 6y^2) is even.           
+(2x + 1 - 3)b^2 = (2x - 2)b^2 = 2xb^2 - 2b^2 = 2(xb^2 - b^2) is even.     
+2) a is odd or b is even is the same as a is even and b is odd.      
+(2m - 3)(2k + 1)^2 = (2m - 3)(4k^2 + 4k + 1) = 8mk^2 + 8mk + 2m - 12k^2 - 12k - 3 = 2(4mk^2 + 4mk + m - 6k^2 - 6k - 1) - 1 which is odd.     
+
+
+12. There exists a positive real number x for which x^2 < sqrt(x).     
+Suppose x > 0 and x < 1, then x^2 < x.     
+Suppose x = m * m then and sqrt(x) = m, so x < m.     
+Then it follows that x^2 < x < sqrt(x).     
