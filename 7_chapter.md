@@ -197,3 +197,29 @@ a = 14k, then 14 | a.
 Suppose x > 0 and x < 1, then x^2 < x.     
 Suppose x = m * m then and sqrt(x) = m, so x < m.     
 Then it follows that x^2 < x < sqrt(x).     
+
+14. Suppose a in Z. Then a^2 | a if and only if a in {-1, 0, 1}.     
+
+
+
+15. Suppose a, b in Z. Prove that a + b is even if adn only if a and b have the same parity.     
+1) a + b = 2x.     
+Suppose a is even and b is even, then a = 2m, b = 2k.     
+2m + 2k = 2(m + k) which is even.     
+Suppose a is odd and b is odd, then a = 2m + 1, b = 2k + 1.     
+2m + 1 + 2k + 1 = 2(m + k + 1) whichis even.     
+2) Suppose it's not the case that a and b have the same parity.     
+F.e. a is even, b is odd, then a = 2m, b = 2k + 1.     
+2m + 2k + 1 = 2(m + k) + 1 which is odd.     
+
+
+18. There is a set X for which N in X and N set_in X.     
+Observe that there is set X = { {N}, N }.     
+
+
+
+19. If n in N, then 2^0 + 2^1 + ... + 2^n = 2^(n + 1) - 1.     
+Let S = 2^0 + 2^1 + ... + 2^n, multiply S by 2 (both sides).     
+2S = 2^1 + 2^2 + ... + 2^(n + 1).     
+Subtract S from 2S, 2S - S = -2^0 + 2^(n + 1).      
+So S = 2^(n + 1) - 1.     
