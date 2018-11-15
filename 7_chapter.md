@@ -223,3 +223,17 @@ Let S = 2^0 + 2^1 + ... + 2^n, multiply S by 2 (both sides).
 2S = 2^1 + 2^2 + ... + 2^(n + 1).     
 Subtract S from 2S, 2S - S = -2^0 + 2^(n + 1).      
 So S = 2^(n + 1) - 1.     
+
+
+20. There exists an n in N for which 11 | (2^n - 1).     
+By Fermat theorem, if p !| and p is a prime then a^(p-1) === 1 (mod p).     
+2^n === 1 (mod 11).      
+2^(11-1) === 1 (mod 11).     
+2^10 === 1 (mod 11).     
+
+
+
+21. Every real solution of x^3 + x + 3 = 0 is irrational.     
+Suppose there are rational solutions (a/b).     
+(a/b)^3 + a/b + 3 = 0.     
+a^3 + ab^2 + 3b^3 = 0.     
