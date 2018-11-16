@@ -233,7 +233,20 @@ By Fermat theorem, if p !| and p is a prime then a^(p-1) === 1 (mod p).
 
 
 
-21. Every real solution of x^3 + x + 3 = 0 is irrational.     
-Suppose there are rational solutions (a/b).     
-(a/b)^3 + a/b + 3 = 0.     
-a^3 + ab^2 + 3b^3 = 0.     
+22. If n in Z, then 4 | n^2 or 4 | (n^2 - 1).     
+n^2 = 4x or n^2 - 1 = 4x.    
+n^2 = 2(2x) or n^2 = 2(2x) + 1.    
+So n^2 is either even or odd.     
+(incomplete)
+
+
+23. Suppose a, b and c are integers. If a | b and a | (b^2 - c), then a | c.     
+b = ax, b^2 - c = ay, c = az.     
+(ax)^2 - ay = c.     
+a^2x^2 - ay = c.     
+a(ax^2 - y) = c.     
+c = az, where z = (ax^2 - y).     
+
+
+
+24. If a in Z, then 4!| (a^2 - 3).     
