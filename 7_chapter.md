@@ -250,3 +250,14 @@ c = az, where z = (ax^2 - y).
 
 
 24. If a in Z, then 4!| (a^2 - 3).     
+Suppose 4 | (a^2 -3).     
+a^2 - 3 = 4x.     
+a^2 = 4x + 3.     
+a^2 = 4x + 2 + 1.     
+a^2 = 2(2x + 1) + 1.     
+a^2 is odd, then a is odd.    
+Contradiction, because a in Z. (is this correct?).     
+
+
+
+25. If p > 1 is an integer and n !| p for each integer n for which 2 <= n <= sqrt(p), then p is prime.     
