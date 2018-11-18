@@ -261,3 +261,6 @@ Contradiction, because a in Z. (is this correct?).
 
 
 25. If p > 1 is an integer and n !| p for each integer n for which 2 <= n <= sqrt(p), then p is prime.     
+
+
+26. The product of any n consecutive positive integers is divisible by n!.     
