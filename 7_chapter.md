@@ -261,6 +261,20 @@ Contradiction, because a in Z. (is this correct?).
 
 
 25. If p > 1 is an integer and n !| p for each integer n for which 2 <= n <= sqrt(p), then p is prime.     
+Suppose p is not prime, then p = xy for some x, y in N, 1 < x, y < p.      
+x <= sqrt(p), y <= sqrt(p) (if x > sqrt(p) and y > sqrt(p), then p != xy).     
+x | p.     
 
 
-26. The product of any n consecutive positive integers is divisible by n!.     
+27. Suppose a, b in Z. If a^2 + b^2 is a perfect square, then a, b are not both odd.      
+Suppose a,b are both odd.      
+a = 2x + 1, b = 2y + 1.     
+(2x + 1)^2 + (2y + 1)^2 = 4x^2 + 4x + 1 + 4y^2 + 4y + 1 = 2(...) which is even.      
+Since a^2 + b^2 is a perfect square, then a^2 + b^2 = m^2.     
+So m^2 is even, then m is even.      
+m = 2k.     
+(2k)^2 = 2(...).     
+2k^2 = 2x^2 + 2x + 2y^2 + 2y + 1.      
+2k^2 = 2(...) + 1 which is odd, contradiction.     
+
+
