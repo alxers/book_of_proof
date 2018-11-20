@@ -278,3 +278,23 @@ m = 2k.
 2k^2 = 2(...) + 1 which is odd, contradiction.     
 
 
+
+31. If n in Z, then gcd(n, n+1) = 1.     
+Suppose gcd(n, n+1) = x, x !=1.     
+x | n, x | n+1.      
+n = xa, n+1 = xb for some a, b.     
+n = xb - 1.     
+xb - 1 = xa     
+xb - xa = 1     
+x(b-a) = 1     
+x = +- 1 and b - a = +-1     
+Contradiction (is not complete, case where x = -1 is possible)      
+
+
+36. Suppose a, b in N. Then a = lcm(a,b) if and only if b | a.     
+1) Suppose b | a, then b divides a and b divides b.     
+So a <= lcm(a, b).      
+2) Since a | lcm(a, b), then lcm(a,b) = ax, so a >= lcm(a,b).     
+Then it must be that lcm(a,b) = a.     
+
+
