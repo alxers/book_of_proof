@@ -43,3 +43,9 @@ Proof.
 Therefore, since A set_in B and B set_in A,      
 it follows that A = B.      
 
+
+Ex.      
+
+14. (A union B) - C = (A - C) union (B - C).     
+{ x: (x in A or x in B) and (x not_in C) } =     
+= { x: (x in A and x not_in C) or (x in B and x not_in C) }
