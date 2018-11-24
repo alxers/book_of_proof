@@ -44,7 +44,13 @@ Therefore, since A set_in B and B set_in A,
 it follows that A = B.      
 
 
-Ex.      
+Ex.    
+
+1. Prove that { 12n : n in Z } set_in { 2n : n in Z } intersection { 3n : n in Z }.     
+By definition of intersection x in { 2n : n in Z } AND x in { 3n : n in Z }.    
+So x = (2 * 3)n = 6n.      
+Suppose x in { 12n : n in Z }, then x = 12n = 6(2n).     
+Since x in { 12n : n in Z } and x in ({ 2n : n in Z } intersection { 3n : n in Z }), then, by definition of set_in, { 12n : n in Z } set_in { 2n : n in Z } intersection { 3n : n in Z }.      
 
 14. (A union B) - C = (A - C) union (B - C).     
 { x: (x in A or x in B) and (x not_in C) } =     
