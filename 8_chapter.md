@@ -55,6 +55,34 @@ Since x in { 12n : n in Z } and x in ({ 2n : n in Z } intersection { 3n : n in Z
 
 3. If k in Z, then { n in Z: n | k } set_in { n in Z : n | k^2 }
 
+
+4. If m, n in Z, then { x in Z : mn | x } set_in { x in Z : m | x } intersection { x in Z : n | x }.     
+1) Show that { x in Z : mn | x } set_in { x in Z : m | x }       
+x = ma by definition of mn | x    
+x = m(na)      
+Also x = mb by definition of m | x, so x = mb where b = na.     
+x in A and x in B.     
+2) Show that { x in Z : m | x } intersection { x in Z : n | x }.     
+x in { x in Z : m | x } and x in { x in Z : n | x }      
+
+
+5. If p and q are positive integers, then { pn : n in N } intersection { qn : n in N } != empty_set.     
+
+
+6. A set_in B then A - C set_in B - C.      
+1) Suppose A set_in B, then by definition of set_in a in A and a in B.      
+Also a not in C.      
+Then a in (A - C) and a in (B - C), which means A - C set_in B - C.     
+
+
+7. If B set_in C then A x B set_in A x C.      
+Direct proof.     
+Suppose A x B, then a in A and b in B.     
+Since B set_in C, then b in B and b in C.     
+Then if b in B and b in C, then (a, b) in A x C.     
+Then (a, b) in A x B and (a, b) in A x C, so A x B set_in A x C      
+
+
 14. (A union B) - C = (A - C) union (B - C).     
 { x: (x in A or x in B) and (x not_in C) } =     
 = { x: (x in A and x not_in C) or (x in B and x not_in C) }
