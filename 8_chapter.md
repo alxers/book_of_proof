@@ -83,6 +83,31 @@ Then if b in B and b in C, then (a, b) in A x C.
 Then (a, b) in A x B and (a, b) in A x C, so A x B set_in A x C      
 
 
+8. A union (B intersection C) = (A union B) intersection (A union B).     
+{ x : x in A or x in (B intersection C } =      
+= { x : x in A or (x in B and x in C) } =       
+= { x : (x in A or x in B) and (x in A or x in C) }     
+
+
+
+10. (A intersection B)(complement) = A(complement) union B(complement).      
+(A intersection B)(complement) = U - (A intersection B).      
+x in U ^ x not_in (A intersection B)      
+x in U ^ ~(x in A ^ x in B)      
+x in U ^ (~ x in A v ~ x in B)       
+x in U ^ (x not_in A v x not_in B) (DeMorgan)      
+(x in U ^ x not_in A) v (x in U v x not_in B) (P = P ^ P, regroup)       
+(U - A) union (U - B)      
+By definition (U - A) union (U - B) = A(complement) union B(complement).      
+
+
+12. A - (B intersection C) = (A - B) union (A - C).       
+x in A ^ ~(x in B ^ x in C)     
+x in A ^ (~ (x in B) v ~(x in C))       
+(x in A ^ x not_in B) v (x in A ^ x not_in C)       
+
+
+
 14. (A union B) - C = (A - C) union (B - C).     
 { x: (x in A or x in B) and (x not_in C) } =     
 = { x: (x in A and x not_in C) or (x in B and x not_in C) }
