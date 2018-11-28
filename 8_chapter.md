@@ -107,7 +107,45 @@ x in A ^ (~ (x in B) v ~(x in C))
 (x in A ^ x not_in B) v (x in A ^ x not_in C)       
 
 
+14. (A union B) - C = (A - C) union (B - C).       
+(x in A v x in B) ^ x not_in C      
+(x in A ^ x not_in C) v (x in B ^ x not_in C)      
 
-14. (A union B) - C = (A - C) union (B - C).     
-{ x: (x in A or x in B) and (x not_in C) } =     
-= { x: (x in A and x not_in C) or (x in B and x not_in C) }
+
+15. (A intersection B) - C = (A - C) intersection (B - C)       
+(x in A ^ x in B) ^ x not_in C       
+(x in A ^ x not_in C) ^ (x in B ^ x not_in C)     
+
+
+
+16. A x (B union C) = (A x B) union (A x C)       
+(x, y) : (x in A) ^ (y in B v y in C)       
+(x, y) : (x in A ^ y in B) v (x in A v y in C)      
+
+
+
+17. A x (B intersection C) = (A x B) intersection (A x C)        
+(x, y) : x in A ^ (y in B ^ y in C)     
+(x, y) : (x in A ^ y in B) ^ (x in A ^ y in C)       
+
+
+
+18. A x (B - C) = (A x B) - (A x C)      
+(x, y) : x in A ^ (y in B ^ y not_in C)      
+(x in A ^ y in B) ^ (x in A ^ y not_in C)      
+Since y in B ^ y not_in C, then (x, y) not_in A x C     
+Then (x, y) in A x B ^ (x, y) not_in A x C     
+Then (A x B) - (A x C)      
+
+
+
+19. { 9^n : n in Z } set_in { 3^n : n in Z } but { 9^n : n in Z } != { 3^n : n in Z }         
+1) 9^n in A and 9^n in B, (3^2)^n in B      
+2) Observe that 3 not in A       
+
+
+
+20. { 9^n : n in Q } = { 3^n : n in Q }         
+1) 9^n = (3^2)^n, 3^2n in { 3^n : n in Q }      
+2) Let n = 1/2, then 9^n = 3, so 3 in { 9^n : n in Q }        
+
