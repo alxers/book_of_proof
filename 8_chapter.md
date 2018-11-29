@@ -149,3 +149,17 @@ Then (A x B) - (A x C)
 1) 9^n = (3^2)^n, 3^2n in { 3^n : n in Q }      
 2) Let n = 1/2, then 9^n = 3, so 3 in { 9^n : n in Q }        
 
+
+
+21. A set_in B iff A - B = empty_set      
+Suppose it's not true that A - B = empty_set, then A - B != empty_set      
+x in A ^ x in B by definion of union.      
+If A - B != empty_set then x not_in A ^ x not_in B     
+
+
+26. { 4k + 5 : k in Z } = { 4k + 1 : x in Z }       
+1) Prove that A set_in B       
+4k + 5 = 4k + 4 + 1 = 4(k+1) + 1, k + 1 in Z, then A set_in B     
+2) Prove that B set_in A     
+4k + 5 - 4 = 4(k+1) + 5, k - 1 in Z, then B set_in A      
+
