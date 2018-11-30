@@ -163,3 +163,8 @@ If A - B != empty_set then x not_in A ^ x not_in B
 2) Prove that B set_in A     
 4k + 5 - 4 = 4(k+1) + 5, k - 1 in Z, then B set_in A      
 
+
+
+29. Suppose A != empty_set. Prove that A x B set_in A x C, iff B set_in C.        
+
+
