@@ -13,3 +13,10 @@ Produce an example of an x that makes P(x) true and Q(x) false.
 
 How to disprove P with contradiction:      
 Assume P is true, and deduce a contradiction.      
+
+
+
+Exercises for Chapter 9      
+
+
+1. If x, y in R, then |x + y| = |x| + |y|.     
