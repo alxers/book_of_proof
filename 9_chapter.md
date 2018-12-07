@@ -28,3 +28,12 @@ Conterexample: x = 2, y = -5;
 2. For every natural number n, the integer 2n^2 - 4n + 31 is prime.      
 2n^2 - 4n + 31 = n(2n - 4) + 31.      
 For n = 31; 31(2n - 4) + 31 = 31((2n - 4) + 1) which is not prime.      
+
+
+
+3. If n in Z and n^5 - n is even, then n is even.     
+Conterexample. 3^5 - 3 = 240, 3 is not even.     
+
+
+4. For every natural number n, the integer n^2 + 17n + 17 is prime.     
+Conterexample. n = 17, then 17 | n^2, 17 | 17n, 17 | 17.      
