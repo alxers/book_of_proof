@@ -37,3 +37,6 @@ Conterexample. 3^5 - 3 = 240, 3 is not even.
 
 4. For every natural number n, the integer n^2 + 17n + 17 is prime.     
 Conterexample. n = 17, then 17 | n^2, 17 | 17n, 17 | 17.      
+
+
+5. (A x B) union (C x D) = (A union C) x (B union D).     
