@@ -40,6 +40,15 @@ Conterexample. n = 17, then 17 | n^2, 17 | 17n, 17 | 17.
 
 
 5. (A x B) union (C x D) = (A union C) x (B union D).     
+Let A = { 1, 2 }, B = { 2, 3 }, C = { 2, 4}, D = { 3, 5 }.      
+A x B = { (1, 2), (1, 3), (2, 2), (2, 3) }.     
+C x D = { (2, 3), (2, 5), (4, 3), (4, 5) }.      
+(A x B) union (C x D) = { (1, 2), (1, 3), (2, 2), (2, 3), (2, 5), (4, 3), (4, 5) }.     
+A union C = { 1, 2, 4 }.     
+B union D = { 2, 3, 5 }.      
+(A union C) x (B union D) = { (1, 2), (1, 3), (1, 5), (2, 2), (2, 3), (2, 5), (4, 2), (4, 3), (4, 5) }.     
+It's clear that (A x B) union (C x D) != (A union C) x (B union D).     
 
 
-6. (A x B) intersection (C x D) = (A intersection C) x (B intersection D).      
+7. If A, B and C are sets and A x C = B x C, then A = B.     
+
