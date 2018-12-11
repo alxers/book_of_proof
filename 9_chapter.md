@@ -51,4 +51,30 @@ It's clear that (A x B) union (C x D) != (A union C) x (B union D).
 
 
 7. If A, B and C are sets and A x C = B x C, then A = B.     
+Conterexample.     
+Let A = { 1 }, B = { 2 }, C = { 3 }.     
+Then A x C = { (1, 3) }.     
+B x C = { (2, 3) }.     
+
+
+
+8. A - (B union C) = (A - B) union (A - C).     
+Conterexample.      
+A = { 1, 2 }, B = { 2, 3 }, C = { 2, 4 }.    
+B union C = { 2 }.     
+A - (B union C) = { 1 }.     
+A - B = { 1 }.     
+A - C = { 4 }.     
+(A - B) union (A - C) = empty_set.    
+
+
+
+9. Power_set(A) - Power_set(B) set_in Power_set(A - B).     
+Conterexample.     
+A = { 1, 2 }, B = { 2, 3 }.     
+Power_set(A) = { { empty_set }, { 1 }, { 2 }, { 1, 2 } }.    
+Poser_set(B) = { { empty_set }, { 2 }, { 3 }, { 2, 3 } }.     
+Power_set(A) - Power_set(B) = { { 1 }, { 1, 2 } }.    
+A - B = { 1 }.    
+Power_set(A - B) = { { empty_set }, { 1 } }.     
 
