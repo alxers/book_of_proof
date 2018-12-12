@@ -78,3 +78,7 @@ Power_set(A) - Power_set(B) = { { 1 }, { 1, 2 } }.
 A - B = { 1 }.    
 Power_set(A - B) = { { empty_set }, { 1 } }.     
 
+
+
+10. If A and B are sets and A intersection B = empty_set, then Power_set(A) - Power_set(B) set_in Power_set(A - B).     
+
