@@ -20,7 +20,7 @@ Exercises for Chapter 9
 
 
 1. If x, y in R, then |x + y| = |x| + |y|.     
-Conterexample: x = 2, y = -5;      
+Counterexample: x = 2, y = -5;      
 |2-5| = 3; |2| + |-5| = 7;      
 
 
@@ -32,11 +32,11 @@ For n = 31; 31(2n - 4) + 31 = 31((2n - 4) + 1) which is not prime.
 
 
 3. If n in Z and n^5 - n is even, then n is even.     
-Conterexample. 3^5 - 3 = 240, 3 is not even.     
+Counterexample. 3^5 - 3 = 240, 3 is not even.     
 
 
 4. For every natural number n, the integer n^2 + 17n + 17 is prime.     
-Conterexample. n = 17, then 17 | n^2, 17 | 17n, 17 | 17.      
+Counterexample. n = 17, then 17 | n^2, 17 | 17n, 17 | 17.      
 
 
 5. (A x B) union (C x D) = (A union C) x (B union D).     
@@ -51,7 +51,7 @@ It's clear that (A x B) union (C x D) != (A union C) x (B union D).
 
 
 7. If A, B and C are sets and A x C = B x C, then A = B.     
-Conterexample.     
+Counterexample.     
 Let A = { 1 }, B = { 2 }, C = { 3 }.     
 Then A x C = { (1, 3) }.     
 B x C = { (2, 3) }.     
@@ -59,7 +59,7 @@ B x C = { (2, 3) }.
 
 
 8. A - (B union C) = (A - B) union (A - C).     
-Conterexample.      
+Counterexample.      
 A = { 1, 2 }, B = { 2, 3 }, C = { 2, 4 }.    
 B union C = { 2 }.     
 A - (B union C) = { 1 }.     
@@ -70,7 +70,7 @@ A - C = { 4 }.
 
 
 9. Power_set(A) - Power_set(B) set_in Power_set(A - B).     
-Conterexample.     
+Counterexample.     
 A = { 1, 2 }, B = { 2, 3 }.     
 Power_set(A) = { { empty_set }, { 1 }, { 2 }, { 1, 2 } }.    
 Poser_set(B) = { { empty_set }, { 2 }, { 3 }, { 2, 3 } }.     
@@ -81,4 +81,20 @@ Power_set(A - B) = { { empty_set }, { 1 } }.
 
 
 10. If A and B are sets and A intersection B = empty_set, then Power_set(A) - Power_set(B) set_in Power_set(A - B).     
+False.     
+Counterexample.     
+Let A = { 1, 2 }, B = { 3, 4 }.     
+Power_set(A) = { { empty_set }, { 1 }, { 2 }, { 1, 2 } }, Power_set(B) = { { empty_set }, { 3 }, { 4 }, { 3, 4 } }.     
+Power_set(A) - Power_set(B) = { { 1 }, { 2 }, { 1, 2 } }, Power_set(A - B) = Power_set({ 1, 2 }) = { { empty_set }, { 1 }, { 2 }, { 1, 2 } }.    
 
+
+
+11. If a, b in N, then a + b < ab.     
+False.     
+Counterexample.     
+Let a = 1, b = 2.     
+Then 1 + 2 = 3, 1 * 2 = 2.     
+
+
+
+12. If a, b, c in N and ab, bc, ac have the same parity, then a, b, c have the same parity.     
