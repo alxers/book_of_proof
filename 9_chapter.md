@@ -98,3 +98,15 @@ Then 1 + 2 = 3, 1 * 2 = 2.
 
 
 12. If a, b, c in N and ab, bc, ac have the same parity, then a, b, c have the same parity.     
+Case 1.      
+Suppose a, b and c are even, then a = 2x, b = 2y, c = 2z.     
+Then ab = 4xy, ac = 4xz, bc = 4yz, which are even.     
+Case 2.      
+Suppose a, b and c are odd, then a = 2x + 1, b = 2y + 1, c = 2z + 1.     
+ab = (2x + 1)(2y + 1) = 4xy + 2x + 2y + 1, same for bc and ac, they're odd.     
+
+
+
+13. There exists set X for which R set_in X and empty_set in X.     
+True.     
+Let X = R union empty_set.      
