@@ -110,3 +110,34 @@ ab = (2x + 1)(2y + 1) = 4xy + 2x + 2y + 1, same for bc and ac, they're odd.
 13. There exists set X for which R set_in X and empty_set in X.     
 True.     
 Let X = R union empty_set.      
+
+
+
+14. If A and B are sets, then Power_set(A) intersection Powers_set(B) = Power_set(A intersection B).      
+
+
+
+15. Every odd integer is the sum of three odd integers.     
+True.     
+n = n + 1 + (-1).      
+
+
+
+16. If a and B are finite sets then |A union B| = |A| + |B|.      
+False.     
+Counterexample.      
+Let A = { 1, 2 }, B = { 2, 3 }.      
+A union B = { 1, 2, 3 }, |A union B| = 3.      
+|A| = 2, |B| = 2.     
+
+
+
+17. For all sets A and B, if A - B = empty_set, then B != empty_set.      
+False.      
+Counterexample.      
+Let A = empty_set, B = empty_set.      
+A - B = empty_set.      
+
+
+
+18. If a, b, c in N, then at least one of a - b, a + c and b - c is even.      
