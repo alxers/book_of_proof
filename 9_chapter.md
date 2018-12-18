@@ -143,3 +143,5 @@ A - B = empty_set.
 18. If a, b, c in N, then at least one of a - b, a + c and b - c is even.      
 
 
+
+20. There exist prime numbers p and q for which p - q = 1000.     
