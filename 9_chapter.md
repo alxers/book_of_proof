@@ -145,3 +145,10 @@ A - B = empty_set.
 
 
 20. There exist prime numbers p and q for which p - q = 1000.     
+True.     
+p - q = 1000.     
+p = 1000 + q;
+p = 1013, q = 13.      
+
+
+21. There exist prime numbers p and q for which p - q = 97.      
