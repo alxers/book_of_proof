@@ -152,3 +152,7 @@ p = 1013, q = 13.
 
 
 21. There exist prime numbers p and q for which p - q = 97.      
+
+
+
+22. If p and q are prime numbers for which p < q, then 2p + q^2 is odd.     
