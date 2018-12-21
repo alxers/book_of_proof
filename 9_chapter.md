@@ -156,3 +156,6 @@ p = 1013, q = 13.
 
 
 22. If p and q are prime numbers for which p < q, then 2p + q^2 is odd.     
+
+
+
