@@ -159,4 +159,4 @@ p = 1013, q = 13.
 
 
 
-23.
+23. If x, y in R and x^3 < y^3, then x < y.     
