@@ -160,3 +160,7 @@ p = 1013, q = 13.
 
 
 23. If x, y in R and x^3 < y^3, then x < y.     
+
+
+
+24. The inequality 2^x >= x + 1 is true for all positive real numbers x.     
