@@ -152,6 +152,10 @@ p = 1013, q = 13.
 
 
 21. There exist prime numbers p and q for which p - q = 97.      
+False.     
+By contradiction. Suppose p - q = 97, then p and q must have opposite parity.     
+Case 1.     
+
 
 
 
