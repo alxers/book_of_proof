@@ -154,8 +154,10 @@ p = 1013, q = 13.
 21. There exist prime numbers p and q for which p - q = 97.      
 False.     
 By contradiction. Suppose p - q = 97, then p and q must have opposite parity.     
-Case 1.     
-
+Suppose q is even, p is odd, the only even prime is 2.     
+p - 2 = 97, p = 99.     
+99 is not odd.     
+Contradiction.     
 
 
 
