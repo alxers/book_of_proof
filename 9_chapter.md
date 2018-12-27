@@ -162,6 +162,10 @@ Contradiction.
 
 
 22. If p and q are prime numbers for which p < q, then 2p + q^2 is odd.     
+True.     
+2p is always even by definition of an even number, q > 2, so it's an odd number.    
+Sum of odd and even always odd.     
+2x + 2y + 1 = 2(x + y) + 1.     
 
 
 
