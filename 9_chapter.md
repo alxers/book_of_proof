@@ -170,6 +170,14 @@ Sum of odd and even always odd.
 
 
 23. If x, y in R and x^3 < y^3, then x < y.     
+True.     
+x^3 < y^3.      
+x^3 - y^3 < 0.     
+(x - y)(x^2 + xy + y^2) < 0.     
+x^2 + xy + y^2 > 0, since x^2 + y^2 always > 0, and x^2 + y^2 > xy.     
+Divide (x - y)(x^2 + xy + y^2) by (x^2 + xy + y^2).     
+x - y < 0.     
+x < y.     
 
 
 
