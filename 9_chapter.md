@@ -182,3 +182,6 @@ x < y.
 
 
 24. The inequality 2^x >= x + 1 is true for all positive real numbers x.     
+
+
+
