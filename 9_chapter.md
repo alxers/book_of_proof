@@ -185,3 +185,4 @@ x < y.
 
 
 
+25. For all a, b, c in Z, if a | bc, then a | b or a | c.     
