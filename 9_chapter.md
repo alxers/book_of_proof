@@ -182,6 +182,8 @@ x < y.
 
 
 24. The inequality 2^x >= x + 1 is true for all positive real numbers x.     
+False.      
+Let x = 1/2, then 2^(1/2) ~=  1.41, 1/2 + 1 = 1.5.     
 
 
 
