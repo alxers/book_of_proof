@@ -188,3 +188,6 @@ Let x = 1/2, then 2^(1/2) ~=  1.41, 1/2 + 1 = 1.5.
 
 
 25. For all a, b, c in Z, if a | bc, then a | b or a | c.     
+False.     
+Let a = 10, b = 2, c = 5.     
+10 | 10 but 10 !| 2 and 10 !| 5.     
