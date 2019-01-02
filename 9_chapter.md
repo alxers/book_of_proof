@@ -191,3 +191,11 @@ Let x = 1/2, then 2^(1/2) ~=  1.41, 1/2 + 1 = 1.5.
 False.     
 Let a = 10, b = 2, c = 5.     
 10 | 10 but 10 !| 2 and 10 !| 5.     
+
+
+
+26. Suppose A, B and C are sets. If A = B - C, then B = A union C.     
+False.     
+Suppose B = empty_set, C = { 3 }.      
+A = B - C = empty_set - { 3 } = empty_set.     
+B = A union C = empty_set union { 3 } = { 3 }.     
