@@ -199,3 +199,8 @@ False.
 Suppose B = empty_set, C = { 3 }.      
 A = B - C = empty_set - { 3 } = empty_set.     
 B = A union C = empty_set union { 3 } = { 3 }.     
+
+
+
+27. The equation x^2 = 2^x has three real solutions.      
+
