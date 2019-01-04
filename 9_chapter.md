@@ -202,5 +202,12 @@ B = A union C = empty_set union { 3 } = { 3 }.
 
 
 
-27. The equation x^2 = 2^x has three real solutions.      
-
+28. Suppose a, b in Z. If a | b and b | a, then a = b.     
+False.     
+Let a = 2, b = -2, 2 | -2 and  -2 | 2, but a != b.     
+Another proof.     
+b = ax, a = by.     
+a = axy.     
+1 = xy.     
+So x = y = 1 or x = y = -1.     
+In fact a = +-b
