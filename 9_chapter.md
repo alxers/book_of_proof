@@ -213,4 +213,5 @@ So x = y = 1 or x = y = -1.
 In fact a = +-b
 
 
-29. If x, y in R and |x+y|=|x−y|, then y=0.      
+29. If x, y in R and |x+y|=|x−y|, then y=0.  
+
