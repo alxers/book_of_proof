@@ -214,4 +214,9 @@ In fact a = +-b
 
 
 29. If x, y in R and |x+y|=|x−y|, then y=0.  
+False.     
+Let x = 0, y = 1, then |0 + 1| = |0 - 1|.     
+1 = 1.    
+
+
 
