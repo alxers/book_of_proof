@@ -220,3 +220,8 @@ Let x = 0, y = 1, then |0 + 1| = |0 - 1|.
 
 
 
+30. There exist integers a and b for which 42a + 7b = 1.     
+False.     
+42a + 7b = 7(6a + b) = 1.     
+6a + b = 1/7.     
+There are no such integers.     
