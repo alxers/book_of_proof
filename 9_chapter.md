@@ -225,3 +225,7 @@ False.
 42a + 7b = 7(6a + b) = 1.     
 6a + b = 1/7.     
 There are no such integers.     
+
+
+
+31. No number (other than 1) appears in Pascal's triangle more than four times.    
