@@ -50,6 +50,10 @@ B union D = { 2, 3, 5 }.
 It's clear that (A x B) union (C x D) != (A union C) x (B union D).     
 
 
+6.     
+?
+
+
 7. If A, B and C are sets and A x C = B x C, then A = B.     
 Counterexample.     
 Let A = { 1 }, B = { 2 }, C = { 3 }.     
@@ -201,6 +205,9 @@ A = B - C = empty_set - { 3 } = empty_set.
 B = A union C = empty_set union { 3 } = { 3 }.     
 
 
+27. The equation x^2 = 2^x has three real solutions.     
+?
+
 
 28. Suppose a, b in Z. If a | b and b | a, then a = b.     
 False.     
@@ -229,3 +236,8 @@ There are no such integers.
 
 
 31. No number (other than 1) appears in Pascal's triangle more than four times.    
+?
+
+
+32. If n, k in N and (n choose k) is a prime number, then k = 1 or k = n - 1.     
+
