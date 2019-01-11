@@ -241,3 +241,9 @@ There are no such integers.
 
 32. If n, k in N and (n choose k) is a prime number, then k = 1 or k = n - 1.     
 
+
+33.     
+?
+
+
+
