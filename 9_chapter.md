@@ -246,5 +246,4 @@ There are no such integers.
 ?
 
 
-34.     
-?
+34. If X set_in A union B, then X set_in A or X set_in B.         
