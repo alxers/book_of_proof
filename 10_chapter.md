@@ -11,6 +11,4 @@ It follows by mathematical induction that every S_n is true.
 
 Example:     
 Proposition. If n in N, then 1+3+5+7+...+(2n-1) = n^2.     
-
-
-
+Proof.     
