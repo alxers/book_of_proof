@@ -13,3 +13,4 @@ Example:
 Proposition. If n in N, then 1+3+5+7+...+(2n-1) = n^2.     
 Proof.     
 (1) Observe that if n = 1, this statement is 1 = 1^2, which is true.     
+(2) We must prove S_k => S_k+1 for any k >= 1.     
