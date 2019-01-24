@@ -15,3 +15,4 @@ Proof.
 (1) Observe that if n = 1, this statement is 1 = 1^2, which is true.     
 (2) We must prove S_k => S_k+1 for any k >= 1.     
 That is if 1+3+5+7+...+(2k - 1) = k^2, then 1+3+5+7+...+(2(k+1) - 1) = (k + 1)^2.     
+Direct proof. Suppose 1+3+5+7+...+(2k - 1) = k^2.     
