@@ -22,3 +22,9 @@ Then 1 + 3 + 5 + 7 + ... + (2 (k + 1) - 1) =
 k^2 + (2 (k + 1) - 1) = k^2 + 2k + 1 = (k + 1)^2      
 This proves that S_k => S_k+1.     
 It follows by induction that 1 + 3 + 5 + 7 + ... + (2n - 1) = n^2 for every n in N.     
+
+
+Proposition If n is a non-negative integer, then 5 | (n^2 - n).     
+Basis step:
+(1) If n = 0, 0 = 5x.    
+(2)
