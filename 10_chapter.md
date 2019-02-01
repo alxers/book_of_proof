@@ -25,6 +25,10 @@ It follows by induction that 1 + 3 + 5 + 7 + ... + (2n - 1) = n^2 for every n in
 
 
 Proposition If n is a non-negative integer, then 5 | (n^2 - n).     
-Basis step:
 (1) If n = 0, 0 = 5x.    
-(2)
+(2) Let k >= 0, we need to prove that if 5 | (k^5 - k), then 5 | ((k+1)^5 - (k+1)).     
+k^5 - k = 5x.     
+(k + 1)^5 - (k + 1) = k^5 + 5k^4 + 10k^3 + 10k^2 + 5k + 1 - k - 1 =      
+= (k^5 - k) + 5(k^4 + 2k^3 + 2k^2 + k) =       
+= 5x + 5(...) = 5(x + ...).     
+It follows by induction that 5 | (n^5 - n) for all non-negative integers n.     
