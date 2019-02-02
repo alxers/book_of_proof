@@ -32,3 +32,6 @@ k^5 - k = 5x.
 = (k^5 - k) + 5(k^4 + 2k^3 + 2k^2 + k) =       
 = 5x + 5(...) = 5(x + ...).     
 It follows by induction that 5 | (n^5 - n) for all non-negative integers n.     
+
+
+Proposition If n in Z and n >= 0, then Sum(i=0 to n) i * i! = (n + 1)! - 1.     
