@@ -33,3 +33,13 @@ k^5 - k = 5x.
 = 5x + 5(...) = 5(x + ...).     
 It follows by induction that 5 | (n^5 - n) for all non-negative integers n.     
 
+
+Proposition For each n in N, it follows that 2^n <= 2^(n+1) - 2^(n-1) - 1.     
+(1) If n = 1, then 2 <= 4 - 1 - 1      
+(2) Suppose k >= 1. We need to show that 2^k <= 2^(k+1) - 2^(k-1) - 1 implies 2^(k+1) <= 2^(k+2) - 2^k - 1      
+2^k <= 2^(k+1) - 2^(k-1) - 1.     
+Multiply both sides by 2.     
+2^(k+1) <= 2^(k+2) - 2^k - 2.      
+Add 1 to the right side (it doesn't change inequation).      
+2^(k+1) <= 2^(k+2) - 2^k - 1.     
+It follows by induction that 2^n <= 2^(n+1) - 2^(n-1) - 1 for each n in N.     
