@@ -43,3 +43,15 @@ Multiply both sides by 2.
 Add 1 to the right side (it doesn't change inequation).      
 2^(k+1) <= 2^(k+2) - 2^k - 1.     
 It follows by induction that 2^n <= 2^(n+1) - 2^(n-1) - 1 for each n in N.     
+
+
+Proposition 10.1 Suppose a_1, a_2, ... , a_n are n integers, where n >= 2. If p is prime and p | (a_1 * a_2 * a_3 ... * a_n), then p | a_i for at least one of the a_i.     
+(1) Basic step. For n = 2. Suppose p | (a_1 * a_2), then p | a_1 or p | a_2. Or p !| a_1 AND p | a_2.      
+If p !| a_1 => gcd(p, a_1) = 1.      
+Then 1 = pk + a_1l.        
+Multiply both sides by a_2.     
+a_2 = a_2pk + a_1a_2l.      
+p | a_2pk and p | a_1a_2l (by our proposition).      
+(2) For k > 2.      
+Show that p | (a_1a_2 ... a_k). Suppose p | (a_1a_2 ... a_k * a_k+1).      
+By what we proved in basic step it follows that p | (a_1 * a_2 ... a_k) or p | (a_k+1).     
