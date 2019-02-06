@@ -55,3 +55,13 @@ p | a_2pk and p | a_1a_2l (by our proposition).
 (2) For k > 2.      
 Show that p | (a_1a_2 ... a_k). Suppose p | (a_1a_2 ... a_k * a_k+1).      
 By what we proved in basic step it follows that p | (a_1 * a_2 ... a_k) or p | (a_k+1).     
+
+
+
+Proof by strong induction.     
+Outline.     
+
+Proposition The statements S_1, S_2, S_3, ... are all true.     
+Proof (Strong induction)     
+(1) Prove the first statement S_1. (Or the first several S_n.)     
+(2) Given any integer k >= 1, prove (S_1 ^ S_2 ^ S_3 ^ ... ^ S_k) => S_k+1.     
