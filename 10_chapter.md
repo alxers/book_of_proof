@@ -65,3 +65,19 @@ Proposition The statements S_1, S_2, S_3, ... are all true.
 Proof (Strong induction)     
 (1) Prove the first statement S_1. (Or the first several S_n.)     
 (2) Given any integer k >= 1, prove (S_1 ^ S_2 ^ S_3 ^ ... ^ S_k) => S_k+1.     
+
+Somtimes it's difficult to show that S_k forces S_k+1 to be true.     
+Instead some "lower" statements S_m (with m < k) force S_k+1 to be true.    
+With strong induction in Step (2) instead of assuming S_k is true, we assume that all the statents S_1, S_2, ..., S_k are true and show this forces S_k+1 to be true.     
+
+Example:     
+Proposition If n in N, then 12 | (n^4 - n^2)     
+(1) Observe, that this statement is true for the first 6 n.      
+(2) Let k >= 6, assume 12 | (m^4 - m^2) for 1 <= m <= k. (All statements S_1, S_2, ..., S_k are all true).     
+=> m^4 - m^2 = 12a.     
+We must show that 12 | ((k+1)^4 - (k+1)^2).     
+Since S_k-5 is true, we have 12 | ((k-5)^4 - (k-5)^2).     
+Let m = k - 5, k = m + 5.     
+(k+1)^4 - (k+1)^2 = (m+6)^4 - (m+6)^2 = ... = (m^4 - m^2) + 24m^3 + 216m^2 + 852m + 1260 =       
+= 12a + ... = 12(...).     
+We get 12 | ((k+1)^2 - (k+1)^2).     
