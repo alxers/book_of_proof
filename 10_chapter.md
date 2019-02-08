@@ -81,3 +81,15 @@ Let m = k - 5, k = m + 5.
 (k+1)^4 - (k+1)^2 = (m+6)^4 - (m+6)^2 = ... = (m^4 - m^2) + 24m^3 + 216m^2 + 852m + 1260 =       
 = 12a + ... = 12(...).     
 We get 12 | ((k+1)^2 - (k+1)^2).     
+
+
+Graphs     
+Is a structure with vertices and edges.    
+Cycle is when it's possible to from one distinct vertex to another in a "loop".     
+Graphs with no cycles called trees.    
+A tree always have n - 1 edges given that there is an n vertices.     
+
+Example:      
+Proposition. If n in N, prove that there is n - 1 edge in a tree.     
+
+
