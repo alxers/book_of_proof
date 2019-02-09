@@ -90,6 +90,4 @@ Graphs with no cycles called trees.
 A tree always have n - 1 edges given that there is an n vertices.     
 
 Example:      
-Proposition. If n in N, prove that there is n - 1 edge in a tree.     
-
-
+Proposition. If a tree has n vertices, then it has n - 1 edges.     
