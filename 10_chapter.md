@@ -91,3 +91,7 @@ A tree always have n - 1 edges given that there is an n vertices.
 
 Example:      
 Proposition. If a tree has n vertices, then it has n - 1 edges.     
+(1) If a tree has n = 1 vertex, then it has no edges.     
+(2) Assume there is a tree with k >= 1 vertices, prove that it has (k+1) - 1 = k edges.     
+Let T be a tree with m vertices, where 1 < m < k.     
+
