@@ -103,3 +103,30 @@ Both of those trees have fewer that k + 1 vertices, then by our inductive hypoth
 The original tree then has x - 1 + y - 1 + 1 = x + y - 1 edges.     
 Since x + y = k + 1, then x + y - 1 = k + 1 - 1 = k edges.     
 We've shown that a tree with k + 1 vertices has k edges.      
+
+
+
+Proof by smallest conterexample.      
+Outline.     
+
+Proposition. The statements S_1, S_2, ... S_n are all true.     
+
+Proof (Smallest conterexample).      
+(1) Check that the first statement S_1 is true.     
+(2) For the sake of contradiction, suppose not every S_n is true.     
+(3) Let k > 1 be the smallest integer for which S_k is false.     
+(4) Then S_k-1 is true and S_k is false. Use this to get contradition.     
+
+Example:     
+Proposition If n in N, then 4 | (5^n - 1).     
+Proof.      
+(1) If n = 1, then 4 | (5-1), 4 | 4, which is true.     
+(2) Suppose there is a k > 1 for which S_k is false.     
+Then for S_k-1 it's true.     
+4 | (5^(k-1) - 1).     
+5^(k-1) - 1 = 4a.     
+5 * 5^(k-1) - 5 = 20a.       
+5^k - 5 = 20a.     
+5^k = 20a - 5.     
+5^k = 5(4a - 1)
+
