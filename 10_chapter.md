@@ -125,3 +125,8 @@ Proof.
 Then for S_k-1 it's true.     
 4 | (5^(k-1) - 1).     
 5^(k-1) - 1 = 4a.     
+5 * 5^(k-1) - 5 = 20a.     
+5^k - 1 = 20a + 4.     
+5^k - 1 = 4(5a + 1).     
+Which means 4 | (5^k - 1).      
+Contraditction.      
