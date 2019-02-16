@@ -130,3 +130,16 @@ Then for S_k-1 it's true.
 5^k - 1 = 4(5a + 1).     
 Which means 4 | (5^k - 1).      
 Contraditction.      
+
+
+Example.     
+Fundamental theorem of arithmetics.     
+Theorem 10.1.     
+Any integer n > 1 has a unique prime factorization. That is, if n = p1 * p2 * p3 * ... * pk and n = a1 * a2 * ... al are two prime factorizations of n, then k = l, and the primes p_i and a_i are the same except they may be in a different order.     
+
+Proof:     
+Suppose n > 1.     
+If n = 2, then it is its own prime factorization.     
+If n > 2, then n = ab (a > 1, b > 1).     
+Then a = p1 * p2 * ... * pk, b = a1 * a2 * ... * al.     
+Then n = (p1 * p2 * ... * pk)(a1 * a2 * ... * al).     
