@@ -140,6 +140,18 @@ Any integer n > 1 has a unique prime factorization. That is, if n = p1 * p2 * p3
 Proof:     
 Suppose n > 1.     
 If n = 2, then it is its own prime factorization.     
-If n > 2, then n = ab (a > 1, b > 1).     
-Then a = p1 * p2 * ... * pk, b = a1 * a2 * ... * al.     
+Assume, that all integers between 2 and n has prime factorizations.    
+Consider n + 1.     
+If n + 1 is a prime, then it is its own prime factorizations.      
+If n + 1 is not a prime, then n + 1 = ab (a > 1, b > 1).     
+a and b are less than n + 1, so they can be represented as:     
+a = p1 * p2 * ... * pk, b = a1 * a2 * ... * al.     
 Then n = (p1 * p2 * ... * pk)(a1 * a2 * ... * al).     
+Uniqueness proof.     
+If n = 2, then the factorization is uniq.      
+If n >= 2, then n = p1 * ... * pk and n = a1 * ... * al.      
+p1 | n => p1 | (a1 * ... * al).      
+Then p1 | a_i.       
+Divide n by p1 (a_i).      
+n = p2 * ... * pk, n = a1 * ... * a_i-1 * a_i+1 * ... * al.     
+Compare p2 * ... * pk and a1 * ... * a_i-1 * a_i+1 * ... * al.     
