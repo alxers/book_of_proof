@@ -151,7 +151,7 @@ Uniqueness proof.
 If n = 2, then the factorization is uniq.      
 If n >= 2, then n = p1 * ... * pk and n = a1 * ... * al.      
 p1 | n => p1 | (a1 * ... * al).      
-Then p1 | a_i.       
+Then p1 | a_i by proposition 10.1.       
 Divide n by p1 (a_i).      
 n = p2 * ... * pk, n = a1 * ... * a_i-1 * a_i+1 * ... * al.     
 Compare p2 * ... * pk and a1 * ... * a_i-1 * a_i+1 * ... * al.     
