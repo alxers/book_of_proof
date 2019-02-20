@@ -148,15 +148,20 @@ a and b are less than n + 1, so they can be represented as:
 a = p1 * p2 * ... * pk, b = a1 * a2 * ... * al.     
 Then n = (p1 * p2 * ... * pk)(a1 * a2 * ... * al).     
 Uniqueness proof.     
-If n = 2, then the factorization is uniq.      
-If n >= 2, then n = p1 * ... * pk and n = a1 * ... * al.      
-p1 | n => p1 | (a1 * ... * al).      
-Then p1 | a_i by proposition 10.1.       
+If n = 2, then the factorization is uniq.    
+For the sake of contradiction suppose that for n >= 2 n = p1 * ... * pk and n = a1 * ... * al.     
+and let n be the smallest integer of this kind.       
+Then p1 | n => p1 | (a1 * ... * al).      
+p1 | a_i by proposition 10.1.       
+Since p1 | a_i and a_i is a prime, then p1 = a_i.      
 Divide n by p1 (a_i).      
 n = p2 * ... * pk, n = a1 * ... * a_i-1 * a_i+1 * ... * al.     
-Compare p2 * ... * pk and a1 * ... * a_i-1 * a_i+1 * ... * al.    
+p2 * ... * pk and a1 * ... * a_i-1 * a_i+1 * ... * al is a different prime factorizations.     
+But p2 * ... * pk does not equal n.      
+Contradiction.       
 
 
 
 Proposition The Fibonacci sequense obeys F^2_(n+1) - F_(n+1) * F_(n) - F^2_(n) = (-1)^n.     
 (1) If n = 1, then 1^2 - 1 * 1 - 1^2 = -1 = -1^1.     
+
