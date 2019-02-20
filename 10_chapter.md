@@ -154,4 +154,9 @@ p1 | n => p1 | (a1 * ... * al).
 Then p1 | a_i by proposition 10.1.       
 Divide n by p1 (a_i).      
 n = p2 * ... * pk, n = a1 * ... * a_i-1 * a_i+1 * ... * al.     
-Compare p2 * ... * pk and a1 * ... * a_i-1 * a_i+1 * ... * al.     
+Compare p2 * ... * pk and a1 * ... * a_i-1 * a_i+1 * ... * al.    
+
+
+
+Proposition The Fibonacci sequense obeys F^2_(n+1) - F_(n+1) * F_(n) - F^2_(n) = (-1)^n.     
+(1) If n = 1, then 1^2 - 1 * 1 - 1^2 = -1 = -1^1.     
