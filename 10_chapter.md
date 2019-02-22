@@ -166,4 +166,10 @@ Proposition The Fibonacci sequense obeys F^2_(n+1) - F_(n+1) * F_(n) - F^2_(n) =
 (1) If n = 1, then 1^2 - 1 * 1 - 1^2 = -1 = -1^1.     
 (2) Let k >= 1, then if F^2_(k+1) - F_(k+1) * F_(k) - F^2_(k) = (-1)^k, then F^2_(k+2) - F_(k+2) * F_(k+1) - F^2_(k+1) = (-1)^(k+1).      
 Note F_(k+2) = F_(k+1) + F_k.      
+F^2_(k+2) - F_(k+2) * F_(k+1) - F^2_(k+1) = (F_(k+1) + F_k)^2 - (F_(k+1) + F_k) * F_k+1 - F^2_(k+1) =      
+= F^2_(k+1) + 2F_(k+1) * F_k + F^2_k - 2F^2_(k+1) - F_k * F_(k+1) =      
+= -F^2_(k+1) + F_(k+1) * F_k + F^2_k =      
+= - (F^2_(k+1) - F_(k+1) - F^2_k) =     
+= -(-1)^k = -1(-1)^k = (-1)^(k+1).      
+
 
