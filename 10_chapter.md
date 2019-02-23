@@ -173,3 +173,16 @@ F^2_(k+2) - F_(k+2) * F_(k+1) - F^2_(k+1) = (F_(k+1) + F_k)^2 - (F_(k+1) + F_k) 
 = -(-1)^k = -1(-1)^k = (-1)^(k+1).      
 
 
+Exercises for Chapter 10.      
+1. For every integer n in N, it follows that 1 + 2 + ... + n = (n^2 +n)/2.      
+Proof.     
+(1) If n = 1, then 1 = (1^2 + 1)/2 = 1.      
+(2) Let k >= 1, then if 1 + 2 + ... + k = (k^2 + k)/2 then 1 + 2 + ... + k + 1 = ((k + 1)^2 + k + 1)/2.      
+((k + 1)^2 + k + 1)/2 = (k^2 + 2k + 1 + k + 1)/2 = ((k^2 + k) + (2k + 2))/2 =      
+= (k^2 + k)/2 + 2(k + 1)/2 = (k^2 + k)/2 + (k + 1).     
+1 + 2 + ... + k + k + 1 = (k^2 + k)/2 + (k + 1).     
+1 + 2 + ... + k = (k^2 + k)/2.       
+
+
+2. For every integer n in N, it follows that 1^2 + 2^2 + ... + n^2 = (n(n + 1)(2n + 1))/6.       
+Proof.     
