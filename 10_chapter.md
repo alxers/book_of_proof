@@ -186,3 +186,4 @@ Proof.
 
 2. For every integer n in N, it follows that 1^2 + 2^2 + ... + n^2 = (n(n + 1)(2n + 1))/6.       
 Proof.     
+(1) If n = 1, then 1^2 = 6/6 = 1.     
