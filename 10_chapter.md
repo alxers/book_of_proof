@@ -187,3 +187,11 @@ Proof.
 2. For every integer n in N, it follows that 1^2 + 2^2 + ... + n^2 = (n(n + 1)(2n + 1))/6.       
 Proof.     
 (1) If n = 1, then 1^2 = 6/6 = 1.     
+(2) Let k >= 1. We need show that if 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6, then 1^2 + 2^2 + ... + (k + 1)^2 = ((k + 1)(k + 2)(2(k + 1) + 1))/6.      
+Observe, that (k(k + 1)(2k + 1))/6 = (2k^3 + k^2 + 2k^2 + k)/6.     
+Then ((k + 1)(k + 2)(2(k + 1) + 1))/6 = (2k^3 + 3k^2 + 6k^2 + 9k + 4k + 6)/6 = (2k^3 + k^2 + 2k^2 + k)/6 + (6k^2 + 12k + 6)/6.     
+Since (2k^3 + k^2 + 2k^2 + k) = (k(k + 1)(2k + 1)), then (2k^3 + k^2 + 2k^2 + k)/6 + (6k^2 + 12k + 6)/6 =      
+= (k(k + 1)(2k + 1))/6 + 6(k^2 + 2k + 1)/6 = (k(k + 1)(2k + 1))/6 + (k + 1)^2.      
+Then substitute (k + 1)^ from both sides of      
+1^2 + 2^2 + ... + (k + 1)^2 = (k(k + 1)(2k + 1))/6 + (k + 1)^2.      
+Which is equals 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6.       
