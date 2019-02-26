@@ -195,3 +195,7 @@ Since (2k^3 + k^2 + 2k^2 + k) = (k(k + 1)(2k + 1)), then (2k^3 + k^2 + 2k^2 + k)
 Then substitute (k + 1)^ from both sides of      
 1^2 + 2^2 + ... + (k + 1)^2 = (k(k + 1)(2k + 1))/6 + (k + 1)^2.      
 Which is equals 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6.       
+
+
+
+3. For every integer n in N, it follows that 1^3 + ... + n^3 = (n^2(n + 1)^2)/4.     
