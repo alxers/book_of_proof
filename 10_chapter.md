@@ -192,10 +192,22 @@ Observe, that (k(k + 1)(2k + 1))/6 = (2k^3 + k^2 + 2k^2 + k)/6.
 Then ((k + 1)(k + 2)(2(k + 1) + 1))/6 = (2k^3 + 3k^2 + 6k^2 + 9k + 4k + 6)/6 = (2k^3 + k^2 + 2k^2 + k)/6 + (6k^2 + 12k + 6)/6.     
 Since (2k^3 + k^2 + 2k^2 + k) = (k(k + 1)(2k + 1)), then (2k^3 + k^2 + 2k^2 + k)/6 + (6k^2 + 12k + 6)/6 =      
 = (k(k + 1)(2k + 1))/6 + 6(k^2 + 2k + 1)/6 = (k(k + 1)(2k + 1))/6 + (k + 1)^2.      
-Then substitute (k + 1)^ from both sides of      
+Then substitute (k + 1)^2 from both sides of      
 1^2 + 2^2 + ... + (k + 1)^2 = (k(k + 1)(2k + 1))/6 + (k + 1)^2.      
 Which is equals 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6.       
 
 
 
 3. For every integer n in N, it follows that 1^3 + ... + n^3 = (n^2(n + 1)^2)/4.     
+(1) If n = 1 then 1^3 = (1(1 + 1)^2)/4 = 4/4 = 1.     
+(2) Let k >= 1, We need show that if 1^3 + 2^3 + ... + k^3 = (k^2(k + 1)^2)/4, then 1^3 + 2^3 + ... + (k + 1)^3 = ((k + 1)^2 * (k + 2)^2)/4.      
+Observe that k^2 * (k + 1)^2 = k^2 * (k^2 + 2k + 1) = k^4 + 2k^3 + k^2.     
+Since (k^2(k + 1)^2)/4 = ((k^2 + 2k + 1)(k^2 + 4k + 4))/4 = (k^4 + 4k^3 + 4k^2 + 2k^3 + 8k^2 + 8k + k^2 + 4k + 4)/4.    
+(k^4 + 2k^3 + k^2)/4 + (4k^3 + 4k^2 + 8k^2 + 8k + 4k + 4)/4.     
+As we observed k^2 * (k + 1)^2 = k^2 * (k^2 + 2k + 1) = k^4 + 2k^3 + k^2 then     
+(k^4 + 2k^3 + k^2)/4 + (4k^3 + 4k^2 + 8k^2 + 8k + 4k + 4)/4 =     
+(k^2 * (k + 1)^2)/4 + 4(k^3 + k^2 + 2k^2 + 2k + k + 1)/4 =      
+(k^2 * (k + 1)^2)/4 + (k^3 + 3k^2 + 3k + 1) =     
+(k^2 * (k + 1)^2)/4 + (k + 1)^3.     
+Substitute (k + 1)^3 from both sides.     
+1^3 + 2^3 + ... + k^3 = (k^2(k + 1)^2)/4.     
