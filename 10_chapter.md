@@ -211,3 +211,7 @@ As we observed k^2 * (k + 1)^2 = k^2 * (k^2 + 2k + 1) = k^4 + 2k^3 + k^2 then
 (k^2 * (k + 1)^2)/4 + (k + 1)^3.     
 Substitute (k + 1)^3 from both sides.     
 1^3 + 2^3 + ... + k^3 = (k^2(k + 1)^2)/4.     
+
+
+
+4. If n in N, then 1 * 2 + 2 * 3 + ... + n * (n + 1) = (n(n + 1)(n + 2))/3.     
