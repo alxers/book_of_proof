@@ -215,3 +215,6 @@ Substitute (k + 1)^3 from both sides.
 
 
 4. If n in N, then 1 * 2 + 2 * 3 + ... + n * (n + 1) = (n(n + 1)(n + 2))/3.     
+
+
+
