@@ -200,7 +200,7 @@ Which is equals 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6.
 
 3. For every integer n in N, it follows that 1^3 + ... + n^3 = (n^2(n + 1)^2)/4.     
 (1) If n = 1 then 1^3 = (1(1 + 1)^2)/4 = 4/4 = 1.     
-(2) Let k >= 1, We need show that if 1^3 + 2^3 + ... + k^3 = (k^2(k + 1)^2)/4, then 1^3 + 2^3 + ... + (k + 1)^3 = ((k + 1)^2 * (k + 2)^2)/4.      
+(2) Let k >= 1, we need to show that if 1^3 + 2^3 + ... + k^3 = (k^2(k + 1)^2)/4, then 1^3 + 2^3 + ... + (k + 1)^3 = ((k + 1)^2 * (k + 2)^2)/4.      
 Observe that k^2 * (k + 1)^2 = k^2 * (k^2 + 2k + 1) = k^4 + 2k^3 + k^2.     
 Since (k^2(k + 1)^2)/4 = ((k^2 + 2k + 1)(k^2 + 4k + 4))/4 = (k^4 + 4k^3 + 4k^2 + 2k^3 + 8k^2 + 8k + k^2 + 4k + 4)/4.    
 (k^4 + 2k^3 + k^2)/4 + (4k^3 + 4k^2 + 8k^2 + 8k + 4k + 4)/4.     
@@ -217,3 +217,4 @@ Substitute (k + 1)^3 from both sides.
 4. If n in N, then 1 * 2 + 2 * 3 + ... + n * (n + 1) = (n(n + 1)(n + 2))/3.     
 (1) If n = 1, 1 * (1 + 1) = (1 * (1 + 1) * (1 + 2))/3.     
 2 = 6/3.      
+(2) Let k >= 1, we need to show that if 1 * 2 + 2 * 3 + ... + k * (k + 1 + 1) = ((k + 1)(k + 1 + 1)(k + 1 + 2))/3 then 1 * 2 + 2 * 3 + ... + k * (k + 1) = (k(k + 1)(k + 2))/3.
