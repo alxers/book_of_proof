@@ -218,3 +218,5 @@ Substitute (k + 1)^3 from both sides.
 (1) If n = 1, 1 * (1 + 1) = (1 * (1 + 1) * (1 + 2))/3.     
 2 = 6/3.      
 (2) Let k >= 1, we need to show that if 1 * 2 + 2 * 3 + ... + k * (k + 1 + 1) = ((k + 1)(k + 1 + 1)(k + 1 + 2))/3 then 1 * 2 + 2 * 3 + ... + k * (k + 1) = (k(k + 1)(k + 2))/3.
+
+
