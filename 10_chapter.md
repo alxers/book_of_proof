@@ -221,3 +221,6 @@ Substitute (k + 1)^3 from both sides.
 
 
 5. If n in N, then 2^1 + 2^2 + 2^3 + ... + 2^n = 2^(n+1) - 2.     
+
+
+6. For every natural number n, it follows, that SUM(i=1, n)(8i - 5) = 4n^2 - n.     
