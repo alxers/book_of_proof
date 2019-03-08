@@ -229,6 +229,9 @@ Substitute (k + 1)(k + 2) from both sides we get 1 * 2 + 2 * 3 + ... + k * (k + 
 
 
 5. If n in N, then 2^1 + 2^2 + 2^3 + ... + 2^n = 2^(n+1) - 2.     
+(1) If n = 1, 2^1 = 2^2 - 2, 2 = 2.     
+(2) Let k >= 1, show that if 2^1 + 2^2 + 2^3 + ... + 2^(k+1) = 2^(k+2) - 2 then 2^1 + 2^2 + 2^3 + ... + 2^k = 2^(k+1) - 2.     
+
 
 
 6. For every natural number n, it follows, that SUM(i=1, n)(8i - 5) = 4n^2 - n.     
