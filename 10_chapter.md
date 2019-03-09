@@ -231,6 +231,11 @@ Substitute (k + 1)(k + 2) from both sides we get 1 * 2 + 2 * 3 + ... + k * (k + 
 5. If n in N, then 2^1 + 2^2 + 2^3 + ... + 2^n = 2^(n+1) - 2.     
 (1) If n = 1, 2^1 = 2^2 - 2, 2 = 2.     
 (2) Let k >= 1, show that if 2^1 + 2^2 + 2^3 + ... + 2^(k+1) = 2^(k+2) - 2 then 2^1 + 2^2 + 2^3 + ... + 2^k = 2^(k+1) - 2.     
+2^(k+2) - 2 = 2^(k+1) * 2 - 2.     
+Divide both sides by 2.      
+1^1 + 2^1 + 2^(k-1) + ... + 2^k = 2^(k+1) - 1.     
+Substitute 1 from both sides.     
+2^1 + 2^2 + ... + 2^k = 2^(k+1) - 2.     
 
 
 
