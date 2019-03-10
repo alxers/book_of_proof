@@ -240,3 +240,11 @@ Substitute 1 from both sides.
 
 
 6. For every natural number n, it follows, that SUM(i=1, n)(8i - 5) = 4n^2 - n.     
+(1) If n = 1, then 8 - 5 = 4 - 1.     
+(2) Let k >= 1, show that SUM(i=1, k+1)(8i - 5) = 4(k+1)^2 - (k+1) then SUM(i=1, k)(8i - 5) = 4k^2 - k.     
+4(k^2 + 2k + 1) - k - 1 = 4k^2 + 8k + 4 - k - 1.     
+4k^2 - k + 8k + 3.     
+SUM(i=1, k+1)(8i - 5) = (8 - 5) + (16 - 5) + ... + (8k - 5) + 8(k+1) - 5.     
+8k + 8 - 5 = 8k + 3.     
+Substitute 8k + 3 from both sides.     
+(8 - 5) + ... + (8k - 5) = 4k^2 - k = SUM(i=1, k)(8i - 5).     
