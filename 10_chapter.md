@@ -248,3 +248,10 @@ SUM(i=1, k+1)(8i - 5) = (8 - 5) + (16 - 5) + ... + (8k - 5) + 8(k+1) - 5.
 8k + 8 - 5 = 8k + 3.     
 Substitute 8k + 3 from both sides.     
 (8 - 5) + ... + (8k - 5) = 4k^2 - k = SUM(i=1, k)(8i - 5).     
+
+
+25. Concerning the Fibonacci sequence, prove that F_1 + F_2 + ... + F_n = F_n+2 - 1.      
+(1) If n = 1, 1 = 2 - 1.     
+(2) Let k >= 1, then if F_1 + F_2 + ... + F_(k+1) = F_k+3 - 1, then F_1 + F_2 + ... + F_k = F_k+2 - 1.      
+Observe, that F_k+3 = F_k+2 + F_k+1 - 1.     
+Subtract F_k+1 from both sides we get F_1 + F_2 + ... + F_k = F_k+2 - 1.     
