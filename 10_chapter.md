@@ -255,6 +255,7 @@ Substitute 8k + 3 from both sides.
 (2) Let k >= 1, show that if 1 + 1/4 + ... + 1/(k + 1)^2 <= 2 - 1/(k + 1), then 1 + 1/4 + ... + 1/k^2 <= 2 - 1/k.     
 
 
+
 25. Concerning the Fibonacci sequence, prove that F_1 + F_2 + ... + F_n = F_n+2 - 1.      
 (1) If n = 1, 1 = 2 - 1.     
 (2) Let k >= 1, then if F_1 + F_2 + ... + F_(k+1) = F_k+3 - 1, then F_1 + F_2 + ... + F_k = F_k+2 - 1.      
