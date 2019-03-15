@@ -251,6 +251,7 @@ Substitute 8k + 3 from both sides.
 
 
 13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
+(1) If n = 1, then 6 | (1 - 1).     
 
 
 19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
