@@ -252,6 +252,11 @@ Substitute 8k + 3 from both sides.
 
 13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
 (1) If n = 1, then 6 | (1 - 1).     
+(2) Let k >= 1, show that if 6 | ((k + 1)^3 - (k + 1)), then 6 | (k^3 - k).     
+((k + 1)^3 - (k + 1)) = 6a.     
+(k^3 + 3k^2 + 2k + k + 1 - k - 1) = 6a.      
+k^3 - k + 3k^2 + 3k = 6a.      
+???
 
 
 19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
