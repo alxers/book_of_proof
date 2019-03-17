@@ -250,6 +250,15 @@ Substitute 8k + 3 from both sides.
 (8 - 5) + ... + (8k - 5) = 4k^2 - k = SUM(i=1, k)(8i - 5).     
 
 
+7. If n in N, then 1 * 3 + 2 * 4 + ... + n(n + 2) = (n(n + 1)(2n + 7))/6.     
+(1) If n = 1, then 3 = (1 * 2 * 9)/6 = 3.      
+(2) Let k >= 1, show that if 1 * 3 + 2 * 4 + ... + (k + 1)(k + 1 + 2) = ((k + 1)(k + 1 + 1)(2(k + 1) + 7))/6, then 1 * 3 + 2 * 4 + ... + k(k + 2) = (k(k + 1)(2(k + 1) + 7))/6.        
+Observe that (k(k + 1)(2k + 7)) = (k^2 + k)(2k + 7) = 2k^3 + 9k^2 + 7k.     
+(k(k + 1)(2(k + 1) + 7))/6 = ((k^2 + 3k + 2)(2k + 9))/6 = (2k^3 + 9k^2 + 6k^2 + 27k + 4k + 18)/6 = (2k^3 + 9k^2 + 7k   +    6k^2 + 24k + 18)/6 = (2k^3 + 9k^2 + 7k)/6 + 6(k^2 + 4k + 3)/6.      
+(k^2 + 4k + 3) = (k + 1)(k + 1 + 2).      
+Subtract (k + 1)(k + 1 + 2) from both sides.       
+We get 1 * 3 + 2 * 4 + ... + k(k + 2) = (k(k + 1)(2(k + 1) + 7))/6.     
+
 13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
 (1) If n = 1, then 6 | (1 - 1).     
 (2) Let k >= 1, show that if 6 | ((k + 1)^3 - (k + 1)), then 6 | (k^3 - k).     
