@@ -257,7 +257,19 @@ Observe that (k(k + 1)(2k + 7)) = (k^2 + k)(2k + 7) = 2k^3 + 9k^2 + 7k.
 (k(k + 1)(2(k + 1) + 7))/6 = ((k^2 + 3k + 2)(2k + 9))/6 = (2k^3 + 9k^2 + 6k^2 + 27k + 4k + 18)/6 = (2k^3 + 9k^2 + 7k   +    6k^2 + 24k + 18)/6 = (2k^3 + 9k^2 + 7k)/6 + 6(k^2 + 4k + 3)/6.      
 (k^2 + 4k + 3) = (k + 1)(k + 1 + 2).      
 Subtract (k + 1)(k + 1 + 2) from both sides.       
-We get 1 * 3 + 2 * 4 + ... + k(k + 2) = (k(k + 1)(2(k + 1) + 7))/6.     
+We get 1 * 3 + 2 * 4 + ... + k(k + 2) = (k(k + 1)(2(k + 1) + 7))/6.   
+
+
+8. If n in N, then 1/2! + ... + n/(n + 1)! = 1 - 1/(n + 1)!.      
+
+
+11. For any integer n >=, it follows that 3 | (n^3 + 5n + 6).     
+(1) n = 1, 3 | (1 + 5 + 6), 3 | 12.      
+(2) Let k >= 1, show that if 3 | ((k + 1)^3 + 5(k + 1) + 6), then 3 | (k^3 + 5k + 6).      
+(k + 1)^3 + 5(k + 1) + 6 = (k^2 + 2k + 1)(k + 1) + 5k + 5 + 6 = k^3 + k^2 + 2k^2 + 2k + k + 1 + 5k + 5 + 6 = k^3 + 5k + 6    +    3k^2 + 3k + 6.      
+Observe that 3k^2 + 3k + 6 = 3(k^2 + k + 2).      
+Since 3 | k^3 + 5k + 6 and 3 | 3(k^2 + k + 2), then 3 | k^3 + 5k + 6 + 3k^2 + 3k + 6.       
+
 
 13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
 (1) If n = 1, then 6 | (1 - 1).     
