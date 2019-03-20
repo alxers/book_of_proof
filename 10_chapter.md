@@ -270,6 +270,19 @@ Observe, that (k + 2)! = k!(k + 1)(k + 2).
 1/2! + ... + k/(k + 1)! = 1 - 1/(k + 1)!.       
 
 
+9. For any integer n >= 0, it follows that 24 | (5^(2n) - 1).      
+(1) If n = 0, then 24 | 0.      
+(2) Let k >= 1, show that if 24 | (5^(2k) - 1), then 24 | (5^(2k + 2) - 1).      
+Observe that 5^2k - 1 = 24a, 5^2k = 24a + 1.     
+Suppose 24 | (5^(2k + 2) - 1).     
+Then (5^(2k + 2) - 1) = 24a.      
+5^2 * 5^2k - 1 = 24a.     
+25(24a + 1) - 1 = 24a.     
+25 * 24a + 25 - 1 = 24a.     
+25 * 24a + 24 = 24a.     
+24(25a + 1) = 24a.     
+
+
 11. For any integer n >=, it follows that 3 | (n^3 + 5n + 6).     
 (1) n = 1, 3 | (1 + 5 + 6), 3 | 12.      
 (2) Let k >= 1, show that if 3 | ((k + 1)^3 + 5(k + 1) + 6), then 3 | (k^3 + 5k + 6).      
@@ -278,13 +291,6 @@ Observe that 3k^2 + 3k + 6 = 3(k^2 + k + 2).
 Since 3 | k^3 + 5k + 6 and 3 | 3(k^2 + k + 2), then 3 | k^3 + 5k + 6 + 3k^2 + 3k + 6.       
 
 
-13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
-(1) If n = 1, then 6 | (1 - 1).     
-(2) Let k >= 1, show that if 6 | ((k + 1)^3 - (k + 1)), then 6 | (k^3 - k).     
-((k + 1)^3 - (k + 1)) = 6a.     
-(k^3 + 3k^2 + 2k + k + 1 - k - 1) = 6a.      
-k^3 - k + 3k^2 + 3k = 6a.      
-???
 
 
 19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
