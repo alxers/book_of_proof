@@ -308,6 +308,10 @@ m^3 + 6m^2 + 12m^2 + 12 * 6m + 36m + 36 * 6 - m - 6 =
 6(a + 3m^2 + 18m + 35).       
 
 
+14. Suppose a in Z. Prove that 5 | 2^n * a implies 5 | a for any n in N.     
+(1) If n = 0, then 5 | a implies that 5 | a.     
+(2) Let k >= 1, show that if 5 | 2^k * a implies that 5 | a, then 5 | 2^(k + 1) * a implies that 5 | a.     
+
 
 19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
 (1) If n = 1, then 1 <= 2 - 1.    
