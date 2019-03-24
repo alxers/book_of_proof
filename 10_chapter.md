@@ -283,6 +283,9 @@ Then (5^(2k + 2) - 1) = 24a.
 24(25a + 1) = 24a.     
 
 
+10. For any integer n >= 0, it follows that 3 | (5^2n - 1).     
+
+
 11. For any integer n >=, it follows that 3 | (n^3 + 5n + 6).     
 (1) n = 1, 3 | (1 + 5 + 6), 3 | 12.      
 (2) Let k >= 1, show that if 3 | ((k + 1)^3 + 5(k + 1) + 6), then 3 | (k^3 + 5k + 6).      
