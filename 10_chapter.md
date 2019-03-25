@@ -284,6 +284,14 @@ Then (5^(2k + 2) - 1) = 24a.
 
 
 10. For any integer n >= 0, it follows that 3 | (5^2n - 1).     
+(1) If n = 0, 3 | (1 - 1).      
+(2) Let k >= 1, show that if 3 | (5^2k - 1), then 3 | (5^(2k + 2) - 1).     
+Suppose 3 | (5^2k - 1), then 5^2k = 3a + 1.      
+5^(2k + 2) - 1 = 3a.      
+5^2k * 5^2 - 1 = 3a.       
+(3a + 1) * 5^2 - 1 = 75a + 25 - 1 =      
+= 75a + 24 = 3(25a + 6).      
+Then 5^(2k + 2) - 1 = 3b, then 3 | (5^(2k + 2) - 1).      
 
 
 11. For any integer n >=, it follows that 3 | (n^3 + 5n + 6).     
