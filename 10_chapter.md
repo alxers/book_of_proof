@@ -333,6 +333,17 @@ Then 1/(1 * 2) + 1/(2 * 3) + ... + 1/(k(k + 1)) + 1/(k + 1) = 1.
 1/(1 * 2) + 1/(2 * 3) + ... + 1/(k(k + 1)) = 1 - 1/(k + 1).     
 
 
+16. For every natural number n, it follows that 2^n + 1 <= 3^n.      
+(1) If n = 1, then 2 + 1 <= 3.       
+(2) Let k >= 1. Show that if 2^k + 1 <= 3^k, then 2^(k + 1) + 1 <= 3^(k + 1).      
+Suppose 2^k + 1 <= 3^k.      
+2(2^k + 1) <= 3^k * 2.      
+2^(k + 1) + 2 <= 3^k * 2, divide rhs by 3/2.      
+2^(k + 1) + 2 <= 3^k * 3.      
+2^(k + 1) + 1 <= 3^k * 3 - 1, add 1 to the rhs.     
+2^(k + 1) + 1 <= 3^(k + 1).     
+
+
 
 19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
 (1) If n = 1, then 1 <= 2 - 1.    
