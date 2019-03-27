@@ -307,6 +307,14 @@ Since 3 | k^3 + 5k + 6 and 3 | 3(k^2 + k + 2), then 3 | k^3 + 5k + 6 + 3k^2 + 3k
 (2) For the sake of contradiction suppose it's not true, that 9 | (4^3n + 8) for all n.      
 Let k > 1 be the smalles integer for which 9 !| (4^3k + 8).     
 Then 9 | (4^(3(k - 2)) + 8).     
+4^(3k + 3) + 8 = 9a.      
+4^3(4^(3k - 3) + 8) = 4^3 * 9a.      
+4^3k + 4^3 * 8 = 4^3 * 9a.      
+4^3k + 4^3 * 8 = 4^3 * 9a.      
+4^3k + 512 = 64 * 9a.      
+4^3k + 8 = 64 * 9a - 504.       
+4^3k + 8 = 9(64a - 56).      
+4^3k + 8 = 9b => 9 | 4^3k + 8. Contradiction.     
 
 
 13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
