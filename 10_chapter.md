@@ -174,7 +174,7 @@ F^2_(k+2) - F_(k+2) * F_(k+1) - F^2_(k+1) = (F_(k+1) + F_k)^2 - (F_(k+1) + F_k) 
 
 
 Exercises for Chapter 10.      
-1. For every integer n in N, it follows that 1 + 2 + ... + n = (n^2 +n)/2.      
+.1. For every integer n in N, it follows that 1 + 2 + ... + n = (n^2 +n)/2.      
 Proof.     
 (1) If n = 1, then 1 = (1^2 + 1)/2 = 1.      
 (2) Let k >= 1, then if 1 + 2 + ... + k = (k^2 + k)/2 then 1 + 2 + ... + k + 1 = ((k + 1)^2 + k + 1)/2.      
@@ -184,7 +184,7 @@ Proof.
 1 + 2 + ... + k = (k^2 + k)/2.       
 
 
-2. For every integer n in N, it follows that 1^2 + 2^2 + ... + n^2 = (n(n + 1)(2n + 1))/6.       
+.2. For every integer n in N, it follows that 1^2 + 2^2 + ... + n^2 = (n(n + 1)(2n + 1))/6.       
 Proof.     
 (1) If n = 1, then 1^2 = 6/6 = 1.     
 (2) Let k >= 1. We need show that if 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6, then 1^2 + 2^2 + ... + (k + 1)^2 = ((k + 1)(k + 2)(2(k + 1) + 1))/6.      
@@ -198,7 +198,7 @@ Which is equals 1^2 + 2^2 + ... + k^2 = (k(k + 1)(2k + 1))/6.
 
 
 
-3. For every integer n in N, it follows that 1^3 + ... + n^3 = (n^2(n + 1)^2)/4.     
+.3. For every integer n in N, it follows that 1^3 + ... + n^3 = (n^2(n + 1)^2)/4.     
 (1) If n = 1 then 1^3 = (1(1 + 1)^2)/4 = 4/4 = 1.     
 (2) Let k >= 1, we need to show that if 1^3 + 2^3 + ... + k^3 = (k^2(k + 1)^2)/4, then 1^3 + 2^3 + ... + (k + 1)^3 = ((k + 1)^2 * (k + 2)^2)/4.      
 Observe that k^2 * (k + 1)^2 = k^2 * (k^2 + 2k + 1) = k^4 + 2k^3 + k^2.     
@@ -214,7 +214,7 @@ Substitute (k + 1)^3 from both sides.
 
 
 
-4. If n in N, then 1 * 2 + 2 * 3 + ... + n * (n + 1) = (n(n + 1)(n + 2))/3.     
+.4. If n in N, then 1 * 2 + 2 * 3 + ... + n * (n + 1) = (n(n + 1)(n + 2))/3.     
 (1) If n = 1, 1 * (1 + 1) = (1 * (1 + 1) * (1 + 2))/3.     
 2 = 6/3.      
 (2) Let k >= 1, we need to show that if 1 * 2 + 2 * 3 + ... + (k + 1) * (k + 2) = ((k + 1)(k + 1 + 1)(k + 1 + 2))/3 then 1 * 2 + 2 * 3 + ... + k * (k + 1) = (k(k + 1)(k + 2))/3.     
@@ -228,7 +228,7 @@ So 1 * 2 + 2 * 3 + ... + (k + 1) * (k + 2) = k(k + 1)(k + 2)/3 + (k + 1)(k + 2)
 Substitute (k + 1)(k + 2) from both sides we get 1 * 2 + 2 * 3 + ... + k * (k + 1) = (k(k + 1)(k + 2))/3.        
 
 
-5. If n in N, then 2^1 + 2^2 + 2^3 + ... + 2^n = 2^(n+1) - 2.     
+.5. If n in N, then 2^1 + 2^2 + 2^3 + ... + 2^n = 2^(n+1) - 2.     
 (1) If n = 1, 2^1 = 2^2 - 2, 2 = 2.     
 (2) Let k >= 1, show that if 2^1 + 2^2 + 2^3 + ... + 2^(k+1) = 2^(k+2) - 2 then 2^1 + 2^2 + 2^3 + ... + 2^k = 2^(k+1) - 2.     
 2^(k+2) - 2 = 2^(k+1) * 2 - 2.     
@@ -239,7 +239,7 @@ Substitute 1 from both sides.
 
 
 
-6. For every natural number n, it follows, that SUM(i=1, n)(8i - 5) = 4n^2 - n.     
+.6. For every natural number n, it follows, that SUM(i=1, n)(8i - 5) = 4n^2 - n.     
 (1) If n = 1, then 8 - 5 = 4 - 1.     
 (2) Let k >= 1, show that SUM(i=1, k+1)(8i - 5) = 4(k+1)^2 - (k+1) then SUM(i=1, k)(8i - 5) = 4k^2 - k.     
 4(k^2 + 2k + 1) - k - 1 = 4k^2 + 8k + 4 - k - 1.     
@@ -250,7 +250,7 @@ Substitute 8k + 3 from both sides.
 (8 - 5) + ... + (8k - 5) = 4k^2 - k = SUM(i=1, k)(8i - 5).     
 
 
-7. If n in N, then 1 * 3 + 2 * 4 + ... + n(n + 2) = (n(n + 1)(2n + 7))/6.     
+.7. If n in N, then 1 * 3 + 2 * 4 + ... + n(n + 2) = (n(n + 1)(2n + 7))/6.     
 (1) If n = 1, then 3 = (1 * 2 * 9)/6 = 3.      
 (2) Let k >= 1, show that if 1 * 3 + 2 * 4 + ... + (k + 1)(k + 1 + 2) = ((k + 1)(k + 1 + 1)(2(k + 1) + 7))/6, then 1 * 3 + 2 * 4 + ... + k(k + 2) = (k(k + 1)(2(k + 1) + 7))/6.        
 Observe that (k(k + 1)(2k + 7)) = (k^2 + k)(2k + 7) = 2k^3 + 9k^2 + 7k.     
@@ -260,7 +260,7 @@ Subtract (k + 1)(k + 1 + 2) from both sides.
 We get 1 * 3 + 2 * 4 + ... + k(k + 2) = (k(k + 1)(2(k + 1) + 7))/6.   
 
 
-8. If n in N, then 1/2! + ... + n/(n + 1)! = 1 - 1/(n + 1)!.      
+.8. If n in N, then 1/2! + ... + n/(n + 1)! = 1 - 1/(n + 1)!.      
 (1) n = 1, 1/2! = 1 - 1/2!.      
 (2) Let k >= 1, show that if 1/2! + ... + (k + 1)/(k + 1 + 1)! = 1 - 1/(k + 1 + 1)!, then 1/2! + ... + k/(k + 1)! = 1 - 1/(k + 1)!.      
 Observe, that (k + 2)! = k!(k + 1)(k + 2).      
@@ -270,7 +270,7 @@ Observe, that (k + 2)! = k!(k + 1)(k + 2).
 1/2! + ... + k/(k + 1)! = 1 - 1/(k + 1)!.       
 
 
-9. For any integer n >= 0, it follows that 24 | (5^(2n) - 1).      
+.9. For any integer n >= 0, it follows that 24 | (5^(2n) - 1).      
 (1) If n = 0, then 24 | 0.      
 (2) Let k >= 1, show that if 24 | (5^(2k) - 1), then 24 | (5^(2k + 2) - 1).      
 Observe that 5^2k - 1 = 24a, 5^2k = 24a + 1.     
@@ -283,7 +283,7 @@ Then (5^(2k + 2) - 1) = 24a.
 24(25a + 1) = 24a.     
 
 
-10. For any integer n >= 0, it follows that 3 | (5^2n - 1).     
+.10. For any integer n >= 0, it follows that 3 | (5^2n - 1).     
 (1) If n = 0, 3 | (1 - 1).      
 (2) Let k >= 1, show that if 3 | (5^2k - 1), then 3 | (5^(2k + 2) - 1).     
 Suppose 3 | (5^2k - 1), then 5^2k = 3a + 1.      
@@ -294,7 +294,7 @@ Suppose 3 | (5^2k - 1), then 5^2k = 3a + 1.
 Then 5^(2k + 2) - 1 = 3b, then 3 | (5^(2k + 2) - 1).      
 
 
-11. For any integer n >=, it follows that 3 | (n^3 + 5n + 6).     
+.11. For any integer n >=, it follows that 3 | (n^3 + 5n + 6).     
 (1) n = 1, 3 | (1 + 5 + 6), 3 | 12.      
 (2) Let k >= 1, show that if 3 | ((k + 1)^3 + 5(k + 1) + 6), then 3 | (k^3 + 5k + 6).      
 (k + 1)^3 + 5(k + 1) + 6 = (k^2 + 2k + 1)(k + 1) + 5k + 5 + 6 = k^3 + k^2 + 2k^2 + 2k + k + 1 + 5k + 5 + 6 = k^3 + 5k + 6    +    3k^2 + 3k + 6.      
@@ -302,7 +302,7 @@ Observe that 3k^2 + 3k + 6 = 3(k^2 + k + 2).
 Since 3 | k^3 + 5k + 6 and 3 | 3(k^2 + k + 2), then 3 | k^3 + 5k + 6 + 3k^2 + 3k + 6.       
 
 
-12. For any into n >= 0, it follows that 9 | (4^3n + 8).      
+.12. For any into n >= 0, it follows that 9 | (4^3n + 8).      
 (1) If n = 0, then 9 | (1 + 8).      
 (2) For the sake of contradiction suppose it's not true, that 9 | (4^3n + 8) for all n.      
 Let k > 1 be the smalles integer for which 9 !| (4^3k + 8).     
@@ -317,7 +317,7 @@ Then 9 | (4^(3(k - 2)) + 8).
 4^3k + 8 = 9b => 9 | 4^3k + 8. Contradiction.     
 
 
-13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
+.13. For any integer n >= 0, it follows that 6 | (n^3 - n).      
 (1) If n = 1, then 6 | (1 - 1).      
 n = 2, 8 - 2 = 6, 6 | 6.     
 n = 3, 27 - 3 = 24, 6 | 24.     
@@ -334,12 +334,12 @@ m^3 + 6m^2 + 12m^2 + 12 * 6m + 36m + 36 * 6 - m - 6 =
 6(a + 3m^2 + 18m + 35).       
 
 
-14. Suppose a in Z. Prove that 5 | 2^n * a implies 5 | a for any n in N.     
+.14. Suppose a in Z. Prove that 5 | 2^n * a implies 5 | a for any n in N.     
 (1) If n = 0, then 5 | a implies that 5 | a.     
 (2) Let k >= 1, show that if 5 | 2^k * a implies that 5 | a, then 5 | 2^(k + 1) * a implies that 5 | a.     
 
 
-15. If n in N, then 1/(1 * 2) + 1/(2 * 3) + ... + 1/(n(n + 1)) = 1 - 1/(n + 1).     
+.15. If n in N, then 1/(1 * 2) + 1/(2 * 3) + ... + 1/(n(n + 1)) = 1 - 1/(n + 1).     
 (1) If n = 1, then 1/2 = 1 - 1/2.     
 (2) Let k >= 1, show that if 1/(1 * 2) + 1/(2 * 3) + ... + 1/(k(k + 1)) = 1 - 1/(k + 1), then 1/(1 * 2) + 1/(2 * 3) + ... + 1/((k + 1)(k + 2)) = 1 - 1/(k + 2).       
 Observe, that 1/((k + 1)(k + 2)) = 1 - 1/(k + 2).      
@@ -348,7 +348,7 @@ Then 1/(1 * 2) + 1/(2 * 3) + ... + 1/(k(k + 1)) + 1/(k + 1) = 1.
 1/(1 * 2) + 1/(2 * 3) + ... + 1/(k(k + 1)) = 1 - 1/(k + 1).     
 
 
-16. For every natural number n, it follows that 2^n + 1 <= 3^n.      
+.16. For every natural number n, it follows that 2^n + 1 <= 3^n.      
 (1) If n = 1, then 2 + 1 <= 3.       
 (2) Let k >= 1. Show that if 2^k + 1 <= 3^k, then 2^(k + 1) + 1 <= 3^(k + 1).      
 Suppose 2^k + 1 <= 3^k.      
@@ -358,17 +358,17 @@ Suppose 2^k + 1 <= 3^k.
 2^(k + 1) + 1 <= 3^k * 3 - 1, add 1 to the rhs.     
 2^(k + 1) + 1 <= 3^(k + 1).     
 
+.17. Suppose A_1, ... A_n are sets in some universal set U, and n >= 2. Prove that (A_1 intersection ... A_n)(complement) = A_1(complement) union ... A_n(complement).      
+(1) If n = 2, then we should prove that (A_1 intersection A_2)(complement) = A_1(complement) union A_2(complement).    
 
 
-
-
-19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
+.19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
 (1) If n = 1, then 1 <= 2 - 1.    
 (2) Let k >= 1, show that if 1 + 1/4 + ... + 1/(k + 1)^2 <= 2 - 1/(k + 1), then 1 + 1/4 + ... + 1/k^2 <= 2 - 1/k.     
 ?
 
 
-25. Concerning the Fibonacci sequence, prove that F_1 + F_2 + ... + F_n = F_n+2 - 1.      
+.25. Concerning the Fibonacci sequence, prove that F_1 + F_2 + ... + F_n = F_n+2 - 1.      
 (1) If n = 1, 1 = 2 - 1.     
 (2) Let k >= 1, then if F_1 + F_2 + ... + F_(k+1) = F_k+3 - 1, then F_1 + F_2 + ... + F_k = F_k+2 - 1.      
 Observe, that F_k+3 = F_k+2 + F_k+1 - 1.     
