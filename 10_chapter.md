@@ -360,7 +360,9 @@ Suppose 2^k + 1 <= 3^k.
 
 .17. Suppose A_1, ... A_n are sets in some universal set U, and n >= 2. Prove that (A_1 intersection ... A_n)(complement) = A_1(complement) union ... A_n(complement).      
 (1) If n = 2, then we should prove that (A_1 intersection A_2)(complement) = A_1(complement) union A_2(complement).    
-(A_1 intersection A_2)(complement) = (x in U) ^ (x not_in A_1 intersection A_2)
+(A_1 intersection A_2)(complement) = (x in U) ^ (x not_in A_1 intersection A_2) = x in U ^ ~ (x in A_1 intersection A_2) =     
+= x in U ^ (x not_in A_1) v (x not_in A_2) = (x in U ^ x not_in A_1) v (x in U ^ x not_in A_2) = A_1(compliment) union A_2(compliment)        
+
 
 
 .19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
