@@ -372,7 +372,9 @@ Suppose 2^k + 1 <= 3^k.
 .19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
 (1) If n = 1, then 1 <= 2 - 1.    
 (2) Let k >= 1, show that if 1 + 1/4 + ... + 1/(k + 1)^2 <= 2 - 1/(k + 1), then 1 + 1/4 + ... + 1/k^2 <= 2 - 1/k.     
-?
+Suppose 1 + 1/4 + 1/9 + ... 1/k^2 <= 2 - 1/k is true.     
+Add 1/(k+1)^2 to both sides.    
+1 + 1/4 + 1/9 + ... 1/k^2 + 1/(k + 1)^2 <= 2 - 1/k + 1/(k + 1)^2.      
 
 
 .25. Concerning the Fibonacci sequence, prove that F_1 + F_2 + ... + F_n = F_n+2 - 1.      
