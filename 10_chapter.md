@@ -371,8 +371,11 @@ Suppose 2^k + 1 <= 3^k.
 (x in U) ^ (x not_in (A_1 union A_2)).  (definition of complement)          
 (x in U) ^ ~ (x in (A_1 union A_2)).      
 (x in U) ^ ~ (x in A_1 v x in A_2)). (definition of union)       
-       
-
+(x in U) ^ (x not_in A_1 ^ x not_in A_2). (DeMorgan's law)      
+(x in U ^ x not_in A_1) ^ (x in U ^ x not_in A_2) => A_1(complement) intersection A_2(complement).     
+(2) (A_1 union ... A_k)(complement) =     
+(A_1 union ... (A_k untion A_k+1))(complement) =     
+A_1(complement) intersection ... (A_k(complement) intersection A_k+1(complement))     
 
 
 .19. Prove that 1 + 1/4 + 1/9 + ... 1/n^2 <= 2 - 1/n.     
