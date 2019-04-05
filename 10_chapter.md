@@ -362,7 +362,9 @@ Suppose 2^k + 1 <= 3^k.
 (1) If n = 2, then we should prove that (A_1 intersection A_2)(complement) = A_1(complement) union A_2(complement).    
 (A_1 intersection A_2)(complement) = (x in U) ^ (x not_in A_1 intersection A_2) = x in U ^ ~ (x in A_1 intersection A_2) =     
 = x in U ^ (x not_in A_1) v (x not_in A_2) = (x in U ^ x not_in A_1) v (x in U ^ x not_in A_2) = A_1(compliment) union A_2(compliment)      
-(2)
+(2) (A_1 intersection ... A_k)(complement) =     
+(A_1 intersection ... (A_k intersection A_k+1))(complement) =     
+A_1(complement) union ... (A_k(complement) union A_k+1(complement))     
 
 
 .18. Suppose A_1, ... A_n are sets in some universal set U, and n >= 2. Prove that (A_1 union ... A_n)(complement) = A_1(complement) intersection ... A_n(complement).  
@@ -374,7 +376,7 @@ Suppose 2^k + 1 <= 3^k.
 (x in U) ^ (x not_in A_1 ^ x not_in A_2). (DeMorgan's law)      
 (x in U ^ x not_in A_1) ^ (x in U ^ x not_in A_2) => A_1(complement) intersection A_2(complement).     
 (2) (A_1 union ... A_k)(complement) =     
-(A_1 union ... (A_k untion A_k+1))(complement) =     
+(A_1 union ... (A_k union A_k+1))(complement) =     
 A_1(complement) intersection ... (A_k(complement) intersection A_k+1(complement))     
 
 
