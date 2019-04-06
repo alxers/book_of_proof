@@ -388,6 +388,9 @@ Add 1/(k+1)^2 to both sides.
 1 + 1/4 + 1/9 + ... 1/k^2 + 1/(k + 1)^2 <= 2 - 1/k + 1/(k + 1)^2.      
 
 
+.20. Prove that (1 + 2 + 3 + ... + n)^2 = 1^3 + 2^3 + 3^3 + ... + n^3 for every n in N.     
+
+
 .25. Concerning the Fibonacci sequence, prove that F_1 + F_2 + ... + F_n = F_n+2 - 1.      
 (1) If n = 1, 1 = 2 - 1.     
 (2) Let k >= 1, then if F_1 + F_2 + ... + F_(k+1) = F_k+3 - 1, then F_1 + F_2 + ... + F_k = F_k+2 - 1.      
