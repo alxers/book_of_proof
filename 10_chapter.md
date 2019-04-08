@@ -386,7 +386,7 @@ A_1(complement) intersection ... (A_k(complement) intersection A_k+1(complement)
 Suppose 1 + 1/4 + 1/9 + ... 1/k^2 <= 2 - 1/k is true.     
 Add 1/(k+1)^2 to both sides.    
 1 + 1/4 + 1/9 + ... 1/k^2 + 1/(k + 1)^2 <= 2 - 1/k + 1/(k + 1)^2.      
-
+2 - 1/k + 1/(k + 1)^2 = 2 + (1 - (k + 1)^2)/(k(k + 1)^2) =     
 
 .20. Prove that (1 + 2 + 3 + ... + n)^2 = 1^3 + 2^3 + 3^3 + ... + n^3 for every n in N.     
 (1) If n = 1, then 1^2 = 1^3.     
