@@ -404,3 +404,6 @@ Add 1/(k+1)^2 to both sides.
 (2) Let k >= 1, then if F_1 + F_2 + ... + F_(k+1) = F_k+3 - 1, then F_1 + F_2 + ... + F_k = F_k+2 - 1.      
 Observe, that F_k+3 = F_k+2 + F_k+1 - 1.     
 Subtract F_k+1 from both sides we get F_1 + F_2 + ... + F_k = F_k+2 - 1.     
+
+
+.26. Concerning the Fibonacci sequence, prove that SUM(from k = 1 to n) (F_k)^2 = F_n * F_(n + 1).      
