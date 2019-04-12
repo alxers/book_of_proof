@@ -407,3 +407,6 @@ Subtract F_k+1 from both sides we get F_1 + F_2 + ... + F_k = F_k+2 - 1.
 
 
 .26. Concerning the Fibonacci sequence, prove that SUM(from k = 1 to n) (F_k)^2 = F_n * F_(n + 1).      
+(1) If n = 1, then 1^2 = 1 * 1.      
+(2) Let m >= 1, show that if SUM(from k = 1 to m) (F_k)^2 = F_m+1 * F_m+2 then SUM(from k = 1 to m) = F_m * F_m+1.     
+(F_1)^2 + (F_2)^2 + ... + (F_m)^2 = F_m+1 * F_m+2.      
