@@ -411,3 +411,7 @@ Subtract F_k+1 from both sides we get F_1 + F_2 + ... + F_k = F_k+2 - 1.
 (2) Let m >= 1, show that if SUM(from k = 1 to m) (F_k)^2 = F_m+1 * F_m+2 then SUM(from k = 1 to m) = F_m * F_m+1.     
 (F_1)^2 + (F_2)^2 + ... + (F_m)^2 = F_m+1 * F_m+2.      
 Observe, that (F_m+2) = F_m + F_m+1.      
+F_(m+1) * F_(m+2) = F(m+1)(F_m + F(m+1)) = F_m * F_(m+1) + F(m+1)^2.      
+Then (F_1)^2 + (F_2)^2 + ... + (F_m)^2 = F_m+1 * F_(m+1)^2.     
+Subtract F_(k+1)^2 from both sides.      
+(F_1)^2 + (F_2)^2 + ... + (F_m)^2 = F_m * F_m+1.     
