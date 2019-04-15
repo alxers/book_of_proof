@@ -415,3 +415,9 @@ F_(m+1) * F_(m+2) = F(m+1)(F_m + F(m+1)) = F_m * F_(m+1) + F(m+1)^2.
 Then (F_1)^2 + (F_2)^2 + ... + (F_m)^2 = F_m+1 * F_(m+1)^2.     
 Subtract F_(k+1)^2 from both sides.      
 (F_1)^2 + (F_2)^2 + ... + (F_m)^2 = F_m * F_m+1.     
+
+
+.27. Concerning the Fibonacci sequence, prove that (F_1) + (F_3) + ... + F(2n-1) = F_2n.     
+(1) n = 1, then F_1 = F_2, 1 = 1.      
+(2) SUM(from k = 1 to n) F_(2n-1) = F_2n, SUM(from k = 1 to n+1) F_(2n + 2) = F_(2n+1) + SUM(from k = 1 to n) F_(2n-1).     
+F_(2n+1) + F_2n = F_2(n+1).      
