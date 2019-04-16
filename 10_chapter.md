@@ -421,3 +421,12 @@ Subtract F_(k+1)^2 from both sides.
 (1) n = 1, then F_1 = F_2, 1 = 1.      
 (2) SUM(from k = 1 to n) F_(2n-1) = F_2n, SUM(from k = 1 to n+1) F_(2n + 2) = F_(2n+1) + SUM(from k = 1 to n) F_(2n-1).     
 F_(2n+1) + F_2n = F_2(n+1).      
+
+
+.28. Prove that F_2 + F_4 + F_6 + ... + F_2n = F(2n+1) - 1.      
+(1) n = 1, F_2 = F_3 - 1, 1 = 1.      
+(2) SUM(from k=1 to n) F_2n = F_(2n+1) - 1.      
+SUM(from k=1 to n+1) = F_(2n+2) + SUM(from k=1 to n) F_2n = F_(2n+2) + F_(2n+1) - 1 = F_(2n+3) - 1.      
+
+
+
