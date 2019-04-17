@@ -429,4 +429,7 @@ F_(2n+1) + F_2n = F_2(n+1).
 SUM(from k=1 to n+1) = F_(2n+2) + SUM(from k=1 to n) F_2n = F_(2n+2) + F_(2n+1) - 1 = F_(2n+3) - 1.      
 
 
+.31. ? Prove that SUM(from k=0 to n) = (n + 1) choose (r + 1), where 1 <= r <= n.      
+(1) When n = 0, then 0 choose r = 1 choose (r + 1) (? no such r).      
+(2) 
 
