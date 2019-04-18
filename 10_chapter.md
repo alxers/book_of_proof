@@ -431,5 +431,11 @@ SUM(from k=1 to n+1) = F_(2n+2) + SUM(from k=1 to n) F_2n = F_(2n+2) + F_(2n+1) 
 
 .31. ? Prove that SUM(from k=0 to n) = (n + 1) choose (r + 1), where 1 <= r <= n.      
 (1) When n = 0, then 0 choose r = 1 choose (r + 1) (? no such r).      
-(2) 
+(2) Show that if SUM(from k=0 to n) = (n + 1) choose (r + 1) then SUM(from k=0 to n+1) = (n + 1 + 1) choose (r + 1).     
+Assume SUM(from k=0 to n) = (n + 1) choose (r + 1).     
+Observe that (n + 1 + 1) choose (r + 1) = (n + 1) choose (r) + (n + 1) choose (r + 1).     
+(n + 1) choose (r) + SUM(from k=0 to n) (k choose r) = SUM(from k=0 to n + 1) (k choose r).     
+??? (Check if correct).     
+
+
 
