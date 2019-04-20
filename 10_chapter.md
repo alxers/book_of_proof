@@ -439,3 +439,5 @@ Observe that (n + 1 + 1) choose (r + 1) = (n + 1) choose (r) + (n + 1) choose (r
 
 .32. Prove that number of n-digit binary number that have no sonsecutive 1's is the Fibonacci number F_n+2.    
 
+
+
