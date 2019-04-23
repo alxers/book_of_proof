@@ -442,5 +442,8 @@ Observe that (n + 1 + 1) choose (r + 1) = (n + 1) choose (r) + (n + 1) choose (r
 .33. Suppose n(infinitely long) straight lines lie on a plane in such a way that no two of the lines are parallel, and no three of the lines intersect at a single point. Show that this arrangement divides the plane into (n^2 + n + 2)/2 regions.     
 
 (1) If n = 1, then (1^2 + 1 + 2)/2 = 2.     
-(2) Let k >= 1. We need to show that if there are k lines divides the plane into (k^2 + k + 2)/2 regions, then k + 1 lines divides the plane into ((k+1)^2 + k + 1 + 2)/2 regions
+(2) Since (n^2 + n + 2)/2 is true for n, let's add n + 1.     
+(n^2 + n + 2)/2 + n + 1 = (n^2 + n + 2)/2 + (2n + 2)/2 =      
+= (n^2 + 2n + 1 + n + 1 + 2)/2 = ((n + 1)^2 + n + 1 + 2)/2.      
+
 
