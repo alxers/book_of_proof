@@ -460,3 +460,4 @@ Since 3^0 = 1, subtract 1 from both sides.
 3^1 + ... + 3^k = (3^(k+1) - 3)/2.        
 
 
+.35. Prove that if n, k in N, and n is even and k is odd, then (n choose k) is even.     
