@@ -462,4 +462,4 @@ Since 3^0 = 1, subtract 1 from both sides.
 
 .35. Prove that if n, k in N, and n is even and k is odd, then (n choose k) is even.     
 (1) Let n = 2, k = 1, then (n choose k) = 2!/(1! (2 - 1)!) = 2. 2 is even.     
-(2)
+(2) n = 2a, k = 2b + 1
