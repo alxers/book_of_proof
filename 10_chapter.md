@@ -465,5 +465,3 @@ Since 3^0 = 1, subtract 1 from both sides.
 (2) n = 2a, k = 2b + 1
 
 
-.36. Prove that if n = 2^k - 1 for some k in N, then every entry in the n-th row Pascal's triangle is odd.     
-
