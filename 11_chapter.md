@@ -40,3 +40,29 @@ R = {
 }      
 
 
+.4.         
+A = { 1, 2, 3, 4, 5 }     
+R = {     
+    (0, 0), (0, 4), (4, 0),     
+    (1, 1), (1, 3), (3, 1), (1, 5), (5, 1),      
+    (2, 2), (2, 4), (4, 2),      
+    (3, 3),     
+    (5, 5)                
+}     
+
+
+.5. 
+A = { 0, 1, 2, 3, 4, 5 }      
+R = { (1, 2), (2, 5), (3, 3), (4, 3), (4, 2), (5, 0) }
+
+
+
+.6. Congruence modulo5 is a relation on the set A = Z. In this relation xRy means x ≡ y(mod5). Write out the set R in set-builder notation.      
+R = { (x, y) in Z : 5 | x - y }       
+
+
+
+.7. Write the relation < on the set A = Z as a subset R of Z x Z. This is an infinite set, so you will have to use set-builder notation.      
+R = { (x, y) in Z x Z : y - x in N } set_in Z x Z.      
+
+
