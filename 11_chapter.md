@@ -75,3 +75,8 @@ So 2^36 many different relations.
 (R x R) is 2D plane, { (x,x) : x in R } is an equal coordinates.     
 Remove all equal coordinates from 2D plane, you get all non-equal coordinates.          
 
+
+.11. Given a finite set A, how many different relations are there on A ?     
+There are 2^|A| subsets of A.      
+There are |A| * |A| = |A|^2 ordered pairs in A.       
+So 2^(|A|^2) many different relations.     
