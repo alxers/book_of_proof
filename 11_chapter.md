@@ -66,3 +66,12 @@ R = { (x, y) in Z : 5 | x - y }
 R = { (x, y) in Z x Z : y - x in N } set_in Z x Z.      
 
 
+.9. Let A = { 1, 2, 3, 4, 5, 6 }. How many different relations are there on the set A ?       
+There are 2^|A| = 2^6 subsets of A.      
+There are 36 ordered pairs in A.       
+So 2^36 many different relations.     
+
+.10. Consider the subset R = (R x R) - { (x,x) : x in R } set_in R x R. What familiar relation onRis this? Explain.        
+(R x R) is 2D plane, { (x,x) : x in R } is an equal coordinates.     
+Remove all equal coordinates from 2D plane, you get all non-equal coordinates.          
+
