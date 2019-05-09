@@ -80,3 +80,6 @@ Remove all equal coordinates from 2D plane, you get all non-equal coordinates.
 There are 2^|A| subsets of A.      
 There are |A| * |A| = |A|^2 ordered pairs in A.       
 So 2^(|A|^2) many different relations.     
+
+
+.12.     
