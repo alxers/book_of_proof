@@ -81,5 +81,5 @@ There are 2^|A| subsets of A.
 There are |A| * |A| = |A|^2 ordered pairs in A.       
 So 2^(|A|^2) many different relations.     
 
-
+In the following exercises, R of R^2 = R x R or Z^2 = Z x Z indicated by gray shading. In each case, R is a familiar relation on R or Z. State it.      
 .12.     
