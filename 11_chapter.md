@@ -88,3 +88,11 @@ In the following exercises, R of R^2 = R x R or Z^2 = Z x Z indicated by gray sh
 
 
 11.2 Properties of Relations
+Definition 11.2 Suppose R is a relation on a set A.     
+
+.1. Relation R is reflexive if xRx for every x in A.     
+Tha is, R is reflexive if all x in A, xRx.     
+
+.2. Relation R is symmetric if xRy implies yRx for all x,y in A.     
+
+.3. Relation R is transitive if whenever xRy and yRz, then also xRz.     
