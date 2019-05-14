@@ -97,3 +97,7 @@ That is, R is reflexive if all x in A, xRx.
 
 .3. Relation R is transitive if whenever xRy and yRz, then also xRz.     
 That is, R is transitive if for all x, y, z in A, ((xRy) ^ (yRz)) => xRz.     
+
+
+Example 11.7. A = { b, c, d, e }, and R is the following relation on A: R { (b, b), (b, c), (c, b), (c, c), (d, d), (b, d), (d, b), (c, d), (d, c) }.      
+
