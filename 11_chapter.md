@@ -93,11 +93,13 @@ Definition 11.2 Suppose R is a relation on a set A.
 .1. Relation R is reflexive if xRx for every x in A.     
 That is, R is reflexive if all x in A, xRx.     
 
-.2. Relation R is symmetric if xRy implies yRx for all x,y in A.     
+.2. Relation R is symmetric if xRy implies yRx for all x,y in A.    
+That is, R is symmetric if all x, y in A, xRy => yRx.       
 
 .3. Relation R is transitive if whenever xRy and yRz, then also xRz.     
 That is, R is transitive if for all x, y, z in A, ((xRy) ^ (yRz)) => xRz.     
 
 
 Example 11.7. A = { b, c, d, e }, and R is the following relation on A: R { (b, b), (b, c), (c, b), (c, c), (d, d), (b, d), (d, b), (c, d), (d, c) }.      
-
+.1. It's not reflexive, because it's not true that eRe. (should be true for all x in A).      
+.2. It's symmetric
