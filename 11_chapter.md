@@ -102,4 +102,4 @@ That is, R is transitive if for all x, y, z in A, ((xRy) ^ (yRz)) => xRz.
 
 Example 11.7. A = { b, c, d, e }, and R is the following relation on A: R { (b, b), (b, c), (c, b), (c, c), (d, d), (b, d), (d, b), (c, d), (d, c) }.      
 .1. It's not reflexive, because it's not true that eRe. (should be true for all x in A).      
-.2. It's symmetric
+.2. It's symmetric, whenever we have xRy, it follows yRx too. (? should be true for all x,y, but there are no e).     
