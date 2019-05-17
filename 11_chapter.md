@@ -102,4 +102,15 @@ That is, R is transitive if for all x, y, z in A, ((xRy) ^ (yRz)) => xRz.
 
 Example 11.7. A = { b, c, d, e }, and R is the following relation on A: R { (b, b), (b, c), (c, b), (c, c), (d, d), (b, d), (d, b), (c, d), (d, c) }.      
 .1. It's not reflexive, because it's not true that eRe. (should be true for all x in A).      
-.2. It's symmetric, whenever we have xRy, it follows yRx too. (? should be true for all x,y, but there are no e).     
+.2. It's symmetric, whenever we have xRy, it follows yRx too.      
+.3. It's transitive.     
+
+
+Example 11.8 Prove the following proposition.     
+Proposition. Let n in N. The relation ≡ (mod n) on the set Z is reflexive, symmetric and transitive.     
+1) Show that it's reflexive.     
+For all integers in Z it's true that n | 0.     
+n | (x - x), which is x ≡ x (mod n) by definition.     
+So it's reflexive.     
+2)
+
