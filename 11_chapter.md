@@ -112,5 +112,6 @@ Proposition. Let n in N. The relation ≡ (mod n) on the set Z is reflexive, sym
 For all integers in Z it's true that n | 0.     
 n | (x - x), which is x ≡ x (mod n) by definition.     
 So it's reflexive.     
-2)
+2) Show that it's symmetric.      
+For all x, y in Z it must be true that if x ≡ y (mod n) then y ≡ x (mod n).     
 
