@@ -114,4 +114,5 @@ n | (x - x), which is x ≡ x (mod n) by definition.
 So it's reflexive.     
 2) Show that it's symmetric.      
 For all x, y in Z it must be true that if x ≡ y (mod n) then y ≡ x (mod n).     
+Suppose x ≡ y (mod n). Then n | (x - y).     
 
