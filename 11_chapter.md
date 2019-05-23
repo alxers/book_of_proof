@@ -119,3 +119,6 @@ Then x - y = na for some a.
 Multiply by (-1) both sides, y - x = n(-a).     
 Then n | (y - x), y ≡ x (mod n).     
 3) Show that it's transitive.     
+Show that if x ≡ y (mod n) and y ≡ z (mod n), then x ≡ z (mod n).      
+n | (x - y) and n | (y - z), then x - y = na, y - z = nb.      
+
