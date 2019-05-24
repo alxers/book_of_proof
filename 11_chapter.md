@@ -121,4 +121,7 @@ Then n | (y - x), y ≡ x (mod n).
 3) Show that it's transitive.     
 Show that if x ≡ y (mod n) and y ≡ z (mod n), then x ≡ z (mod n).      
 n | (x - y) and n | (y - z), then x - y = na, y - z = nb.      
-
+x - y + y - z = na + nb.     
+x - z = n(a + b).     
+n | (x - z).     
+x ≡ z (mod n).     
