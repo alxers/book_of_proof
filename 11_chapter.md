@@ -125,3 +125,9 @@ x - y + y - z = na + nb.
 x - z = n(a + b).     
 n | (x - z).     
 x ≡ z (mod n).     
+
+
+
+Exercises for Section 11.2     
+
+.1.Consider the relation R = { (a,a), (b,b), (c,c), (d,d), (a,b), (b,a) } on set A = { a, b, c, d }.Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.       
