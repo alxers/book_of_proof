@@ -130,4 +130,5 @@ x ≡ z (mod n).
 
 Exercises for Section 11.2     
 
-.1.Consider the relation R = { (a,a), (b,b), (c,c), (d,d), (a,b), (b,a) } on set A = { a, b, c, d }.Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.       
+.1.Consider the relation R = { (a,a), (b,b), (c,c), (d,d), (a,b), (b,a) } on set A = { a, b, c, d }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.       
+1) R is reflexive, it's true that for all x in R, xRx.      
