@@ -133,4 +133,8 @@ Exercises for Section 11.2
 .1.Consider the relation R = { (a,a), (b,b), (c,c), (d,d), (a,b), (b,a) } on set A = { a, b, c, d }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.       
 1) R is reflexive, it's true that for all x in R, xRx.      
 2) R is symmetric, for all x, y it's true that xRy => yRx.      
-3)
+3) ?
+
+.2. Consider the relation R = { (a,b), (a,c), (c,c), (b,b), (c,b), (b,c) } on the set A = { a, b, c }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.     
+1) R is not reflexive, it's not true that aRa.     
+2) R is not symmetric, it's not true that bRa.     
