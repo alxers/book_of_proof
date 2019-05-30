@@ -144,3 +144,7 @@ Exercises for Section 11.2
 1) R is not reflexive, it's not true that xRx for all x in R.      
 2) R is not symmetric, it's not true that f.e. aRb => bRa.      
 3) R is transitive.     
+
+
+.4. Let A = { a, b, c, d }. Suppose R is the relation R = { (a,a), (b,b), (c,c), (d,d), (a,b), (b,a), (a,c), (c,a), (a,d), (d,a), (b,c), (c,b), (b,d), (d,b), (c,d), (d,c) }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
+1)
