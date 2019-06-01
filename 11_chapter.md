@@ -146,5 +146,11 @@ Exercises for Section 11.2
 3) R is transitive.     
 
 
-.4. Let A = { a, b, c, d }. Suppose R is the relation R = { (a,a), (b,b), (c,c), (d,d), (a,b), (b,a), (a,c), (c,a), (a,d), (d,a), (b,c), (c,b), (b,d), (d,b), (c,d), (d,c) }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
-1)
+.4. Let A = { a, b, c, d }. Suppose R is the relation    
+R = { (a,a), (b,b), (c,c), (d,d),     
+      (a,b), (b,a), (a,c), (c,a),     
+      (a,d), (d,a), (b,c), (c,b),     
+      (b,d), (d,b), (c,d), (d,c) 
+    }.      
+Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
+1) R is reflexive.     
