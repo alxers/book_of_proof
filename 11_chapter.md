@@ -154,3 +154,4 @@ R = { (a,a), (b,b), (c,c), (d,d),
     }.      
 Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
 1) R is reflexive.     
+2) R is symmetric.     
