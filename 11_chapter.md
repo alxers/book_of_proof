@@ -159,3 +159,6 @@ Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.
 
 
 .5. Consider the relation R = { (0, 0), (sqrt(2), 0), (0, sqrt(2)), (sqrt(2), sqrt(2)) } on R. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
+1) R is reflexive.     
+2) R is symmetric.      
+?
