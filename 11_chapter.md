@@ -162,3 +162,6 @@ Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.
 1) R is reflexive.     
 2) R is symmetric.      
 ?
+
+.6. Consider the relation R = { (x,x) : x in Z } on Z. Is this R reflexive? Symmetric? Transitive? If a property does not hold, say why. What familiar relation is this?      
+1)
