@@ -165,3 +165,5 @@ Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.
 
 .6. Consider the relation R = { (x,x) : x in Z } on Z. Is this R reflexive? Symmetric? Transitive? If a property does not hold, say why. What familiar relation is this?      
 1)
+
+.7. There are 16 possible different relations R on the set A = { a, b }. Describe all ofthem. (A picture for each one will suffice, but don’t forget to label the nodes.) Which ones are reflexive? Symmetric? Transitive?
