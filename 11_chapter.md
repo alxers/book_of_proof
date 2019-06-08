@@ -168,4 +168,7 @@ Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.
 2) R is symmetric.     
 3) R is transitive.     
 
-.7. There are 16 possible different relations R on the set A = { a, b }. Describe all ofthem. (A picture for each one will suffice, but don’t forget to label the nodes.) Which ones are reflexive? Symmetric? Transitive?
+.7. There are 16 possible different relations R on the set A = { a, b }. Describe all ofthem. (A picture for each one will suffice, but don’t forget to label the nodes.) Which ones are reflexive? Symmetric? Transitive?     
+
+
+.8. Define a relation on Z as xRy if |x−y| < 1. Is R reflexive? Symmetric? Transitive?If a property does not hold, say why. What familiar relation is this?      
