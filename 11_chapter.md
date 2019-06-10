@@ -173,3 +173,7 @@ This relation is 2D plain.      (?)
 
 
 .8. Define a relation on Z as xRy if |x−y| < 1. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why. What familiar relation is this?      
+
+
+.9. Define a relation on Z by declaring xRy if and only if x and y have the same parity. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why. What familiar relation is this?     
+R = {  }
