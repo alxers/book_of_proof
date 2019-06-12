@@ -177,4 +177,6 @@ This relation is 2D plain.      (?)
 
 
 .9. Define a relation on Z by declaring xRy if and only if x and y have the same parity. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why. What familiar relation is this?     
-R = {  }
+1) R is reflexive, xRx for all x in R since x have the same parity.     
+2) R is symmetric, xRy => yRx, x and y have the same parity.     
+3) R is transitive, if xRy and xRz, then xRz.     
