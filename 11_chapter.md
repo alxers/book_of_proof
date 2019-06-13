@@ -180,3 +180,7 @@ This relation is 2D plain.      (?)
 1) R is reflexive, xRx for all x in R since x have the same parity.     
 2) R is symmetric, xRy => yRx, x and y have the same parity.     
 3) R is transitive, if xRy and xRz, then xRz.     
+
+
+.10. Suppose A != empty_set. Since empty_set set_in A x A, the set R = empty_set is a relation on A. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.       
+1) R is not reflexive, it's not true that for all x in A, xRx.
