@@ -185,3 +185,7 @@ This relation is 2D plain.      (?)
 .10. Suppose A != empty_set. Since empty_set set_in A x A, the set R = empty_set is a relation on A. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.       
 1) R is not reflexive, it's not true that for all x in A, xRx. (?)     
 2) R is symmetric.     
+3) R is transitive.     
+
+
+.11. 
