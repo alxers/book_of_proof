@@ -188,4 +188,4 @@ This relation is 2D plain.      (?)
 3) R is transitive.     
 
 
-.11. 
+.11. Let A = { a, b, c, d } and R = { (a,a), (b,b), (c,c), (d,d) }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
