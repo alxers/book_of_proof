@@ -190,4 +190,5 @@ This relation is 2D plain.      (?)
 
 .11. Let A = { a, b, c, d } and R = { (a,a), (b,b), (c,c), (d,d) }. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why.      
 1) R is reflexive.      
-
+2) R is symmetric, there are no such x, y for which (y, x) not in R if (x, y) in R.     
+3) R is transitive, f.e. (aRa ^ aRa) => aRa.            
