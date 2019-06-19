@@ -192,3 +192,7 @@ This relation is 2D plain.      (?)
 1) R is reflexive.      
 2) R is symmetric, there are no such x, y for which (y, x) not in R if (x, y) in R.     
 3) R is transitive, f.e. (aRa ^ aRa) => aRa.            
+
+.12. Prove that the relation | (divides) on the set Z is reflexive and transitive.     
+1) Show that | is reflexive.     
+
