@@ -195,4 +195,4 @@ This relation is 2D plain.      (?)
 
 .12. Prove that the relation | (divides) on the set Z is reflexive and transitive.     
 1) Show that | is reflexive.     
-
+For any integer x in Z, it's true that x | x.      
