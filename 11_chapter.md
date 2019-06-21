@@ -196,3 +196,8 @@ This relation is 2D plain.      (?)
 .12. Prove that the relation | (divides) on the set Z is reflexive and transitive.     
 1) Show that | is reflexive.     
 For any integer x in Z, it's true that x | x.      
+2) Show that | is transitive.     
+We must show that if x | y and y | z then x | z.     
+Direct proof. Suppose that x | y and y | z, then y = x * a (for some a in Z) and z = y * b (for some b in Z).     
+Then z = x * a * b = x (ab).     
+By definition x | z.      
