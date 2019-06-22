@@ -201,3 +201,7 @@ We must show that if x | y and y | z then x | z.
 Direct proof. Suppose that x | y and y | z, then y = x * a (for some a in Z) and z = y * b (for some b in Z).     
 Then z = x * a * b = x (ab).     
 By definition x | z.      
+
+.13. Consider the relation R = { (x, y) in R x R : x - y  in Z } on R. Prove that this relation is reflexive, symmetric and transitive.      
+1) Show that R is reflexive.     
+For any (x, x) in R it's true that x - x in Z.     
