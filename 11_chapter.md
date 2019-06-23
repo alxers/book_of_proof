@@ -205,3 +205,5 @@ By definition x | z.
 .13. Consider the relation R = { (x, y) in R x R : x - y  in Z } on R. Prove that this relation is reflexive, symmetric and transitive.      
 1) Show that R is reflexive.     
 For any (x, x) in R it's true that x - x in Z.     
+2) Show that R is symmetric.     
+
