@@ -206,4 +206,7 @@ By definition x | z.
 1) Show that R is reflexive.     
 For any (x, x) in R it's true that x - x in Z.     
 2) Show that R is symmetric.     
-
+If x - y in Z, then -(x - y) in Z, but -(x - y) = y - x.     
+Which means xRy => yRx for all x, y in R.      
+3) Show that R is transitive.     
+Show that if x - y in Z and y - z in Z, then x - z in Z.     
