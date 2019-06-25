@@ -210,3 +210,6 @@ If x - y in Z, then -(x - y) in Z, but -(x - y) = y - x.
 Which means xRy => yRx for all x, y in R.      
 3) Show that R is transitive.     
 Show that if x - y in Z and y - z in Z, then x - z in Z.     
+Suppose x - y in Z and y - z in Z, then      
+x - y = a, y - z = b for some a, b in Z,     
+x - b - z = a, x - z = a + b, a + b in Z.     
