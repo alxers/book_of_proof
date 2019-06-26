@@ -213,3 +213,6 @@ Show that if x - y in Z and y - z in Z, then x - z in Z.
 Suppose x - y in Z and y - z in Z, then      
 x - y = a, y - z = b for some a, b in Z,     
 x - b - z = a, x - z = a + b, a + b in Z.     
+
+.14. Suppose R is a symmetric and transitive relation on a set A, and there is an element a in A for which aRx for every x in A. Prove that R is reflexive.      
+
