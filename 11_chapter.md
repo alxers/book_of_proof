@@ -215,4 +215,7 @@ x - y = a, y - z = b for some a, b in Z,
 x - b - z = a, x - z = a + b, a + b in Z.     
 
 .14. Suppose R is a symmetric and transitive relation on a set A, and there is an element a in A for which aRx for every x in A. Prove that R is reflexive.      
-By definition R is reflexive if for all x in A it's true that xRx.     
+Since R is symmetric it follows that aRx => xRa.     
+R is also transitive, so aRx ^ xRa => aRa.    
+
+.15. Prove or disprove: If a relation is symmetric and transitive, then it is also reflexive.          
