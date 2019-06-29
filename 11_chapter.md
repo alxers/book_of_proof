@@ -218,4 +218,10 @@ x - b - z = a, x - z = a + b, a + b in Z.
 Since R is symmetric it follows that aRx => xRa.     
 R is also transitive, so aRx ^ xRa => aRa.    
 
-.15. Prove or disprove: If a relation is symmetric and transitive, then it is also reflexive.          
+.15. Prove or disprove: If a relation is symmetric and transitive, then it is also reflexive.     
+It's false (see Example 11.7, page 180).    
+Disprove by counterexample.     
+Consider A = { b, c, d }, and R is the following relation on A:     
+R = { (b, b), (b, c), (c, b), (c, c), (b, d), (d, b), (c, d), (d, c) }      
+R is symmetric, whenever we have xRy, it follows that yRx.     
+R is transitive, but not reflexive, it's not true that dRd.      
