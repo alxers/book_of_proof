@@ -225,3 +225,20 @@ Consider A = { b, c, d }, and R is the following relation on A:
 R = { (b, b), (b, c), (c, b), (c, c), (b, d), (d, b), (c, d), (d, c) }      
 R is symmetric, whenever we have xRy, it follows that yRx.     
 R is transitive, but not reflexive, it's not true that dRd.      
+
+.16. Define a relation R on Z by declaring that xRy if and only if x^2 === y^2(mod 4). Prove that R is reflexive, symmetric and transitive.     
+R = { (x, y) in Z x Z : 4 | x^2 - y^2 }.     
+Prove that R is reflexive.     
+Observe that 4 | 0, so 4 | (x^2 - x^2) => x^2 === x^2 (mod 4).     
+Prove that R is symmetric.     
+Suppose x^2 === y^2 (mod 4), then by definition 4 | x^2 - y^2, then x^2 - y^2 = 4a, for some a in Z.     
+Multiply by -1 we get y^2 - x^2 = 4(-a).     
+Then 4 | y^2 - x^2 => y^2 === x^2 (mod 4).     
+Prove that R is transitive.     
+Suppose that 4 | x^2 - y^2 and 4 | y^2 - z^2.     
+x^2 - y^2 = 4a, y^2 - z^2 = 4b.     
+Add those two together we get x^2 - y^2 + y^2 - z^2 = 4a + 4b.     
+x^2 - z^2 = 4(ab) => 4 | x^2 - z^2 => x^2 === z^2 (mod 4).     
+
+
+.17. 
