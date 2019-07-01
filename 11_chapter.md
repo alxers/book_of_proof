@@ -173,6 +173,8 @@ This relation is 2D plain.      (?)
 
 
 .8. Define a relation on Z as xRy if |x−y| < 1. Is R reflexive? Symmetric? Transitive? If a property does not hold, say why. What familiar relation is this?      
+R = { (x, y) in Z x Z : |x - y| < 1 }     
+1) R is reflexive, |x - x| < 1 for all x in R.     
 ???
 
 
@@ -241,4 +243,35 @@ Add those two together we get x^2 - y^2 + y^2 - z^2 = 4a + 4b.
 x^2 - z^2 = 4(ab) => 4 | x^2 - z^2 => x^2 === z^2 (mod 4).     
 
 
-.17. 
+.17. Modifying the above Exercise 8 (above) slightly, define a relation ~ on Z as x ∼ y if and only if |x-y|<=1. Say whether ∼ is reflexive. Is it symmetric? Transitive?
+1) R is reflexive, |x - x| < 1 for all x in R.     
+???
+
+
+11.3 Equivalence Relations.     
+
+Definition 11.3 A relation R is called equivalence relation on a set A if it's reflexive, symmetric and transitive.     
+
+
+Definition 11.4 Suppose R is an equivalence relation on a set A. Given any element a, an equivalence class containing a is a subset of A [a] = { x in A : xRa }.     
+
+
+R_1 = { (-1, -1), (1, 1), (2, 2), (3, 3), (4, 4) }
+
+Example 11.9 Consider relation R_1 (equal to, "="), the equivalence class containing 2 is [2] = { x in A : x(R_1)2 } = { 2 }.     
+
+
+Exercises for Section 11.3.      
+
+.1. Let A = { 1, 2, 3, 4, 5, 6 }, and consider the following equivalence relation on A: R = { (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6), (2, 3), (3, 2), (4, 5), (5, 4), (4, 6), (6, 4), (5, 6), (6, 5) }. List the equivalence classes of R.     
+[1] = { x in A : xR1 } = { 1 }     
+[2] = { x in A : xR2 } = { 2, 3 }     
+[3] = { x in A : xR3 } = { 3, 2 }     
+[4] = { x in A : xR4 } = { 4, 5, 6 }     
+[5] = { x in A : xR5 } = { 5, 4, 6 }     
+[6] = { x in A : xR6 } = { 6, 4, 5 }     
+{ 1 }, { 2, 3 }, { 4, 5, 6 }     
+There are 3 equivalence classes.     
+
+
+.2. Let A = { a, b, c, d, e }. Suppose R is an equivalence relation on A. Suppose R has two equivalence classes. Also aRd,bRc and eRd. Write out R as a set.     
