@@ -274,4 +274,37 @@ Exercises for Section 11.3.
 There are 3 equivalence classes.     
 
 
-.2. Let A = { a, b, c, d, e }. Suppose R is an equivalence relation on A. Suppose R has two equivalence classes. Also aRd,bRc and eRd. Write out R as a set.     
+.2. Let A = { a, b, c, d, e }. Suppose R is an equivalence relation on A. Suppose R has two equivalence classes. Also aRd, bRc and eRd. Write out R as a set.     
+If aRd,bRc and eRd, then R contains (a, d), (b, c), (e, d).     
+R is symmetric, so R contains (d, a), (c, b), (d, e).     
+R is reflexive, R contains (a, a), (b, b), (c, c), (d, d), (e, e).     
+aRd and eRd means there should be (a, e), (e, a)
+R has two equivalence classes, they are:     
+[a] = { a, d, e }.     
+[b] = { c, b }.     
+[c] = { b, c }.     
+[d] = { a, d, e }.     
+[e] = { d, e, a }.     
+[a] = [d] = [e], [b] = [c].         
+R = { (a, d), (b, c), (e, d), (d, a), (c, b), (d, e), (a, a), (b, b), (c, c), (d, d), (e, e) }
+Solution_2.      
+aRd and eRd means that a, e, d in the same equivalence class.     
+bRc means b, c in the same equivalence class.     
+There are two equivalence classes - { a, e, d }, { b, c }.          
+For R to be an equivalence relation, it needs to include all possible pairs of elements in the same equivalence class and no others (!!!).     
+
+
+.3. Let A = { a, b, c, d, e }. Suppose R is an equivalence relation on A. Suppose R has three equivalence classes. Also aRd and bRc. Write out R as a set.      
+If aRd, bRc, then R contains (a, d), (b, c).     
+R is symmetric, R contains (d, a), (c, b).     
+R is reflexive, R contains (a, a), (b, b), (c, c), (d, d), (e, e).     
+R has three equivalence classes:
+[a] = { d, a }.      
+[b] = { c, b }.     
+[c] = { b, c }.     
+[d] = { c, b }.     
+[e] = { e }.     
+[a] = [d], [b] = [c], [e] - three classes.     
+R = { (a, d), (b, c), (d, a), (c, b), (a, a), (b, b), (c, c), (d, d), (e, e) }     
+
+.4.Let A = { a, b, c, d, e }. Suppose R is an equivalence relation on A. Suppose also that aRd and bRc, eRa and cRe. How many equivalence classes does R have?      
