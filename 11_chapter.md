@@ -286,7 +286,7 @@ R has two equivalence classes, they are:
 [d] = { a, d, e }.     
 [e] = { d, e, a }.     
 [a] = [d] = [e], [b] = [c].         
-R = { (a, d), (b, c), (e, d), (d, a), (c, b), (d, e), (a, a), (b, b), (c, c), (d, d), (e, e) }
+R = { (a, d), (b, c), (e, d), (d, a), (c, b), (d, e), (a, a), (b, b), (c, c), (d, d), (e, e), (a, e), (e, a) }
 Solution_2.      
 aRd and eRd means that a, e, d in the same equivalence class.     
 bRc means b, c in the same equivalence class.     
@@ -308,3 +308,9 @@ R has three equivalence classes:
 R = { (a, d), (b, c), (d, a), (c, b), (a, a), (b, b), (c, c), (d, d), (e, e) }     
 
 .4.Let A = { a, b, c, d, e }. Suppose R is an equivalence relation on A. Suppose also that aRd and bRc, eRa and cRe. How many equivalence classes does R have?      
+aRd => a, and d in the same equivalence class, [a] = [d]     
+bRc => [b] = [c]     
+eRa => [e] = [a]     
+cRe => [c] = [e]     
+[a] = [d] = [e] = [c] = [b].     
+There is one equivalence class.     
