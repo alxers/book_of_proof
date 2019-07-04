@@ -314,3 +314,21 @@ eRa => [e] = [a]
 cRe => [c] = [e]     
 [a] = [d] = [e] = [c] = [b].     
 There is one equivalence class.     
+
+.5. There are two different equivalence relations on the set A = { a, b }. Describe them. Diagrams will suffice.     
+There should be two equivalence relations, R_1, R_2.     
+Since they are equivalence relations, they should be reflexive, symmetric and transitive.     
+R_1 = { (a, a), (b, b) }     
+R_2 = { (a, a), (b, b), (a, b), (b, a) }     
+
+
+.6. There are five different equivalence relations on the set A = { a, b, c }. Describe them all. Diagrams will suffice.     
+R_1 = { (a, a), (b, b), (c, c) }.     
+R_2 = { (a, a), (b, b), (c, c), (a, b), (b, a) }.     
+R_3 = { (a, a), (b, b), (c, c), (a, c), (c, a) }.     
+R_4 = { (a, a), (b, b), (c, c), (b, c), (c, b) }.     
+R_5 = { (a, a), (b, b), (c, c), (a, b), (b, a), (a, c), (c, a), (b, c), (c, b) }.     
+
+
+.7. Define a relation R on Z as xRy if and only if 3x-5y is even. Prove R is an equivalence relation. Describe its equivalence classes.      
+
