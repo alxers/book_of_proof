@@ -331,4 +331,6 @@ R_5 = { (a, a), (b, b), (c, c), (a, b), (b, a), (a, c), (c, a), (b, c), (c, b) }
 
 
 .7. Define a relation R on Z as xRy if and only if 3x-5y is even. Prove R is an equivalence relation. Describe its equivalence classes.      
-
+1) Proof that R is reflexive.      
+3x-5x = -2x - even.     
+2) Proof that R is symmetric.     
