@@ -334,3 +334,53 @@ R_5 = { (a, a), (b, b), (c, c), (a, b), (b, a), (a, c), (c, a), (b, c), (c, b) }
 1) Proof that R is reflexive.      
 3x-5x = -2x - even.     
 2) Proof that R is symmetric.     
+3x - 5y = 2a.      
+3x - 5y + 8y - 8x = 2a + 8y - 8x.     
+3y - 5x = 2(a + 4y - 4x).      
+3) Proof that R is transitive.       
+3x - 5y = 2a, 3y - 5z = 2b.       
+3x - 5y + 3y - 5z = 2a - 2b.      
+3x - 2y - 5z = 2a - 2b.      
+3x - 5z = 2(a - b + y).      
+[0] = { x in Z : xR0 } = { 3x - 5 * 0 = 3x, 3x is even } = { x in Z : x is even }.     
+[1] = { x in Z : xR1 } = { 3x - 5, 3x = 5, 3x is odd } = { x in Z : x is odd }.     
+
+
+
+.8. Define a relation R on Z as xRy if and only if x^2 + y^2 is even. Prove R is an equivalence relation. Describe its equivalence classes.      
+1) Reflexive x^2 + x^2 = 2x^2 - even.     
+2) Symmetric x^2 + y^2, y^2 + x^2.      
+3) Transitive x^2 + y^2 = 2a, y^2 + z^2 = 2b.      
+x^2 + y^2 + y^2 + z^2 = 2a + 2b.      
+x^2 + z^2 = 2(a + b - y^2).       
+Equivalence classes.      
+[0] = { x in Z : xR0 } = { x^2 + 0 = x^2 is even } = { x in Z : x even }.       
+[1] = { x in Z : xR1 } = { x^2 + 1 is even } = { x in Z : x odd }.       
+
+
+.9. Define a relation R on Z as xRy if and only if 4|(x + 3y). Prove R is an equivalence relation. Describe its equivalence classes.      
+1) Reflexive 4 | (x + 3x), 4 | 4x.      
+2) Symmetric 4 | (x + 3y), 4 | (y + 3x).      
+x + 3y = 4a.      
+3x + 9y = 12a.       
+y + 8y + 3x = 12a.     
+y + 3x = 12a - 8y.     
+y + 3x = 4(3 - 2y).      
+3) Transitive.      
+x + 3y = 4a, y + 3z = 4b.      
+x + 3y + y + 3z = 4a + 4b.      
+x + 3z = 4(a + b - y).     
+Equivalence classes.      
+[0] = { x in Z : xR0 } = { 4 | x, x = 4a } = { ..., -4, 0, 4, 8, 12, 16, ... }     
+[1] = { x in Z : xR1 } = { 4 | (x + 3 * 1) } = { ..., -3, 1, 5, 9, ... }     
+[2] = { x in Z : xR2 } = { 4 | (x + 3 * 2) } = { ..., -6, -2, 2, 6, ... }     
+[3] = { x in Z : xR3 } = { 4 | (x + 3 * 3) } = { ..., -1, 3, 7, ... }     
+
+
+.10. Suppose R and S are two equivalence relations on a set A. Prove that R intersection S is also an equivalence relation. (For an example of this, look at Figure 11.2. Observe that for the equivalence relations R_2, R_3 and R_4, we have R_2 intersection R_3 = R_4.).     
+1) Reflexive.      
+Let x in A, since R, S equivalence relation on A, (x, x) in R, (x, x) in S => (x, x) in R intersection S.      
+2) Symmetric.      
+Let (x, y) in R intersect S, then (x, y) in R, S, since R, S are symmetric, then (y, x) in R, S, then (y, x) in R intersect S.     
+3) Transitive.     
+Let (x, y) in R intersect S and (y, z) in R intersect S. Then (x, y) in R, S and (y, z) in R, S. Since R and S are transitive, then (x, z) in R, S. Then (x, z) in R intersect S.      
