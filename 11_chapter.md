@@ -384,3 +384,36 @@ Let x in A, since R, S equivalence relation on A, (x, x) in R, (x, x) in S => (x
 Let (x, y) in R intersect S, then (x, y) in R, S, since R, S are symmetric, then (y, x) in R, S, then (y, x) in R intersect S.     
 3) Transitive.     
 Let (x, y) in R intersect S and (y, z) in R intersect S. Then (x, y) in R, S and (y, z) in R, S. Since R and S are transitive, then (x, z) in R, S. Then (x, z) in R intersect S.      
+
+
+.11. Prove or disprove: If R is an equivalence relation on an infinite set A, then R has infinitely many equivalence classes.      
+False.       
+Counterexample, see example 11.12 (=== mod(3)).       
+
+
+.12. Prove or disprove: If R and S are two equivalence relations on a set A, then R union S is also an equivalence relation on A.       
+False.       
+Counterexample, figure 11.2, R_2 union R_3 = { (-1, -1), (1, 1), (2, 2), (3, 3), (4, 4), (-1, 1), (1, -1), (-1, 3), (3, -1), (1, 3), (3, 1), (2, 4), (4, 2), (1, 2), (2, 1), (2, 1), (1, 4), (4, 1), (3, 4), (4, 3), (2, 3), (3, 2) }.         
+This relation is reflexive, symmetric but not transitive.       
+(-1, 3) ^ (3, 4) => (-1, 4), there is no (-1, 4) in R_2 union R_3.     
+
+.14. Suppose Ris a reflexive and symmetric relation on a finite set A. Define a relation S on A by declaring xSy if and only if for some n in N there are elements x1,x2,...,x_n in A satisfying xRx1, x1Rx2,x2Rx3,x3Rx4,...,x_(n-1)Rx_n, and x_nRy. Show that S is an equivalence relation and R set_in S. Prove that S is the unique smallest equivalence relation on A containing R.      
+xRx1, x1Rx2 => xRx_n - transitive.      
+Since R is symmetric => x1Rx, x2Rx1, ..., x_nRx(n-1) in S.      
+R is reflexive => xRx in S.      
+S is reflexive, symmetric, transitive, R set_in S.       
+
+
+Exercises for Section 11.3       
+
+.1. List all partitions of set A = { a, b }.       
+{ { a }, { b } }, { { a, b } }.      
+
+
+.2. List all partitions of set A = { a, b, c }.      
+{ { a }, { b }, { c } }, { { a, b }, { c } }, { { a }, { b, c } },      
+{ { a, b, c } }, { { a, c }, { b } }.       
+
+
+.3. Describe the partition of Z resulting from the equivalence relation === (mod 4).     
+[0] = {  }
