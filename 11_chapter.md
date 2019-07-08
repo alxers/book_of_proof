@@ -416,4 +416,7 @@ Exercises for Section 11.3
 
 
 .3. Describe the partition of Z resulting from the equivalence relation === (mod 4).     
-[0] = {  }
+[0] = { x in Z : x === 0 (mod 4) } = { 4 | (x - 0) } = { ..., -4, 0, 4, 8, ... }     
+[1] = { x in Z : x === 1 (mod 4) } = { 4 | (x - 1) } = { ..., -3, 1, 5, 9, ... }     
+[2] = { x in Z : x === 2 (mod 4) } = { 4 | (x - 2) } = { ..., -2, 2, 6, 10, ... }     
+[3] = { x in Z : x === 3 (mod 4) } = { 4 | (x - 3) } = { ..., -1, 3, 7, 11, ... }     
