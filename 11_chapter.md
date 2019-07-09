@@ -404,7 +404,10 @@ R is reflexive => xRx in S.
 S is reflexive, symmetric, transitive, R set_in S.       
 
 
-Exercises for Section 11.3       
+Definition 11.5 A partition of a set A is a set of non-empty subsets of A, such that the union of all the subsets equals A, and the intersection of any two different subsets is an empty_set.     
+
+
+Exercises for Section 11.3 (11. 4 in the 3rd edition)       
 
 .1. List all partitions of set A = { a, b }.       
 { { a }, { b } }, { { a, b } }.      
@@ -420,3 +423,13 @@ Exercises for Section 11.3
 [1] = { x in Z : x === 1 (mod 4) } = { 4 | (x - 1) } = { ..., -3, 1, 5, 9, ... }     
 [2] = { x in Z : x === 2 (mod 4) } = { 4 | (x - 2) } = { ..., -2, 2, 6, 10, ... }     
 [3] = { x in Z : x === 3 (mod 4) } = { 4 | (x - 3) } = { ..., -1, 3, 7, 11, ... }     
+
+
+.5. Consider the partition P = { { ...,-4 , -2, 0, 2, 4, ... }, { ..., -5, -3, -1, 1, 3, 5, ... } } of Z. Let R be the equivalence relation whose equivalence classes are the two elements of P. What familiar equivalence relation is R?       
+x === y (mod 2).     
+
+
+.6. Consider the partition P = { { 0 }, { -1, 1 }, { -2, 2 }, { -3, 3 }, { -4, 4 }, ... } of Z. Describethe equivalence relation whose equivalence classes are the elements of P.     
+x = -y (???).     
+
+
