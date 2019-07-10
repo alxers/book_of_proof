@@ -407,7 +407,7 @@ S is reflexive, symmetric, transitive, R set_in S.
 Definition 11.5 A partition of a set A is a set of non-empty subsets of A, such that the union of all the subsets equals A, and the intersection of any two different subsets is an empty_set.     
 
 
-Exercises for Section 11.3 (11. 4 in the 3rd edition)       
+Exercises for Section 11.3 (11.4 in the 3rd edition)       
 
 .1. List all partitions of set A = { a, b }.       
 { { a }, { b } }, { { a, b } }.      
@@ -433,3 +433,52 @@ x === y (mod 2).
 x = -y (???).     
 
 
+Exercises for Section 11.4 (11.5 in the 3rd edition)       
+
+.1. Write the addition and multiplication tables for Z_2.     
+.+   [0]  [1]      
+[0]  [0]  [1]     
+[1]  [1]  [0]     
+
+.*   [0]  [1]      
+[0]  [0]  [0]     
+[1]  [0]  [1]     
+
+
+.2. Write the addition and multiplication tables for Z_3.     
+.+   [0]  [1]  [2]      
+[0]  [0]  [1]  [2]     
+[1]  [1]  [2]  [0]     
+[2]  [2]  [0]  [1]     
+
+.*   [0]  [1]  [2]      
+[0]  [0]  [0]  [0]     
+[1]  [0]  [1]  [2]     
+[2]  [0]  [2]  [1]     
+
+
+.5. Suppose [a], [b] in Z_5 and [a] * [b] = [0]. Is it necessarily true that either [a] = [0] or [b] = [0] ?     
+All multiples of 5, f.e, [5], [10], [15], etc. are equal to [0].     
+There is no way to make a number by multiplying any digit from 1 to 4 and get multiple of 5.     
+So either [a] or [b] has to be equal to [0].      
+
+.6. Suppose [a], [b] in Z_6 and [a] * [b] = [0]. Is it necessarily true that either [a] = [0] or [b] = [0] ?    
+No, f.e. [a] = [2], b = [3].     
+[2] * [3] = [2 * 3] = [6] = [0].     
+
+
+
+.7. Do the following calculations in Z_9, in each case expressing your answer as[a]with 0 <= a <= 8.     
+(a) [8] + [8] = [16] = [7].     
+(b) [24] + [11] = [35] = [8].     
+(c) [21] * [15] = [315], 315 = 35 * 9 => [315] = [0]  (every number multiplied by 9 in Z_9 will give [0]).     
+(d) [8] * [8] = [64], 7 * 9 = 63, => [64] = [1].      
+
+
+
+.8. Suppose [a],[b] in Z_n, and [a] = [a'] and [b] = [b']. Alice adds [a] and [b] as [a] + [b] = [a + b]. Bob adds them as [a'] + [b'] = [a' + b']. Show that their answers [a + b] and [a' + b'] are the same.     
+Since [a] = [a'], by Theorem 11.1, a === a' (mod n), so n | (a - a') => a - a' = nk, b - b' = nl.     
+Therefore a + b = (a' + nk) + (b' + nl) = a' + b' + n(k + l).     
+(a + b) - (a' + b') = n(k + l).     
+n | ((a + b) - (a' + b')).      
+a + b = a' + b' (mod n) => [a + b] = [a' + b'].      
