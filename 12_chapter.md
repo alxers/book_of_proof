@@ -50,3 +50,23 @@ f is a function.
 
 
 .11. Is the set theta = { (X,|X|) : X set_in Z_5 } a function? If so, what is its domain and range?     
+
+
+
+Functions Exercises for Section 12.2.       
+
+.2. Consider the logarithm function ln : (0, inf) -> R. Decide whether this function is injective and whether it is surjective.     
+a) Injective. Suppose a, a' in (0, inf) and f(a) = f(a').     
+ln(a) = ln(a').     
+e^(ln(a)) = e^(ln(a')).     
+a = a'.     
+b) Not Surjective. Exists such b in R that for all a in (0, inf), f(a) != b.     
+f.e. b = -1.     
+
+
+.4. A function f : Z -> Z x Z is defined as f(n) = (2n, n+3). Verify whether this functionis injective and whether it is surjective.     
+
+
+.6. A function f : Z x Z -> Z is defined as f(m, n) = 3n - 4m. Verify whether this function is injective and whether it is surjective.      
+a) Injective
+b) Consider arbitrary element b in Z. We need to show that there is some x, y in Z, for which f(x, y) = b.     
