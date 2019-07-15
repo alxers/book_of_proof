@@ -60,13 +60,88 @@ a) Injective. Suppose a, a' in (0, inf) and f(a) = f(a').
 ln(a) = ln(a').     
 e^(ln(a)) = e^(ln(a')).     
 a = a'.     
-b) Not Surjective. Exists such b in R that for all a in (0, inf), f(a) != b.     
-f.e. b = -1.     
+b) Surjective. For all b in R, exists such a in (0, inf) such that f(a) = b.     
+a = e^b.     
+ln(e^b) = b.     
 
 
 .4. A function f : Z -> Z x Z is defined as f(n) = (2n, n+3). Verify whether this functionis injective and whether it is surjective.     
-
+a) Injective. Suppose a, a' in Z and f(a) = f(a').     
+(2a, a + 3) = (2a', a' + 3).     
+2a = 2a'.     
+a + 3 = a' + 3.     
+a = a'.     
+b) Surjective. For all (b, c) in Z x Z exists such x in Z such that f(x) = (b, c).     
+(2x, x + 3) = (b, c).      
+2x = b.     
+x + 3 = c.     
+x - 3 = b - c.     
+x = b - c + 3.     
+f(b - c + 3) = (2(b - c + 3), b - c + 3 + 3).     
+f(x) != (b, c).     
+( b) is probably incorrect).     
 
 .6. A function f : Z x Z -> Z is defined as f(m, n) = 3n - 4m. Verify whether this function is injective and whether it is surjective.      
 a) Injective
 b) Consider arbitrary element b in Z. We need to show that there is some x, y in Z, for which f(x, y) = b.     
+
+
+
+.8. A function f : Z x Z -> Z x Z is defined as f(m, n) = (m + n, 2m + n). Verify whether this function is injective and whether it is surjective.     
+a) Suppose (m, n), (k, l) in Z x Z and f(m, n) = f(k, l).     
+Then (m + n, 2m + n) = (k + l, 2k + l).     
+m + n = k + l.     
+2m + n = 2k + l.     
+m = k => n = l.     
+f is injective.     
+b) Consider (b, c) in Z x Z.    
+Show that there is some (x, y) in Z x Z for which f(x, y) = (b, c).     
+f(x, y) = (x + y, 2x + y).     
+(x + y, 2x + y) = (b, c).     
+x + y = b.     
+2x + y = c.     
+2(b - y) + y = c.     
+2b - 2y + y = c.     
+2b - y = c.     
+2b - c = y.     
+x = b - y, y = 2b - c.     
+x = b - (2b - c).     
+x = -b + c.     
+(x, y) = (-b + c, 2b - c).     
+f(-b + c, 2b - c) = (-b + c + 2b - c, 2(-b + c) + 2b - c) = (b, c).     
+f is surjective.     
+
+
+
+.10. Prove the function f : R - {1} -> R - {1} defined by f(x)=((x+1)/(x-1))^3 is bijective.     
+a) Injective. Suppose a, a' in R - {1} and f(a) = f(a').      
+We need to show that a = a'.     
+((a+1)/(a-1))^3 = ((a'+1)/(a'-1))^3.     
+(a + 1)(a' - 1) = (a - 1)(a' + 1).     
+aa' - a + a' - 1 = aa' + a - a' - 1.     
+-2a = -2a'
+a = a'.     
+f is injective.     
+b) Surjective. For all b in R - {1}, exists such a in R - {1} for which f(a) = b.     
+((a+1)/(a-1))^3.      
+(a + 1)/(a - 1) = b^(1/3).     
+a + 1 = (a - 1) * b^(1/3).     
+a + 1 = b^(1/3) * a - b^(1/3).     
+a - ab^(1/3) = -b^(1/3) - 1.     
+a(1 - b^(1/3)) = -b^(1/3) - 1.     
+a = (-b^(1/3) - 1)/(1 - b^(1/3)).     
+Since b != 1, such a exists.     
+f is surjective.     
+
+
+.12. Consider the function theta : {0,1} x N -> Z defined as theta(a,b) = a - 2ab + b. Is theta injective? Is it surjective? Bijective? Explain.     
+a) Suppose a,a', b, b' in { 0, 1 } x N and f(a, b) = f(a', b').     
+a - 2ab + b = a' - 2a'b' + b'.     
+a + b(-2a + 1) = a' + b'(-2a' + 1).     
+a, a' in { 0, 1 } => b = b'.     
+a = a'.     
+b) c = 0, c in Z, since b != 0, f(a, b) != c.     
+(probably wrong).     
+
+
+.14.
