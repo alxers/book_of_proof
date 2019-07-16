@@ -144,4 +144,43 @@ b) c = 0, c in Z, since b != 0, f(a, b) != c.
 (probably wrong).     
 
 
-.14.
+.16. This question concerns functions f : { A, B, C, D, E } -> { 1, 2, 3, 4, 5, 6, 7 }. How many such functions are there? How many of these functions are injective? How manyare surjective? How many are bijective?      
+f(A), f(B), f(C), f(D), f(E)
+ 7     7     7     7     7       
+7^5 functions.      
+A B C D E      
+7 6 5 4 3      
+Injective functions = 7 * 6 * 5 * 4 * 3.     
+Surjective = 0.     
+Bijective = 0.      
+
+
+.18. Prove that the function f : N -> Z defined as f(n) = ((-1)^n(2n - 1) + 1)/4     
+a) Injective. Suppose a, a' in N and f(a) = f(a').      
+((-1)^a(2a - 1) + 1)/4 = ((-1)^a'(2a' - 1) + 1)/4      
+(-1)^a(2a - 1) = (-1)^a'(2a' - 1).       
+(-1)^a = (-1)^a' - they have the same sign.      
+a = a'.      
+(check a) step).     
+b) Surjective. For all b in Z, exists such a in N for which f(a) = b.     
+((-1)^a(2a - 1) + 1)/4 = b.     
+(-1)^a(2a - 1) = 4b - 1.     
+Two options here, a - even, a - odd.     
+Suppose a is even.     
+2a - 1 = 4b - 1.     
+2a = 4b.      
+a = 2b.      
+Suppose a is odd.      
+-2a + 1 = 4b - 1.     
+-2a = 4b - 2.      
+a = 1 - 2b.     
+When a is odd, then f(a) in (-inf, 0].     
+When a is even, then f(a) in [1, +inf).      
+
+
+
+
+The Pigeonhole Principle (function).     
+Suppose A and B are finite sets and f : A -> B is any function.     
+1. If |A| > |B|, then f is not injective.     
+2. If |A| < |B|, then f is not surjective.     
