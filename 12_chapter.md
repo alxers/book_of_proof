@@ -184,3 +184,39 @@ The Pigeonhole Principle (function).
 Suppose A and B are finite sets and f : A -> B is any function.     
 1. If |A| > |B|, then f is not injective.     
 2. If |A| < |B|, then f is not surjective.     
+
+
+
+Exercises for Section 12.3.      
+.4. Consider a square whose side-length is one unit. Select any five points from inside this square. Prove that at least two of these points are withi sqrt(2)/2 units of each other.      
+Divide square into 4 parts. At least two points has to be in one little square.      
+Max distance within square is its diagonal.     
+c^2 = 0.5^2 + 0.5^2.     
+c = sqrt(2)/2.       
+
+
+.6. Given a sphere S, agreat circle of S is the intersection of S with a plane through its center. Every great circle divides S into two parts. A hemisphere is the union of the great circle and one of these two parts. Prove that if five points are placed arbitrarily on S, then there is a hemisphere that contains four of them.       
+Divide sphere into two parts by plane.      
+Make a plain using center and two arbitraty points.      
+We get two hemispheres and 3 points left.      
+Two of them must end up on one hemisphere.     
+So one closed hemisphere must contain 4 points.      
+
+
+
+Exercises for Section 12.4.      
+.2. Suppose A = {1,2,3,4}, B = {0,1,2}, C = {1,2,3}. Let f:A -> B be f = {(1,0),(2,1),(3,2),(4,0)}, and g:B -> C be g = {(0,1),(1,1),(2,3)}. Find g o f.     
+g o f : A -> C = { (1, 1), (2, 1), (3, 3), (4, 1) }.       
+
+
+.6. Consider the functions f,g : R -> R defined as f(x)=1/(x^2+1) and g(x)=3x+2. Find the formulas for g o f and f o g.      
+g o f = 3/(x^2 + 1) + 2, f o g = 1/((3x+2)^2 + 1).      
+
+
+.8. Consider the functions f,g : ZxZ -> ZxZ defined as f(m,n)=(3m-4n,2m+n) and g(m,n)=(5m+n,m). Find the formulas for g o f and f o g.       
+g o f = g(3m - 4n, 2m + n) = (5(3m-4n) + n, 3m - 4n).       
+f o g = f(5m + n, m) = (3(5m + n) - 4m, 2(5m + n) + m).      
+
+
+.10. Consider the function f:R^2 -> R^2 defined by the formula f(x,y)=(x y,x^3). Find a formula for f o f.     
+f(xy, x^3) = (xy * x^3, x^3y^3).      
