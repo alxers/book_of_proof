@@ -220,3 +220,67 @@ f o g = f(5m + n, m) = (3(5m + n) - 4m, 2(5m + n) + m).
 
 .10. Consider the function f:R^2 -> R^2 defined by the formula f(x,y)=(x y,x^3). Find a formula for f o f.     
 f(xy, x^3) = (xy * x^3, x^3y^3).      
+
+
+
+
+Exercises for Section 12.5.      
+.2. In Exercise 9 of Section 12.2 you proved that f:R-{2} -> R-{5} defined by f(x)=(5x+1)/(x-2) is bijective. Now find its inverse.      
+y = (5x+1)/(x-2).     
+x = (5y+1)/(y-2)      
+x(y - 2) = 5y + 1       
+xy - 2x = 5y + 1       
+-2x - 1 = 5y - xy      
+-2x - 1 = y(5 - x)      
+(-2x - 1)/(5 - x) = y.      
+
+
+.4. The function f:R -> (0, inf) defined as f(x)=e^(x^3+1) is bijective. Find its inverse.      
+y = e^(x^3 + 1)      
+x = e^(y^3 + 1)       
+ln(x) = ln(e^(x^3 + 1))      
+ln(x) = y^3 + 1       
+ln(x) - 1 = y^3       
+(ln(x) - 1)^(1/3) = y.       
+
+
+.6. The function f:ZxZ -> ZxZ defined by the formula f(m,n)=(5m+4n,4m+3n)is bijective. Find its inverse.       
+(x, y) = f(m, n)      
+(m, n) = f(x, y)      
+(m, n) = (5x + 4y, 4x + 3y)      
+5x + 4y = m      
+4x + 3y = n       
+x + y = m - n       
+x = m - n - y      
+4(m - n - y) + 3y = n      
+4m - 4n - 4y + 3y = n       
+-y = n + 4n - 4m      
+y = 4m - 5n      
+x = -3m + 4n      
+f^(-1)(m, n) = (-3m + 4n, 4m - 5n).      
+
+
+
+Exercises for Section 12.6.      
+
+
+.2. Consider the function f : {1,2,3,4,5,6,7} -> {0,1,2,3,4,5,6,7,8,9} given as f={(1,3),(2,8),(3,3),(4,1),(5,2),(6,4),(7,6)}. Find: f({1,2,3}),f({4,5,6,7}),f(empty_set),f^(-1)({0,5,9}) and f^(-1)({0,3,5,9}).      
+f({ 1, 2, 3}) = { 3, 8 }.      
+f({ 4, 5, 6, 7 }) = { 1, 2, 4, 6 }.      
+f(empty_set) = empty_set.      
+f^(-1)({ 0, 5, 9 }) = empty_set.     
+f^(-1)({ 0, 3, 5, 9 }) = { 1, 3 }.     
+
+
+.8. Given a function f:A -> B and subsets W,X set_in A, then f(W intersection X)=f(W) intersection f(X) is false in general. Produce a counterexample.      
+Let W = { 1, 2 }, X = { 1, 3 }.     
+W intersection X = { 1 }.      
+Let A = { 1, 2, 3 }, B = { 0, 1, 2 }.      
+f = { (1, 0), (2, 1), (3, 1) }.       
+Then f(W intersection X) = 0.      
+f(W) = {0, 1}.      
+f(X) = {0, 1}.      
+f(W) intersection f(X) = { 0, 1 }.     
+f(W intersection X) != f(W) intersection f(X).       
+
+
