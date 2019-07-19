@@ -284,3 +284,17 @@ f(W) intersection f(X) = { 0, 1 }.
 f(W intersection X) != f(W) intersection f(X).       
 
 
+.10. Given f:A -> B and subsets Y,Z set_in B, prove f^(-1)(Y intersection Z)=f^(-1)(Y) intersection f^(-1)(Z).       
+Let a in f^(-1)(Y intersection Z).      
+Then a in { x in A : f(x) in Y intersection Z }.      
+By def. 12.9, f(a) in Y intersection Z.      
+Then f(a) in Y and f(a) in Z.      
+But f(a) in Y means a in f^(-1)(Y) and f(a) in Z means a in f^(-1)(Z).      
+Same steps in proof for the other direction.      
+
+
+.14. Let f:A -> B be a function, and Y set_in B. Prove or disprove:f^(-1)(f(f^(-1)(Y)))=f^(-1)(Y).        
+Let b in Y => b in { x in A : f(x) in f(f^(-1)(Y)) }.        
+Then f(b) in f(f^(-1)(Y)), f(b) in { f(x) : x in f^(-1)(Y) }.      
+f(b) in f(a) for some a in f^(-1)(Y).      
+Same steps in proof for the other direction.     
