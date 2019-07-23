@@ -54,3 +54,14 @@ So we have |cos(1/1/2lpi) - L| < 1/4
 Above showed |L| < 1/4 and |1 - L| < 1/4     
 1 = |L + (1 - L)| <= |L| + |1 - L| < 1/4 + 1/4 = 1/2      
 1 < 1/2 - contradiction.       
+
+
+
+Exercises for Section 13.4      
+
+.2. Given two or more functions f_1, f_2, ..., f_n, suppose that lim(x->c)f_i(x) exists for each 1 <= i <= n. Prove that lim(x->c)(f_1(x)f_2(x)...f_n(x)) = (lim(x->c)f_1) * (lim(x->c)f_2) * ... * (lim(x->c)f_n).      
+a) Base case, let n = 1, then lim(x->c)f_1 = lim(x->c)f_1.      
+b) Let n = k+1, then lim(x->c)(f_1(x)f_2(x)...f_k+1(x) = lim(x->c)(f_1(x)f_2(x)...) * f_k+1(x)) = lim(x->c)(f_1(x)f_2(x)...f_k(x)) * lim(x->c)f_k+1(x) = lim(x->c)f_1(x) * lim(x->c)f_2(x) ... * lim(x->c)f_k+1(x).       
+
+
+.4.
