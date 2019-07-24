@@ -64,4 +64,8 @@ a) Base case, let n = 1, then lim(x->c)f_1 = lim(x->c)f_1.
 b) Let n = k+1, then lim(x->c)(f_1(x)f_2(x)...f_k+1(x) = lim(x->c)(f_1(x)f_2(x)...) * f_k+1(x)) = lim(x->c)(f_1(x)f_2(x)...f_k(x)) * lim(x->c)f_k+1(x) = lim(x->c)f_1(x) * lim(x->c)f_2(x) ... * lim(x->c)f_k+1(x).       
 
 
-.4.
+.4. Prove that if f(x)/g(x) is a rational function (polynomial divided by a polynomial), and g(c) != 0, then lim(x->c)(f(x)/g(x)) = f(c)/g(c).      
+f(x) = a_0 + a_1x^1 + a_2x^2 + ... + a_nx^n.     
+g(x) = a_0 + a_1x^1 + a_2x^2 + ... + a_nx^n.     
+lim(x->c)(f(x)/g(x)) = lim(x->c)f(x)/lim(x->c)g(x) = (lim(x->c)a_0 + lim(x->c)a_1x^1 +...+ lim(x->c)a_nx^n)/(lim(x->c)b_0 + lim(x->c)b_1x^1 +...+ lim(x->c)b_nx^n) = (a_0 + a_1c^1 + a_2c^2 + ... + a_nc^n)/(a_0 + a_1c^1 + a_2c^2 + ... + a_nc^n) = f(c)/g(c)
+
