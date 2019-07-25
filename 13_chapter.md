@@ -69,3 +69,17 @@ f(x) = a_0 + a_1x^1 + a_2x^2 + ... + a_nx^n.
 g(x) = a_0 + a_1x^1 + a_2x^2 + ... + a_nx^n.     
 lim(x->c)(f(x)/g(x)) = lim(x->c)f(x)/lim(x->c)g(x) = (lim(x->c)a_0 + lim(x->c)a_1x^1 +...+ lim(x->c)a_nx^n)/(lim(x->c)b_0 + lim(x->c)b_1x^1 +...+ lim(x->c)b_nx^n) = (a_0 + a_1c^1 + a_2c^2 + ... + a_nc^n)/(a_0 + a_1c^1 + a_2c^2 + ... + a_nc^n) = f(c)/g(c)
 
+
+
+Exercises for Section 13.6      
+Prove the following.     
+
+.2. lim(x->inf)(3x + 2)/(2x - 1) = 3/2.     
+For epsilon > 0, exists such N = 1/(epsilon - 3/2), such that x > N, then x > 1/(epsilon - 3/2).       
+(epsilon - 3/2)x > 1      
+epsilon - 3/2 > 1/x     
+epsilon > 1/x + 3/2     
+epsilon > 2/2x + 3/2     
+epsilon > (3x + 2)/2x     
+epsilon > (3x + 2)/(2x - 1)     
+So |(3x + 2)/(2x - 1) - 0| < epsilon.       
