@@ -83,3 +83,9 @@ epsilon > 2/2x + 3/2
 epsilon > (3x + 2)/2x     
 epsilon > (3x + 2)/(2x - 1)     
 So |(3x + 2)/(2x - 1) - 0| < epsilon.       
+
+
+.6. If both lim(x->inf)f(x) and lim(x->inf)g(x) exist, then lim(x->inf)f(x)g(x) = (lim(x->inf)f(x))(lim(x->inf)g(x)).      
+Let lim(x->inf)f(x) = L, lim(x->inf)g(x) = M.       
+Take epsilon > 0. We need to find N for which x > N => |(f(x)g(x)) - LM| < epsilon.     
+Notice that |(f(x)g(x)) - LM| = |(f(x)g(x) - Lg(x)) + (Lg(x) - LM)| = |g(x)(f(x) - L) + L(g(x) - M)| <= |g(x)||f(x) - L| + |L||g(x) - M|
