@@ -88,4 +88,9 @@ So |(3x + 2)/(2x - 1) - 0| < epsilon.
 .6. If both lim(x->inf)f(x) and lim(x->inf)g(x) exist, then lim(x->inf)f(x)g(x) = (lim(x->inf)f(x))(lim(x->inf)g(x)).      
 Let lim(x->inf)f(x) = L, lim(x->inf)g(x) = M.       
 Take epsilon > 0. We need to find N for which x > N => |(f(x)g(x)) - LM| < epsilon.     
-Notice that |(f(x)g(x)) - LM| = |(f(x)g(x) - Lg(x)) + (Lg(x) - LM)| = |g(x)(f(x) - L) + L(g(x) - M)| <= |g(x)||f(x) - L| + |L||g(x) - M|
+Notice that |(f(x)g(x)) - LM| = |(f(x)g(x) - Lg(x)) + (Lg(x) - LM)| = |g(x)(f(x) - L) + L(g(x) - M)| <= |g(x)||f(x) - L| + |L||g(x) - M| (A).      
+Now g(x) = |g(x) - M + M| <= |g(x) - M| + |M| < 1 + |M| (because lim(x->inf)g(x) exists => |g(x) - M| < epsilon, when epsilon = 1 f.e.)      
+Because lim(x->inf)f(x) = L, exists such N' > 0 : x > N' => |f(x) - L| < epsilon/(2(1 + |M|))     
+Because lim(x->inf)g(x) = M, exists such N'' > 0 : x > N'' => |g(x) - L| < epsilon/(2|L|)      
+Then substitute in (A) gives:      
+|g(x)||f(x) - L| + |L||g(x) - M| < (1 + |M|) * epsilon/(2(1 + |M|)) + |L| * epsilon/(2|L|) = epsilon/2 + epsilon/2 = epsilon.      
