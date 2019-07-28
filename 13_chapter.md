@@ -94,3 +94,20 @@ Because lim(x->inf)f(x) = L, exists such N' > 0 : x > N' => |f(x) - L| < epsilon
 Because lim(x->inf)g(x) = M, exists such N'' > 0 : x > N'' => |g(x) - L| < epsilon/(2|L|)      
 Then substitute in (A) gives:      
 |g(x)||f(x) - L| + |L||g(x) - M| < (1 + |M|) * epsilon/(2(1 + |M|)) + |L| * epsilon/(2|L|) = epsilon/2 + epsilon/2 = epsilon.      
+
+
+.8. If both lim(x->inf)f(x) and lim(x->inf)g(x) exist, and lim(x->inf)g(x) != 0, then lim(x->inf)(f(x)/g(x)) = lim(x->inf)f(x)/lim(x->inf)g(x).        
+Notice that |f(x)/g(x) - L/M| = |(Mf(x) - Lg(x)))/(Mg(x))| = |((Mf(x) - LM) - (Lg(x) - LM))/(Mg(x))| = |(M(f(x) - L) - L(g(x) - M))/(Mg(x))| <= |(f(x) - L)/(g(x))| + |(L(g(x) - M))/(Mg(x))| = |1/g(x)||f(x) - L| + |L/(Mg(x))||g(x) - M| (A)       
+Because lim(x->inf)g(x) exsts, |g(x) - M| < epsilon, epsilon = |M|/2.      
+Then |g(x)| = |g(x) - M + M| >= |M| - |g(x) - M| > |M| - |M|/2 = |M|/2.       
+|g(x)| > |M|/2 => 1/g(x) < 2/|M|.     
+Replace in (A)        
+|f(x)/g(x) - L/M| < 2/|M||f(x) - L| + 2L/|M^2||g(x) - M|.       
+Case 1, suppose L != 0.       
+Choose N' > 0, so x > N' => |f(x) - L| < epsilon|M|/4.      
+Choose N'' > 0, so x > N'' => |g(x) - L| < epsilon|M^2|/4|L|.      
+N = max{ N', N'' }, then        
+|f(x)/g(x) - L/M| < 2/|M|epsilon|M|/4 + 2|L|/|M^2|epsilon|M^2|/4|L| = epsilon/2 + epsilon/2 = epsilon.      
+Case 2, suppose L = 0.       
+Choose N''' > 0, x > N''' => |f(x) - L| < epsilon|M|/2.       
+|f(x)/g(x) - L/M| < 2/|M|epsilon|M|/2 = epsilon.      
