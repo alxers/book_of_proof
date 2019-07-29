@@ -111,3 +111,14 @@ N = max{ N', N'' }, then
 Case 2, suppose L = 0.       
 Choose N''' > 0, x > N''' => |f(x) - L| < epsilon|M|/2.       
 |f(x)/g(x) - L/M| < 2/|M|epsilon|M|/2 = epsilon.      
+
+
+
+.10. Prove that lim(x->inf)sin(x) does not exist.        
+Suppose lim(x->inf)sin(x) = L, then for all epsioln > 0, exists such N > 0 : x > N => |sin(x) - L| < epsilon.       
+|sin(x) - L| <= |1 - L|        
+Let epsilon = 1.      
+We can choose x = 3pi/2 and x' = pi/2 for which sin(x) = 1 or -1.       
+Then |1 - L| < 1 and |-1 - L| < 1.      
+-1 < 1 - L < 1 and -1 < -1 - L < 1      
+-2 < -L < 0 and 0 < -L < 2, contradiction.      
