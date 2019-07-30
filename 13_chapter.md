@@ -122,3 +122,13 @@ We can choose x = 3pi/2 and x' = pi/2 for which sin(x) = 1 or -1.
 Then |1 - L| < 1 and |-1 - L| < 1.      
 -1 < 1 - L < 1 and -1 < -1 - L < 1      
 -2 < -L < 0 and 0 < -L < 2, contradiction.      
+
+
+Exercises for Section 13.7      
+
+.4. Prove that { 1 - 1/2^n } converges to 1.      
+Suppose epsilon > 0. Choose an int N > 1/(epsilon * ln2).     
+1/2^N < epsilon, 1 < epsilon * 2^N, 1/epsilon < 2^N.      
+e^(ln(1/epsilon)) < e^(Nln(2))
+1/2^N < epsilon
+|1 - 1/2^n - 1| = |-1/2^n| = 1/2^n < 1/2^N < epsilon
