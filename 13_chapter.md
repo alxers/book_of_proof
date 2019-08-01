@@ -131,4 +131,16 @@ Suppose epsilon > 0. Choose an int N > 1/(epsilon * ln2).
 1/2^N < epsilon, 1 < epsilon * 2^N, 1/epsilon < 2^N.      
 e^(ln(1/epsilon)) < e^(Nln(2))
 1/2^N < epsilon
-|1 - 1/2^n - 1| = |-1/2^n| = 1/2^n < 1/2^N < epsilon
+|1 - 1/2^n - 1| = |-1/2^n| = 1/2^n < 1/2^N < epsilon      
+
+
+
+.6. Prove that { (5n^2 + n + 1)/(4n^2 + 2) } converges to 5/4.      
+For all epsilon > 0, exist such N > 0 : x > N = > |(5n^2 + n + 1)/(4n^2 + 2) - 5/4| < epsilon.     
+|(5n^2 + n + 1)/(4n^2 + 2) - 5/4| = |(4(5n^2 + n + 1) - 5(4n^2 + 2))/4(4n^2 + 2)| = |(20n^2 + 4n + 4 - 20n^2 - 10)/4(4n^2 + 2)| = |(4n - 6)/(4(4n^2 + 2))| = |(2n - 3)/(2(4n^2 + 2))| < epsilon.     
+Observe that (2n - 3)/(2(4n^2 + 2)) < (2n - 3)/(8n^2) < 2n/8n^2.       
+Let 2n/8n^2 < epsilon, then 1/4^n > 1/epsilon       
+4n > 1/epsilon, n > 1/4epsilon      
+Therefore, given any epsilon > 0, take an int N > 1/4epsilon. If n > N then      
+|(5n^2 + n + 1)/(4n^2 + 2) - 5/4| = (2n - 3)/(2(4n^2 + 2)) < 1/4N < 1/4(1/4epsilon) = epsilon.     
+By definition 13.5 it converges to 5/4.     
