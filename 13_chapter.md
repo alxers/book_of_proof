@@ -144,3 +144,16 @@ Let 2n/8n^2 < epsilon, then 1/4^n > 1/epsilon
 Therefore, given any epsilon > 0, take an int N > 1/4epsilon. If n > N then      
 |(5n^2 + n + 1)/(4n^2 + 2) - 5/4| = (2n - 3)/(2(4n^2 + 2)) < 1/4N < 1/4(1/4epsilon) = epsilon.     
 By definition 13.5 it converges to 5/4.     
+
+
+.8. Prove that theconstant sequence c,c,c,c,... converges to c, for any c in R.      
+lim(n->inf)c = c.      
+For all epsilon > 0, exist such N > 0 : n > N => |c - c| < epsilon.     
+(check if correct).      
+
+
+
+.10. Prove that if {a_n} converges to L and {b_n} converges to M, then the sequence {a_n + b_n} converges to L + M.      
+Let |a_n - L| < epsilon/2.     
+Let |b_n - M| < epsilon/2.     
+|a_n + b_n - (L + M)| = |a_n - L + b_n - M| <= |a_n - L| + |b_n - M| < epsilon/2 + epsilon/2 = epsilon.      
