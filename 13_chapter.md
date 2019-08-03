@@ -157,3 +157,25 @@ For all epsilon > 0, exist such N > 0 : n > N => |c - c| < epsilon.
 Let |a_n - L| < epsilon/2.     
 Let |b_n - M| < epsilon/2.     
 |a_n + b_n - (L + M)| = |a_n - L + b_n - M| <= |a_n - L| + |b_n - M| < epsilon/2 + epsilon/2 = epsilon.      
+
+
+.12. Prove that if {a_n} converges to L and {b_n} converges to M !=0, then the sequence {a_n/b_n} converges to L/M. (Assume b_n !=0 for each n in N).      
+Let |a_n - L| < (epsilon(1 +|M|))/2.      
+Let |b_n - M| < (epsilon(1 +|M|))/2|L|.      
+|a_n/b_n - L/M| = |(Ma_n - Lb_n)/(Mb_n)| = |((Ma_n - LM) - (Lb_n - LM))/Mb_n| = |((M(a_n - L) - L(b_n - M)))/Mb_n| <= |(a_n - L)/Mb_n| + |L(b_n - M)/Mb_n| = |1/b_n||a_n - L| + |L/b_n||b_n - M| (A).      
+Observe that |b_n| = |b_n - M + M| <= |b_n - M| + |M| <= 1 + |M|      
+Substitute in (A):      
+Case 1, if L != 0.      
+1/(1 + |M|)(epsilon(1 + |M|))/2 + L/(1 + |M|)(epsilon(1 + |M|))/2|L| = epsilon/2 + epsilon/2 = epsilon.      
+Case 2, if L = 0.      
+1/(1 + |M|)(epsilon(1 + |M|)) + L/(1 + |M|)(epsilon(1 + |M|)) = epsilon.     
+
+
+.14. Suppose that {a_n}, {b_n} and {c_n} are sequences for which a_n <= b_n <= c_n for all sufficiently large n. (That is, a_n <= b_n <= c_n for all n > M for some integer M). Prove that if {a_n} and {c_n} converge to L, then {b_n} also converges to L.       
+Since {a_n}, {c_n} converges to L => |a_n - L| < epsilon, |b_n - L| < epsilon.      
+Because a_n <= b_n <= c_n, we have -epsilon <= b_n - L <= epsilon => b_n converges to L.       
+(check if correct).      
+
+
+
+Exercises for Section 13.8.        
