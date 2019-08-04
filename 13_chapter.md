@@ -175,7 +175,3 @@ Case 2, if L = 0.
 Since {a_n}, {c_n} converges to L => |a_n - L| < epsilon, |b_n - L| < epsilon.      
 Because a_n <= b_n <= c_n, we have -epsilon <= b_n - L <= epsilon => b_n converges to L.       
 (check if correct).      
-
-
-
-Exercises for Section 13.8.        
