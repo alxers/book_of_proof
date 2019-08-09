@@ -68,3 +68,7 @@ R set_in C, R is uncountable => C is uncountable.
 .4. Prove or disprove: If A set_in B set_in C and A and C are countably infinite, then B is countably infinite.     
 Since A set_in B and A is infinite, then B must be infinite.     
 Then, C is countably infinite, so by Theorem 13.8 (14.8) B is countably infinite.     
+
+
+.6. Prove or disprove: Every infinite set is a subset of a countably infinite set.      
+False. Counterexample. N is an infinite set, but N set_in R and R is not countably infinite.      
